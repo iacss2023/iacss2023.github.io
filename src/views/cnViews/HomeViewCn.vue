@@ -7,7 +7,7 @@
           <div class="post-center">
             <div class="post-content">
               <div id="congress-name">
-                <h2 class="congress-title text-white">14th International Symposium on Computer Science in Sport
+                <h2 class="congress-title text-white">第14届国际体育计算机科学大会
                   <br>
                   IACSS 2023
                 </h2>
@@ -108,11 +108,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+// import { defineComponent } from 'vue'
 
-export default defineComponent({
-  name: 'HomeView'
-})
+export default {
+  name: 'HomeViewCn'
+}
 </script>
 
 <style lang="scss" scoped>

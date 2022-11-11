@@ -3,8 +3,8 @@
     <div class="entry-header">
     </div>
     <div id="navBar">
-      <div id="nav" class="clearfix">
-        <el-menu
+      <div id="nav" class="clearfix" :style="language==='en'?'max-width:1200px':'max-width: 900px'">
+        <el-menu v-if="language==='en'"
           :default-active="activeIndex"
           class="el-menu-demo"
           mode="horizontal"
@@ -13,19 +13,23 @@
           text-color="black"
           background-color="#fff"
         >
-<!--          <li style="flex-grow: 1;"></li>-->
           <template v-for="parNav in navs">
             <template v-if="parNav.children && parNav.children.length != 0">
               <el-sub-menu
                 :index="parNav.parentNav.index"
                 :key="'submenu' + parNav.parentNav.index"
+                style="font-family: 'Open Sans'; font-weight: 600; letter-spacing: 1px"
               >
                 <template v-slot:title>{{ parNav.parentNav.name }}</template>
                 <template
                   v-for="navChild in parNav.children"
                   :key="'childNav' + navChild.navName"
                 >
-                  <el-menu-item :route="navChild.url" :index="navChild.index">{{
+                  <el-menu-item
+                    :route="navChild.url"
+                    :index="navChild.index"
+                    style="font-family: 'Open Sans'; font-weight: 400; letter-spacing: 1px"
+                  >{{
                       navChild.name
                     }}</el-menu-item>
                 </template>
@@ -35,12 +39,56 @@
               <el-menu-item
                 :index="parNav.parentNav.index"
                 :key="'submenu' + parNav.parentNav"
+                style="font-family: 'Open Sans'; font-weight: 600; letter-spacing: 1px"
+              >{{ parNav.parentNav.name }}</el-menu-item
+              >
+            </template>
+          </template>
+        </el-menu>
+        <el-menu v-else
+                 :default-active="activeIndex"
+                 class="el-menu-demo"
+                 mode="horizontal"
+                 @select="navHandleSelect"
+                 active-text-color="#FF8508"
+                 text-color="black"
+                 background-color="#fff"
+        >
+          <template v-for="parNav in navsCn">
+            <template v-if="parNav.children && parNav.children.length != 0">
+              <el-sub-menu
+                :index="parNav.parentNav.index"
+                :key="'submenu' + parNav.parentNav.index"
+                style="font-family: 'Open Sans'; font-weight: 600; letter-spacing: 1px"
+              >
+                <template v-slot:title>{{ parNav.parentNav.name }}</template>
+                <template
+                  v-for="navChild in parNav.children"
+                  :key="'childNav' + navChild.navName"
+                >
+                  <el-menu-item
+                    :route="navChild.url"
+                    :index="navChild.index"
+                    style="font-family: 'Open Sans'; font-weight: 400; letter-spacing: 1px"
+                  >{{
+                      navChild.name
+                    }}</el-menu-item>
+                </template>
+              </el-sub-menu>
+            </template>
+            <template v-else>
+              <el-menu-item
+                :index="parNav.parentNav.index"
+                :key="'submenu' + parNav.parentNav"
+                style="font-family: 'Open Sans'; font-weight: 600; letter-spacing: 1px"
               >{{ parNav.parentNav.name }}</el-menu-item
               >
             </template>
           </template>
         </el-menu>
       </div>
+      <el-button v-if="language==='en'" style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toCn">CN</el-button>
+      <el-button v-else style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toEn">EN</el-button>
     </div>
   </div>
   <div id="page-content" style="padding: 40px">
@@ -86,6 +134,7 @@ export default defineComponent({
   name: 'App',
   data () {
     return {
+      language: 'en',
       activeIndex: '',
       navs: [
         {
@@ -103,6 +152,7 @@ export default defineComponent({
             { index: 'zju', name: 'Zhejiang University' },
             { index: 'coe', name: 'College of Education' },
             { index: 'dss', name: 'Department of Sports Science' },
+            { index: 'sportsteam', name: 'Sports Big Data Innovation Team' },
             {
               index: 'conferencehistory',
               name: 'History'
@@ -188,6 +238,108 @@ export default defineComponent({
           parentNav: { index: 'contact', name: 'Contact Us' }
         }
       ],
+      navsCn: [
+        {
+          parentNav: { index: '/cn', name: '主页' }
+        },
+        {
+          parentNav: { index: 'venueNavCn', name: '会址' },
+          children: [
+            // { navName: "index", url: "/" },
+            { index: '/cn/venue', name: '会议地址' },
+            {
+              index: '/cn/venueHangzhou',
+              name: '杭州印象'
+            },
+            { index: '/cn/zju', name: '浙江大学' },
+            { index: '/cn/coe', name: '浙大教育学院' },
+            { index: '/cn/dss', name: '体育学系' },
+            { index: '/cn/sportsteam', name: '体育大数据创新团队' },
+            {
+              index: '/cn/conferencehistory',
+              name: '历届会议'
+            }
+          ]
+        },
+        {
+          parentNav: { index: 'travelNavCn', name: '交通' },
+          children: [
+            {
+              index: '/cn/travelhangzhou',
+              name: '抵达杭州'
+            },
+            {
+              index: '/cn/accommodation',
+              name: '宾馆住宿'
+            }
+          ]
+        },
+        {
+          parentNav: {
+            index: 'submissionNavCn',
+            name: '投稿与注册'
+          },
+          children: [
+            {
+              index: '/cn/datedeadline',
+              name: '重要时间'
+            },
+            {
+              index: '/cn/submission',
+              name: '摘要提交'
+            },
+            {
+              index: '/cn/registration',
+              name: '会议注册'
+            },
+            {
+              index: '/cn/presentation',
+              name: '报告信息'
+            },
+            {
+              index: '/cn/award',
+              name: '特殊奖项'
+            }
+          ]
+        },
+        {
+          parentNav: {
+            index: 'programNavCn',
+            name: '会议议程'
+          },
+          children: [
+            {
+              index: '/cn/program',
+              name: '大会议程'
+            },
+            {
+              index: '/cn/conferencenews',
+              name: '会议动态'
+            },
+            {
+              index: '/cn/conferencethemes',
+              name: '会议主题'
+            },
+            {
+              index: '/cn/committees',
+              name: '委员会'
+            },
+            {
+              index: '/cn/keynote',
+              name: '特邀报告'
+            }
+          ]
+        },
+        {
+          parentNav: {
+            index: '/cn/sponsoring',
+            name: '赞助'
+          }
+        },
+        {
+          parentNav: { index: '/cn/contact', name: '联系我们' }
+        }
+      ],
       publicPath: process.env.BASE_URL,
       supporterImgs: [
         { name: 'conference', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: '' }
@@ -202,6 +354,14 @@ export default defineComponent({
       console.log(key)
       sessionStorage.setItem('currentPath', key)
       this.$router.push(key)
+    },
+    toCn () {
+      this.language = 'cn'
+      this.$router.push('cn')
+    },
+    toEn () {
+      this.language = 'en'
+      this.$router.push('/')
     }
   }
 })
@@ -271,7 +431,7 @@ export default defineComponent({
     text-align: left;
     margin-bottom: 12px;
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     &.small{
       font-size: 16px;
@@ -293,6 +453,11 @@ export default defineComponent({
     //font-size: 15px;
     //letter-spacing: 0px;
     //line-height: 25px;
+  }
+
+  .el-menu-item{
+    font-family: 'Open Sans';
+    font-weight: 600;
   }
 
   .el-table--striped .el-table__body tr.el-table__row--striped td {
@@ -328,9 +493,9 @@ export default defineComponent({
   text-align: center;
   box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
   #nav {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 86px;
+    padding: 0 60px;
     box-sizing: border-box;
     .homeNav {
     }

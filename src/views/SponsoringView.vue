@@ -41,7 +41,7 @@
                     <p class="center is-bold">Advertising:</p>
                     <p class="center">Distribution of your company’s advertising material.</p>
                     <p class="center is-bold">Exhibition stand:</p>
-                    <p class="center">direct contact with the participants of the conference either in the <span style="color: orange">Small Ceremonial Hall of the University of Vienna (see pictures below)</span>.</p>
+                    <p class="center">direct contact with the participants of the conference either in the Small Ceremonial Hall of the Department of Education of Zhejiang University.</p>
                     <p class="center is-bold">Sponsorship price:</p>
                     <p class="center">TBD</p>
                   </div>

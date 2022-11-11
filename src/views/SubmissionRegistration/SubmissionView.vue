@@ -29,7 +29,7 @@
           <ul>
             <li><p>Please follow the formatting instructions below when submitting an abstract.</p></li>
             <li><p>The abstract must be uploaded to the EasyChair platform through authors account.</p></li>
-            <li><p>Abstracts are restricted to 500 words (excluding title of abstract, authors’ names, addresses, and references), in Times New Roman font size 12, single line spaced. A template for the abstract can be downloaded here.</p></li>
+            <li><p>Abstracts are restricted to 500 words (excluding title of abstract, authors’ names, addresses, and references), in Times New Roman font size 12, single line spaced. A template for the abstract can be downloaded <a href="src/assets/IJCSS_template_2012_AB.doc" download="IJCSS_template_2012_AB.doc">here</a>.</p></li>
             <li><p>Statements like “Data will be presented and discussed” is not acceptable.</p></li>
             <li><p>The abstract should preferably contain original data. However, well-conducted systematic reviews/meta-analyses can be accepted.</p></li>
             <li><p>Receipt confirmation of your abstract submission will be sent by e-mail.</p></li>

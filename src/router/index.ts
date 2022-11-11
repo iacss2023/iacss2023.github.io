@@ -33,6 +33,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/Venue/DssView.vue')
   },
   {
+    path: '/sportsteam',
+    name: 'sportsteam',
+    component: () => import('../views/Venue/SportsTeamView.vue')
+  },
+  {
     path: '/conferencehistory',
     name: 'conferencehistory',
     component: () => import('../views/Venue/ConferenceHistoryView.vue')
@@ -119,6 +124,120 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  },
+  {
+    path: '/cn',
+    name: 'cn',
+    component: () => import('../views/cnViews/HomeViewCn.vue')
+  },
+  {
+    path: '/cn/venue',
+    name: 'venuecn',
+    component: () => import('../views/cnViews/VenueCn/VenueViewCn.vue')
+  },
+  {
+    path: '/cn/venueHangzhou',
+    name: 'venueHangzhouCn',
+    component: () => import('../views/cnViews/VenueCn/VenueHangzhouViewCn.vue')
+  },
+  {
+    path: '/cn/zju',
+    name: 'zjucn',
+    component: () => import('../views/cnViews/VenueCn/ZjuViewCn.vue')
+  },
+  {
+    path: '/cn/coe',
+    name: 'coecn',
+    component: () => import('../views/cnViews/VenueCn/CoeViewCn.vue')
+  },
+  {
+    path: '/cn/dss',
+    name: 'dsscn',
+    component: () => import('../views/cnViews/VenueCn/DssViewCn.vue')
+  },
+  {
+    path: '/cn/sportsteam',
+    name: 'sportsteamcn',
+    component: () => import('../views/cnViews/VenueCn/SportsTeamViewCn.vue')
+  },
+  {
+    path: '/cn/conferencehistory',
+    name: 'conferencehistorycn',
+    component: () => import('../views/cnViews/VenueCn/ConferenceHistoryViewCn.vue')
+  },
+  {
+    path: '/cn/travelhangzhou',
+    name: 'travelhangzhoucn',
+    component: () => import('../views/cnViews/TravelCn/TravelHangzhouViewCn.vue')
+  },
+  {
+    path: '/cn/accommodation',
+    name: 'accommodationcn',
+    component: () => import('../views/cnViews/TravelCn/AccommodationViewCn.vue')
+  },
+  {
+    path: '/cn/datedeadline',
+    name: 'datedeadlinecn',
+    component: () =>
+      import('../views/cnViews/SubmissionRegistrationCn/DateDeadlineViewCn.vue')
+  },
+  {
+    path: '/cn/submission',
+    name: 'submissioncn',
+    component: () =>
+      import('../views/cnViews/SubmissionRegistrationCn/SubmissionViewCn.vue')
+  },
+  {
+    path: '/cn/registration',
+    name: 'registrationcn',
+    component: () =>
+      import('../views/cnViews/SubmissionRegistrationCn/RegistrationViewCn.vue')
+  },
+  {
+    path: '/cn/presentation',
+    name: 'presentationcn',
+    component: () =>
+      import('../views/cnViews/SubmissionRegistrationCn/PresentationViewCn.vue')
+  },
+  {
+    path: '/cn/award',
+    name: 'awardcn',
+    component: () => import('../views/cnViews/SubmissionRegistrationCn/AwardViewCn.vue')
+  },
+  {
+    path: '/cn/program',
+    name: 'programcn',
+    component: () => import('../views/cnViews/ProgramCn/ProgramViewCn.vue')
+  },
+  {
+    path: '/cn/conferencenews',
+    name: 'conferencenewscn',
+    component: () => import('../views/cnViews/ProgramCn/ConferenceNewsViewCn.vue')
+  },
+  {
+    path: '/cn/conferencethemes',
+    name: 'conferencethemescn',
+    component: () => import('../views/cnViews/ProgramCn/ConferenceThemesViewCn.vue')
+  },
+  {
+    path: '/cn/committees',
+    name: 'committeescn',
+    component: () => import('../views/cnViews/ProgramCn/CommittesViewCn.vue')
+  },
+  {
+    path: '/cn/keynote',
+    name: 'keynotecn',
+    component: () => import('../views/cnViews/ProgramCn/KeynoteViewCn.vue')
+  },
+  {
+    path: '/cn/sponsoring',
+    name: 'sponsoringcn',
+    component: () => import('../views/cnViews/SponsoringViewCn.vue')
+  },
+  {
+    path: '/cn/contact',
+    name: 'contactcn',
+    component: () => import('../views/cnViews/ContactViewCn.vue')
   }
 ]
 
