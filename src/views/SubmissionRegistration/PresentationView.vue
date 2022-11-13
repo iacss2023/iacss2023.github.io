@@ -31,8 +31,8 @@
         </div>
         <div class="view-section">
           <div class="view-section-title">Oral Presentation Upload:</div>
-          <p>Slides for oral presentations can now be uploaded until <span style="color: orange">TBD</span>.</p>
-          <p>Please upload your presentation here (<span style="color: orange">TBD</span>) and be sure about the following:</p>
+          <p>Slides for oral presentations can now be uploaded until TBD.</p>
+          <p>Please upload your presentation here (TBD) and be sure about the following:</p>
           <ul>
             <li><p>Name the file with the day, the starting time of the presentation (according to the program) followed by speakers last name, like “Saturday_1630_lastname.pptx”</p></li>
             <li><p>Use “.ppt”, “.pptx” or “.pdf” format</p></li>
@@ -40,7 +40,7 @@
             <li><p>If you upload a new version of your presentation slides use the same name as for the earlier upload</p></li>
             <li><p>Microsoft PowerPoint, landscape 16:9 format (conference PCs have <strong>Office 2016</strong> installed)</p></li>
             <li><p>Please be sure that file size <strong>does not exceed 500 MB</strong></p></li>
-            <li><p>Deadline is <strong><span style="color: orange">TBD</span></strong></p></li>
+            <li><p>Deadline is TBD</p></li>
           </ul>
           <br>
           <p>At the conference there will be a <strong>technical help desk</strong> next to the reception where you can <strong>check if everything is working</strong> prior to the presentation.</p>
@@ -48,7 +48,7 @@
           <br>
           <p>Technical help desk opening hours will be</p>
           <ul>
-            <li><p><span style="color: orange">TBD</span> </p></li>
+            <li><p>TBD</p></li>
           </ul>
           <br>
           <p>If you have any problems or questions do not hesitate to get in contact with us.</p>

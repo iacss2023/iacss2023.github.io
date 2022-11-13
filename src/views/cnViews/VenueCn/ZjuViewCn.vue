@@ -3,15 +3,7 @@
     <div class="view-container">
       <div class="view-title">浙江大学</div>
       <div class="view-main">
-        <div class="view-image">
-          <img :src="require('@/assets/zju/zju_overview.jpg')">
-          <div class="copyright">
-            <div class="copyright-text">
-              © Zhejiang University<br>
-              Legend: An Overview of Zhejiang University
-            </div>
-          </div>
-        </div>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Ix21yWXOxnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="view-text">
           <p>浙江大学是中国顶尖的高等学府之一，也是历史最悠久的大学之一；它的根源可以追溯到1897年求是书院的成立。</p>
           <p>浙江大学位于中国风景最优美的城市之一杭州，由7个学部和36个学院（系）组成。学校现有教师3611名，其中包括中国科学院和中国工程院院士43名；有53673名学生，其中研究生占53%以上。</p>

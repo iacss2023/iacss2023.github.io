@@ -98,10 +98,10 @@
         <div class="sidebar-left is_stuck" style="position: sticky; top: 0; width: 192px; padding-right: 32px">
           <template v-for="supporter in supporterImgs" :key="supporter.name">
             <div class="bard-widget widget_media_image">
-              <a :href="supporter.hrefUrl">
-                <img :src="supporter.url" style="max-width: 100%; height: auto" alt
-                     loading="lazy" sizes="(max-width:300px) 100vw, 300px">
-              </a>
+<!--              <a :href="supporter.hrefUrl">-->
+<!--                <img :src="supporter.url" style="max-width: 100%; height: auto" alt-->
+<!--                     loading="lazy" sizes="(max-width:300px) 100vw, 300px">-->
+<!--              </a>-->
             </div>
           </template>
         </div>
@@ -113,10 +113,10 @@
         <div class="sidebar-right is_stuck" style="position: static; width: 192px; padding-left: 32px">
           <template v-for="sponsor in sponsors" :key="sponsor.name">
             <div class="bard-widget widget_media_image">
-              <a :href="sponsor.hrefUrl">
-                <img :src="sponsor.url" style="max-width: 100%;height: auto" alt
-                loading="lazy" sizes="(max-width:300px) 100vw, 300px">
-              </a>
+<!--              <a :href="sponsor.hrefUrl">-->
+<!--                <img :src="sponsor.url" style="max-width: 100%;height: auto" alt-->
+<!--                loading="lazy" sizes="(max-width:300px) 100vw, 300px">-->
+<!--              </a>-->
             </div>
           </template>
         </div>
@@ -345,13 +345,17 @@ export default defineComponent({
         { name: 'conference', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: '' }
       ],
       sponsors: [
-        { name: 'iacss2023', url: require('@/assets/logo.png'), hrefUrl: '' }
+        { name: 'iacss2023', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: '' }
       ]
+    }
+  },
+  watch: {
+    $route (to) {
+      this.updateNav(to.path)
     }
   },
   methods: {
     navHandleSelect (key: string) {
-      console.log(key)
       sessionStorage.setItem('currentPath', key)
       this.$router.push(key)
     },
@@ -362,6 +366,21 @@ export default defineComponent({
     toEn () {
       this.language = 'en'
       this.$router.push('/')
+    },
+    updateNav (path:string) {
+      // 判断是是英文还是中文网站
+      const pathArray = path.split('/')
+      // 中文
+      if (pathArray.indexOf('cn') >= 0) {
+        this.language = 'cn'
+        this.activeIndex = path
+        // eslint-disable-next-line brace-style
+      }
+      // 英文
+      else {
+        this.language = 'en'
+        if (pathArray[1] === '') { this.activeIndex = '/' } else { this.activeIndex = pathArray[1] }
+      }
     }
   }
 })
@@ -388,12 +407,26 @@ export default defineComponent({
   font-size: 14px;
 }
 
+.icon-center{
+  cursor: pointer;
+}
+
 //修改默认样式
 .el-tabs__item.is-active, .el-tabs__item:hover{
   color: #ff9f3d!important;
 }
 .el-tabs__active-bar{
   background-color: #ff9f3d!important;
+}
+
+.el-carousel__container{
+  height: 400px!important;
+  .el-carousel__item{
+    text-align: center;
+    .carouselImg{
+      height: 100%;
+    }
+  }
 }
 
 .view-container {
@@ -412,21 +445,29 @@ export default defineComponent({
   }
 
   .view-image {
-    width: 960px;
+    height: 400px;
     margin: 0 auto;
 
     img {
-      width: 960px;
-      height: auto;
+      height: 400px;
+      width: auto;
     }
   }
-
-  .copyright-text {
-    text-align: right;
-    font-size: 14px;
-    color: #9d9d9d;
+  .copyright {
+    //width: 400px;
+    margin: 0 auto;
+    margin-top: -40px;
+    .copyright-text {
+      text-align: center;
+      font-size: 14px;
+      color: #9d9d9d;
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+      padding: 10px 20px;
+      //margin-top: -20px;
+    }
   }
-
   .view-section-title {
     text-align: left;
     margin-bottom: 12px;
@@ -474,7 +515,7 @@ export default defineComponent({
 }
 .entry-header{
   height: 450px;
-  background-image: url("@/assets/zju/zju2.png");
+  background-image: url("@/assets/jyxy/jyxy_3.jpg");
   background-size: cover;
   background-position: center center;
 }

@@ -3,15 +3,7 @@
     <div class="view-container">
       <div class="view-title">杭州印象</div>
       <div class="view-main">
-        <div class="view-image">
-          <img :src="require('@/assets/xihu_4.jpg')">
-          <div class="copyright">
-            <div class="copyright-text">
-              © TravelHK<br>
-              Legend: West Lake
-            </div>
-          </div>
-        </div>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/9lKdK2WSmok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="view-text">
           <p>杭州是中国东部浙江省的首都和人口最多的城市。它位于杭州湾的顶部，杭州湾将上海和宁波分开。杭州作为大运河的南端，在上个千年的大部分时间里，一直是中国最著名、最繁荣的城市之一。该市的西湖，联合国教科文组织世界遗产立即在城西，是最著名的景点之一。</p>
           <p>截至2019年，全市下辖10个区、2个县、代管1个县级市，总面积16853.57平方千米，建成区面积648.46平方千米。2020年11月1日零时，杭州市常住人口1193.601万人。</p>
@@ -25,7 +17,14 @@
 
 <script>
 export default {
-  name: 'VenueHangzhouViewCn'
+  name: 'VenueHangzhouViewCn',
+  data () {
+    return {
+      hangzhou: [
+        { img: require('@/assets/xihu_4.jpg'), copyright: 'TravelHK', legend: 'West Lake' }
+      ]
+    }
+  }
 }
 </script>
 

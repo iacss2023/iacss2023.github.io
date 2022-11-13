@@ -3,7 +3,7 @@
     <div class="view-container">
       <div class="view-title">Award</div>
       <div class="view-main">
-        <p>TBD</p>
+        <div class="view-section-title">TBD</div>
       </div>
     </div>
   </div>

@@ -4,13 +4,11 @@
       <div class="view-title">浙大教育学院</div>
       <div class="view-main">
         <div class="view-image">
-          <img :src="require('@/assets/zju/zju2.png')">
-          <div class="copyright">
-            <div class="copyright-text">
-              © Zhejiang University<br>
-              Legend: An Overview of Zhejiang University
-            </div>
-          </div>
+          <el-carousel :interval="5000" arrow="hover">
+            <el-carousel-item v-for="item in jyxy" :key="item">
+              <img :src="item.img">
+            </el-carousel-item>
+          </el-carousel>
         </div>
         <div class="view-text">
           <p>教育学院由1897年成立的求是学院和育英学院提供的相关课程发展而来。目前，学院在教育领域拥有120多年的传统，专注于学术研究、教学和社区服务。其使命是在教育、体育科学和心理学领域培养具有国际视野、创新精神和综合能力的未来领导者。学院提供学位和非学位课程、与政府和国际组织合作的正规和非正规培训课程以及自筹资金的课程，以便为终身学习社会中的专业发展提供各种途径。</p>
@@ -24,7 +22,24 @@
 
 <script>
 export default {
-  name: 'CoeViewCn'
+  name: 'CoeViewCn',
+  data () {
+    return {
+      jyxy: [
+        // { img: require('@/assets/jyxy/jyxy_1.jpg') },
+        { img: require('@/assets/jyxy/jyxy_2.jpg') },
+        // { img: require('@/assets/jyxy/jyxy_3.jpg') },
+        // { img: require('@/assets/jyxy/jyxy_4.jpg') },
+        { img: require('@/assets/jyxy/jyxy_5.png') },
+        // { img: require('@/assets/jyxy/jyxy_6.jpg') },
+        { img: require('@/assets/jyxy/jyxy_8.jpg') },
+        { img: require('@/assets/jyxy/jyxy_9.jpg') },
+        { img: require('@/assets/jyxy/jyxy_10.jpg') },
+        { img: require('@/assets/jyxy/jyxy_11.jpg') },
+        { img: require('@/assets/jyxy/jyxy_12.jpg') }
+      ]
+    }
+  }
 }
 </script>
 

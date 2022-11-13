@@ -4,13 +4,11 @@
       <div class="view-title">College of Education</div>
       <div class="view-main">
         <div class="view-image">
-          <img :src="require('@/assets/zju/zju2.png')">
-          <div class="copyright">
-            <div class="copyright-text">
-              © Zhejiang University<br>
-              Legend: An Overview of Zhejiang University
-            </div>
-          </div>
+          <el-carousel :interval="5000" arrow="hover">
+            <el-carousel-item v-for="item in jyxy" :key="item">
+              <img :src="item.img">
+            </el-carousel-item>
+          </el-carousel>
         </div>
         <div class="view-text">
           <p>The College of Education grew out of related programs offered by the Qiushi and Yuying Academies founded in 1897. At present, with more than 120 years of tradition in the field of education, the College focuses on academic research, teaching, and community service. Its mission is to nurture future leaders with an international perspective, innovative spirit and comprehensive capabilities in the field of Education, Sports Science, and Psychology. The College offers degree and non-degree programs, formal and informal training courses in collaboration with governmental and international organizations, and self-funded programs to provide various paths for professional development in a lifelong learning society.</p>
@@ -24,7 +22,24 @@
 
 <script>
 export default {
-  name: 'CoeView'
+  name: 'CoeView',
+  data () {
+    return {
+      jyxy: [
+        // { img: require('@/assets/jyxy/jyxy_1.jpg') },
+        { img: require('@/assets/jyxy/jyxy_2.jpg') },
+        // { img: require('@/assets/jyxy/jyxy_3.jpg') },
+        // { img: require('@/assets/jyxy/jyxy_4.jpg') },
+        { img: require('@/assets/jyxy/jyxy_5.png') },
+        // { img: require('@/assets/jyxy/jyxy_6.jpg') },
+        { img: require('@/assets/jyxy/jyxy_8.jpg') },
+        { img: require('@/assets/jyxy/jyxy_9.jpg') },
+        { img: require('@/assets/jyxy/jyxy_10.jpg') },
+        { img: require('@/assets/jyxy/jyxy_11.jpg') },
+        { img: require('@/assets/jyxy/jyxy_12.jpg') }
+      ]
+    }
+  }
 }
 </script>
 

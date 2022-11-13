@@ -3,15 +3,7 @@
     <div class="view-container">
       <div class="view-title">Zhejiang University</div>
       <div class="view-main">
-        <div class="view-image">
-          <img :src="require('@/assets/zju/zju_overview.jpg')">
-          <div class="copyright">
-            <div class="copyright-text">
-              © Zhejiang University<br>
-              Legend: An Overview of Zhejiang University
-            </div>
-          </div>
-        </div>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Ix21yWXOxnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="view-text">
           <p>Zhejiang University (ZJU) is one of China's top higher education institutions, as well as one of its oldest; its roots can be traced back to 1897 and the founding of the Qiushi Academy.</p>
           <p>Located in Hangzhou – one of China's most picturesque cities – the University is organized across 7 faculties and 36 schools. It is home to 3,611 full-time faculty members, including 43 members of the Chinese Academy of Sciences and the Chinese Academy of Engineering. ZJU has 53,673 students, over 53% of whom are postgraduate students.</p>

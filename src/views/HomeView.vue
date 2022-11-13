@@ -15,7 +15,7 @@
                 <h3 class="congress-location text-white">Hangzhou, China</h3>
                 <div class="event-button-group">
                   <el-button size="large" color="#FF9F3D" @click="$router.push('conferencenews')">News & Update</el-button>
-                  <el-button size="large" color="#FF8508" @click="$router.push('date')">Dates & Deadlines</el-button>
+                  <el-button size="large" color="#FF8508" @click="$router.push('datedeadline')">Dates & Deadlines</el-button>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #ff9f3d;border-color: #ff9f3d">
                       <a>
-                        <el-icon color="white" class="icon-center">
+                        <el-icon color="white" class="icon-center" @click="$router.push('contact')">
                           <Message />
                         </el-icon>
                       </a>
@@ -58,7 +58,7 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #fcb983;border-color: #fcb983">
                       <a>
-                        <el-icon color="white" class="icon-center">
+                        <el-icon color="white" class="icon-center" @click="$router.push('submission')">
                           <Download />
                         </el-icon>
                       </a>
@@ -77,7 +77,7 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #723000;border-color: #723000">
                       <a>
-                        <el-icon color="white" class="icon-center">
+                        <el-icon color="white" class="icon-center" @click="$router.push('registration')">
                           <Edit />
                         </el-icon>
                       </a>
@@ -86,9 +86,9 @@
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      To register for the Joint Congress please visit out Registration page.
+                      To register for the Congress please visit out Registration page.
                       All information regarding the registration fees,
-                      our cancelation policy and the link to the registration-mask is readily available.
+                      our cancellation policy and the link to the registration-mask is readily available.
                     </p>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ export default defineComponent({
   color: white;
 }
 #congress-info{
-  background-image: url("@/assets/zju/zju_1920.jpg");
+  background-image: url("@/assets/zju/zju_7.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
@@ -128,7 +128,7 @@ export default defineComponent({
   .post-row-layout-overlay{
     opacity: 0.46;
     background-color: #2c3e50;
-    mix-blend-mode: darken;
+    mix-blend-mode: lighten;
     top: 0;
     left: 0;
     position: absolute;

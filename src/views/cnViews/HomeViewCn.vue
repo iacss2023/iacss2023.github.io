@@ -14,8 +14,8 @@
                 <h5 class="congress-time text-white">September 27-30</h5>
                 <h3 class="congress-location text-white">Hangzhou, China</h3>
                 <div class="event-button-group">
-                  <el-button size="large" color="#FF9F3D" @click="$router.push('conferencenews')">News & Update</el-button>
-                  <el-button size="large" color="#FF8508" @click="$router.push('date')">Dates & Deadlines</el-button>
+                  <el-button size="large" color="#FF9F3D" @click="$router.push('/cn/conferencenews')">会议动态</el-button>
+                  <el-button size="large" color="#FF8508" @click="$router.push('/cn/datedeadline')">重要时间</el-button>
                 </div>
               </div>
             </div>
@@ -38,17 +38,16 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #ff9f3d;border-color: #ff9f3d">
                       <a>
-                        <el-icon color="white" class="icon-center">
+                        <el-icon color="white" class="icon-center" @click="$router.push('/cn/contact')">
                           <Message />
                         </el-icon>
                       </a>
                     </div>
-                    <div class="affair-title">Contact</div>
+                    <div class="affair-title">联系我们</div>
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      The Support-Team is happy to answer any and all questions regarding registration, abstract submissions and more.
-                      If you are interested in supporting the congress, we will be happy to discuss your proposal.
+                      支持团队很乐意回答有关注册、摘要提交等方面的任何和所有问题。如果您有兴趣支持大会，我们将很乐意讨论您的建议。
                     </p>
                   </div>
                 </div>
@@ -58,16 +57,16 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #fcb983;border-color: #fcb983">
                       <a>
-                        <el-icon color="white" class="icon-center">
+                        <el-icon color="white" class="icon-center" @click="$router.push('/cn/submission')">
                           <Download />
                         </el-icon>
                       </a>
                     </div>
-                    <div class="affair-title">Abstract Submission</div>
+                    <div class="affair-title">摘要提交</div>
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      All information regarding the abstract submission can be found here.
+                      所有关于摘要提交的信息都可以在这里找到。
                     </p>
                   </div>
                 </div>
@@ -77,18 +76,16 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #723000;border-color: #723000">
                       <a>
-                        <el-icon color="white" class="icon-center">
+                        <el-icon color="white" class="icon-center" @click="$router.push('/cn/registration')">
                           <Edit />
                         </el-icon>
                       </a>
                     </div>
-                    <div class="affair-title">Registration</div>
+                    <div class="affair-title">注册</div>
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      To register for the Joint Congress please visit out Registration page.
-                      All information regarding the registration fees,
-                      our cancelation policy and the link to the registration-mask is readily available.
+                      要注册参加大会，请访问注册页面。所有关于注册费的信息，我们的取消政策和注册面具的链接都可以随时获得。
                     </p>
                   </div>
                 </div>
@@ -120,7 +117,7 @@ export default {
   color: white;
 }
 #congress-info{
-  background-image: url("@/assets/zju/zju_1920.jpg");
+  background-image: url("@/assets/zju/zju_7.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
