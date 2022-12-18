@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkiacss2023"]=self["webpackChunkiacss2023"]||[]).push([[360],{7360:function(i,e,s){s.r(e),s.d(e,{default:function(){return u}});var n=s(3396);const a=(0,n._)("div",{class:"view-container"},[(0,n._)("div",{class:"view-title"},"Award"),(0,n._)("div",{class:"view-main"},[(0,n._)("div",{class:"view-section-title"},"TBD")])],-1),c=[a];function t(i,e,s,a,t,r){return(0,n.wg)(),(0,n.iD)("div",null,c)}var r={name:"AwardView"},v=s(89);const l=(0,v.Z)(r,[["render",t]]);var u=l}}]);
+//# sourceMappingURL=360.b2c70a46.js.map

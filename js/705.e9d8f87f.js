@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkiacss2023"]=self["webpackChunkiacss2023"]||[]).push([[705],{1705:function(e,i,n){n.r(i),n.d(i,{default:function(){return u}});var s=n(3396);const t=(0,s._)("div",{class:"view-container"},[(0,s._)("div",{class:"view-title"},"特邀报告"),(0,s._)("div",{class:"view-main"},[(0,s._)("div",{class:"view-section-title"},"暂未公布")])],-1),c=[t];function a(e,i,n,t,a,r){return(0,s.wg)(),(0,s.iD)("div",null,c)}var r={name:"KeynoteViewCn"},v=n(89);const l=(0,v.Z)(r,[["render",a]]);var u=l}}]);
+//# sourceMappingURL=705.e9d8f87f.js.map

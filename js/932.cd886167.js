@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkiacss2023"]=self["webpackChunkiacss2023"]||[]).push([[932],{932:function(e,i,n){n.r(i),n.d(i,{default:function(){return u}});var s=n(3396);const t=(0,s._)("div",{class:"view-container"},[(0,s._)("div",{class:"view-title"},"Keynote Speakers"),(0,s._)("div",{class:"view-main"},[(0,s._)("div",{class:"view-section-title"},"TBD")])],-1),a=[t];function c(e,i,n,t,c,r){return(0,s.wg)(),(0,s.iD)("div",null,a)}var r={name:"KeynoteView"},v=n(89);const l=(0,v.Z)(r,[["render",c]]);var u=l}}]);
+//# sourceMappingURL=932.cd886167.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkiacss2023"]=self["webpackChunkiacss2023"]||[]).push([[855],{5855:function(i,e,n){n.r(e),n.d(e,{default:function(){return u}});var s=n(3396);const a=(0,s._)("div",{class:"view-container"},[(0,s._)("div",{class:"view-title"},"特殊奖项"),(0,s._)("div",{class:"view-main"},[(0,s._)("div",{class:"view-section-title"},"暂未公布")])],-1),c=[a];function t(i,e,n,a,t,r){return(0,s.wg)(),(0,s.iD)("div",null,c)}var r={name:"AwardViewCn"},v=n(89);const l=(0,v.Z)(r,[["render",t]]);var u=l}}]);
+//# sourceMappingURL=855.b63d7270.js.map
