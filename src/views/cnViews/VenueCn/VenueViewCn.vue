@@ -3,6 +3,7 @@
     <div class="view-container">
       <div class="view-title">浙江大学</div>
       <div class="view-main">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/g33F1bHM4JE" title="An Overview of Zhejiang University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="view-text">
           <p style="text-align: center">浙江大学紫金港校区教育学院, 浙江省杭州市西湖区余杭塘路866号</p>
         </div>

@@ -125,7 +125,7 @@ export default {
   .post-row-layout-overlay{
     opacity: 0.46;
     background-color: #2c3e50;
-    mix-blend-mode: darken;
+    mix-blend-mode: lighten;
     top: 0;
     left: 0;
     position: absolute;

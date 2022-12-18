@@ -26,12 +26,8 @@ export default {
   data () {
     return {
       jyxy: [
-        // { img: require('@/assets/jyxy/jyxy_1.jpg') },
         { img: require('@/assets/jyxy/jyxy_2.jpg') },
-        // { img: require('@/assets/jyxy/jyxy_3.jpg') },
-        // { img: require('@/assets/jyxy/jyxy_4.jpg') },
         { img: require('@/assets/jyxy/jyxy_5.png') },
-        // { img: require('@/assets/jyxy/jyxy_6.jpg') },
         { img: require('@/assets/jyxy/jyxy_8.jpg') },
         { img: require('@/assets/jyxy/jyxy_9.jpg') },
         { img: require('@/assets/jyxy/jyxy_10.jpg') },

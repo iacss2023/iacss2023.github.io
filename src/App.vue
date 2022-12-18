@@ -98,10 +98,10 @@
         <div class="sidebar-left is_stuck" style="position: sticky; top: 0; width: 192px; padding-right: 32px">
           <template v-for="supporter in supporterImgs" :key="supporter.name">
             <div class="bard-widget widget_media_image">
-<!--              <a :href="supporter.hrefUrl">-->
-<!--                <img :src="supporter.url" style="max-width: 100%; height: auto" alt-->
-<!--                     loading="lazy" sizes="(max-width:300px) 100vw, 300px">-->
-<!--              </a>-->
+              <a :href="supporter.hrefUrl">
+                <img :src="supporter.url" style="max-width: 100%; height: auto" alt
+                     loading="lazy" sizes="(max-width:300px) 100vw, 300px">
+              </a>
             </div>
           </template>
         </div>
@@ -342,7 +342,8 @@ export default defineComponent({
       ],
       publicPath: process.env.BASE_URL,
       supporterImgs: [
-        { name: 'conference', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: '' }
+        { name: 'conference', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: 'https://iacss.org/' },
+        { name: 'zju', url: require('@/assets/logo_zju.png'), hrefUrl: 'https://www.zju.edu.cn/english/' }
       ],
       sponsors: [
         { name: 'iacss2023', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: '' }
@@ -515,7 +516,7 @@ export default defineComponent({
 }
 .entry-header{
   height: 450px;
-  background-image: url("@/assets/jyxy/jyxy_3.jpg");
+  background-image: url("@/assets/zju/zju_bacground.jpg");
   background-size: cover;
   background-position: center center;
 }

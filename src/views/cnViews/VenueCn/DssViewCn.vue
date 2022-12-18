@@ -73,9 +73,9 @@ export default {
       player: [
         { img: require('@/assets/dss/xzy.jpg'), copyright: '', legend: 'XIE Zhenye' },
         { img: require('@/assets/dss/gcc.jpeg'), legend: 'GUAN Chenchen' },
-        { img: require('@/assets/dss/jyy.jpg'), legend: 'Jiang Yuyuan' },
+        { img: require('@/assets/dss/jyy.jpg'), legend: 'JIANG Yuyuan' },
         { img: require('@/assets/dss/wqf.jpg'), legend: 'WU Qingfeng' },
-        { img: require('@/assets/dss/myq.jpg'), legend: 'Mao Yaqi' },
+        { img: require('@/assets/dss/myq.jpg'), legend: 'MAO Yaqi' },
         { img: require('@/assets/dss/wd.jpg'), legend: 'WANG Di' }
       ]
     }

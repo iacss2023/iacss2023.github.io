@@ -10,8 +10,8 @@
               <hr class="hr-block-wrapper">
               <div class="view-section">
                 <ol>
-                  <li>Metro: Line 19 → Shentangqiao Station, change to Line 2 → Xialongwei Station → 1.5km walk</li>
-                  <li> Taxi: 43km</li>
+                  <li><p>Metro: Line 19 → Shentangqiao Station, change to Line 2 → Xialongwei Station → 1.5km walk</p></li>
+                  <li><p>Taxi: 43km</p></li>
                 </ol>
               </div>
             </el-tab-pane>

@@ -9,7 +9,7 @@
         <div id="history-table">
           <el-row>
             <el-col :span="6">
-              <div><img class="congress-logo" :src="require('@/assets/iacss2022.png')"> </div>
+              <div><img class="congress-logo" :src="require('@/assets/iacss2023.png')"> </div>
             </el-col>
             <el-col :span="18">
               <el-table :data="history" style="width: 100%;">
