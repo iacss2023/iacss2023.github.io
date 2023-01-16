@@ -28,7 +28,7 @@
           <ul>
             <li><p>提交摘要时，请遵循以下格式说明。</p></li>
             <li><p>摘要必须通过作者帐户上传到EasyChair平台。</p></li>
-            <li><p>摘要限制为500字（不包括摘要标题、作者姓名、地址和参考文献），Times New Roman字体，大小为12，单行间距。可在此处下载摘要<a href="src/assets/IJCSS_template_2012_AB.doc" download="IJCSS_template_2012_AB.doc">模板</a>。</p></li>
+            <li><p>摘要限制为500字（不包括摘要标题、作者姓名、地址和参考文献），Times New Roman字体，大小为12，单行间距。可在此处下载摘要<a href="../../../../public/IJCSS_template_2012_AB.doc" download="IJCSS_template_2012_AB.doc">模板</a>。</p></li>
             <li><p>“数据将被呈现和讨论”之类的声明是不可接受的。</p></li>
             <li><p>摘要最好包含原始数据。系统综述/荟萃分析的摘要也是可以接受的。</p></li>
             <li><p>将通过电子邮件通知您提交的摘要接收确认。</p></li>

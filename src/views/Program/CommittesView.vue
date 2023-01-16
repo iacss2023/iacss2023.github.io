@@ -34,6 +34,8 @@ export default {
       activeTab: 'scientific',
       committee: {
         organizing: [
+          { people: 'Prof. Dr. Yue Kan', institution: 'Zhejiang University, China' },
+          { people: 'Mr. Juhui Wu', institution: 'Zhejiang University, China' },
           { people: 'Prof. Dr. Hui Zhang', institution: 'Zhejiang University, China' },
           { people: 'Prof. Dr. Liang Hu', institution: 'Zhejiang University, China' },
           { people: 'Prof. Dr. Yingcai Wu', institution: 'Zhejiang University, China' },

@@ -87,8 +87,8 @@
           </template>
         </el-menu>
       </div>
-      <el-button v-if="language==='en'" style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toCn">CN</el-button>
-      <el-button v-else style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toEn">EN</el-button>
+<!--      <el-button v-if="language==='en'" style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toCn">CN</el-button>-->
+<!--      <el-button v-else style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toEn">EN</el-button>-->
     </div>
   </div>
   <div id="page-content" style="padding: 40px">

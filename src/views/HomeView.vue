@@ -48,7 +48,7 @@
                   <div class="affair-detail">
                     <p class="detail-text">
                       The Support-Team is happy to answer any and all questions regarding registration, abstract submissions and more.
-                      If you are interested in supporting the congress, we will be happy to discuss your proposal.
+                      If you are interested in supporting the conference, we will be happy to discuss your proposal.
                     </p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      To register for the Congress please visit out Registration page.
+                      To register for the Conference please visit out Registration page.
                       All information regarding the registration fees,
                       our cancellation policy and the link to the registration-mask is readily available.
                     </p>
