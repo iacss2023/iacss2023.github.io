@@ -10,7 +10,7 @@
           <div class="view-section-title small">Step 1</div>
           <ul>
             <li><p>Enter/create your EasyChair account</p></li>
-            <li><p>Once you have the account, please use this link to get access to the conference.</p></li>
+            <li><p>Once you have the account, please use this <a href="https://easychair.org/my/conference?conf=iacss2023">link</a> to get access to the conference.</p></li>
             <li><p>Click “make a new submission”</p></li>
             <li><p>Fill out the abstract form and press the ‘Submit’ button below.</p></li>
             <li><p>The deadline for submission of abstractions is April 30, 2023.</p></li>
