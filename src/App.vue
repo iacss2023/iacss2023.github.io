@@ -96,6 +96,7 @@
       <div class="sidebar-left-wrap" style="position:static; width: 192px;height: 436px;
       display: block;vertical-align: baseline;float:left;">
         <div class="sidebar-left is_stuck" style="position: sticky; top: 0; width: 192px; padding-right: 32px">
+          <h4 class="widget_title">supported by</h4>
           <template v-for="supporter in supporterImgs" :key="supporter.name">
             <div class="bard-widget widget_media_image">
               <a :href="supporter.hrefUrl">
@@ -111,12 +112,13 @@
       </div>
       <div class="sidebar-right-wrap" >
         <div class="sidebar-right is_stuck" style="position: static; width: 192px; padding-left: 32px">
+          <h4 class="widget_title">sponsored by</h4>
           <template v-for="sponsor in sponsors" :key="sponsor.name">
             <div class="bard-widget widget_media_image">
-<!--              <a :href="sponsor.hrefUrl">-->
-<!--                <img :src="sponsor.url" style="max-width: 100%;height: auto" alt-->
-<!--                loading="lazy" sizes="(max-width:300px) 100vw, 300px">-->
-<!--              </a>-->
+              <a :href="sponsor.hrefUrl">
+                <img :src="sponsor.url" style="max-width: 100%;height: auto" alt
+                loading="lazy" sizes="(max-width:300px) 100vw, 300px">
+              </a>
             </div>
           </template>
         </div>
@@ -346,7 +348,7 @@ export default defineComponent({
         { name: 'zju', url: require('@/assets/logo_zju.png'), hrefUrl: 'https://www.zju.edu.cn/english/' }
       ],
       sponsors: [
-        { name: 'iacss2023', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: '' }
+        { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' }
       ]
     }
   },
@@ -400,6 +402,16 @@ export default defineComponent({
   height: 4px;
   margin: 30px 0;
   color: #dddddd;
+}
+
+.widget_title{
+  border: 1px solid #ebebeb;
+  border-top: 1px solid #030303;
+  padding: 10px 0;
+  font-size: 12px;
+  font-family: Montserrat;
+  //line-height: 32px;
+  text-transform: uppercase;
 }
 
 .note{
