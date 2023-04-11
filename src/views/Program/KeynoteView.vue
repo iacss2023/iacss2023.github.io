@@ -3,7 +3,27 @@
     <div class="view-container">
       <div class="view-title">Keynote Speakers</div>
       <div class="view-main">
-        <div class="view-section-title">TBD</div>
+        <hr class="hr-block-wrapper">
+        <div v-for="speaker in speakers" class="view-section" :key="speaker">
+          <el-row :gutter="10">
+            <el-col :span="10">
+              <div class="speaker-photo">
+                <img :src="speaker.img" class="photo">
+              </div>
+            </el-col>
+            <el-col :span="14">
+              <div class="speaker-info">
+                <p class="name view-section-title">{{speaker.name}}</p>
+                <p class="intro view-section-title small">{{speaker.introduction}}</p>
+                <div class="detail">
+                  <div v-for="item in speaker.detail" :key="item">
+                    <p>{{item}}</p>
+                  </div>
+                </div>
+              </div>
+            </el-col>
+          </el-row>
+        </div>
       </div>
     </div>
   </div>
@@ -11,8 +31,66 @@
 
 <script>
 export default {
-  name: 'KeynoteView'
+  name: 'KeynoteView',
+  data () {
+    return {
+      speakers: [
+        {
+          img: require('@/assets/keynote/martin_lames.jpg'),
+          name: 'Prof. Dr. Martin Lames',
+          introduction: 'Martin Lames is currently the Professor and Chairholder of Performance Analysis and Sports Informatics at Technical University of Munich.',
+          detail: [
+            'He received his doctoral degree (doctor of sports science) from Johannes Gutenberg University, Mainz. His habilitation in sports science is from Christian-Albrechts University, Kiel. Before his current position, he was a professor at the universities of Rostock and Augsburg.',
+            'His main research areas are game sports and talent development. His research activities in game sports focus on concepts and methods for practical support, e.g., for German national teams in handball, beach volleyball, para table tennis, and wheelchair rugby. Mathematical modelling of game sports using state-transition models, recurrence analysis or social network analysis plays a role as well. A recent field of interest is to find ways of dealing with the widely acknowledged nature of game sports as dynamic interaction processes with emergent behavior. Here, dynamical systems theory with synergetics and chaos comes into play, as well as empirical proof of chance effects and their impact on match and season results.',
+            'In addition to these practical and theoretical activities, there is a methodological interest in promoting methods in performance analysis. In earlier times, the design and validation of observational systems was dominant, but in the last two decades, methods of position detection came into reach. Actual topics here are the design of validation studies for the different technologies of position detection in sports and special problems such as comparability and gold standard development.',
+            'During the decades of his scientific activities, informatics became an increasingly valuable tool for supporting practical and theoretical performance analysis. This has led to the foundation of the scientific discipline of sports informatics. Martin Lames was involved in the foundation of IACSS, a scientific umbrella organization for interdisciplinary groups applying informatics in sports. He was member of the founding board, general secretary, from 2013 to 2022 president and is now one of the honorary presidents of IACSS.',
+            'He recently published a textbook “Performance Analysis in Game Sports – Concepts and Methods”. One of its main messages is that we mustn’t forget that the properties of game sports that cause troubles for scientists, e.g., emergence and unpredictability, are the reason why they are so attractive for spectators and media, i.e., why they exist.'
+          ]
+        },
+        {
+          img: require('@/assets/keynote/sam_robertson.jpg'),
+          name: 'Prof. Dr Sam Robertson',
+          introduction: 'Dr. Sam Robertson is a Professor at Victoria University and the host of the popular future of sport podcasts.',
+          detail: [
+            'Sam Robertson is a researcher and consultant focusing on the future of sport. His work and research have spanned topics such as sports innovation, skill acquisition, sports analytics, organizational decision-making, and technology strategy. He has worked with a range of sporting organizations, including FIFA, The Australian Football League, San Antonio Spurs, Tennis Australia, Barça Innovation Hub, Kansas City Royals and Western Bulldogs, among others.'
+          ]
+        },
+        {
+          img: require('@/assets/keynote/hyongjun_choi.png'),
+          name: 'Prof. Dr. Hyongjun Choi',
+          introduction: 'Dr. Hyongjun Choi is a Professor of the Department of Physical Education, College of Education at Dankook University.',
+          detail: [
+            "Prof. Choi has qualified for the Doctor of Philosophy on Performance Analysis of Sport at Cardiff Metropolitan University in the UK. He has experience as Performance Analyst in EPL (Cardiff City Football Club), K-League (FC Seoul, Incheon UTD. ), the Women's Professional Basketball Team in the UK, the Korean National Para-Ice Hockey team, and so on. In particular, he was involved in the 2018 Pyeongchang Paralympics, which worked for the TEAM KOREA as a para-ice hockey performance analyst. Previously, he served as General Secretary for the International Society of Performance Analysis in Sport from 2012 to 2016. He has been serving as General Secretary for the International Society of Performance Analysis of Sport in Asia since 2014. He has published over 80 peer-reviewed papers relating to the field of Computer Science in Sports, Performance Analysis of Sports, and Artificial Intelligence in Sports. Recently, his research interests have been to find an objective way to visualize data using data science techniques, develop contexts of efficient feedback to the practice field using AI, and predict playing patterns in sports."
+          ]
+        },
+        {
+          img: require('@/assets/keynote/woo_mei_teng.png'),
+          name: 'Dr. Woo Mei Teng',
+          introduction: 'Dr. Woo Mei Teng is a Senior Conexus Manager of the School of Sports, Health and Leisure at the Republic Polytechnic.',
+          detail: [
+            'Dr. Mei Teng attained her Ph.D., majoring in Sports Pedagogy, at the University of Jyväskylä, Finland. Her area of specialization is balance and postural regulation, kinesiology, skill analysis, match analysis, and motor control and learning. With over 15 years of professional work experience, Mei Teng is committed to excellence in teaching, designing, and delivering quality curricula. Key accomplishments include the invention of a video-based analysis curriculum package leveraging Dartfish Technology. She works with sports coaches and supervises students’ projects in sports analysis (e.g., hockey, water polo, badminton). She also served as a performance analyst for the Singapore Indoor Hockey Men’s and Women’s teams during the 29th SEA Games. She has also served as team manager for Singapore Indoor Hockey Men’s Team for the 30th and 32nd SEA Games.']
+        }
+      ]
+    }
+  }
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.speaker-photo{
+  text-align: center;
+}
+.speaker-photo .photo{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.speaker-info .name{
+  font-size: 20px;
+  font-weight: bold;
+}
+.speaker-info .intro{
+  font-size: 15px;
+  font-weight: bold;
+}
+</style>
