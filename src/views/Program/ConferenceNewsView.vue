@@ -6,7 +6,7 @@
         <div class="view-section">
           <div class="view-section-title small">Hotel Booking Information</div>
           <p>Dear Colleagues and Friends,</p>
-          <p>Autumn is the most beautiful season in Hangzhou and also the peak season for tourism. Our conference coincides with the 19th Hangzhou Asian Games (September 23 to October 8) and the National Day holiday (October 1 to 3), which may make it difficult to book hotels. We have recommended three hotels (near the Zijingang Campus of Zhejiang University) on the conference website and kindly ask everyone to book hotels as soon as possible (<a class="link_text" href="https://www.trip.com/" target="_blank">https://www.trip.com/</a>). </p>
+          <p>Autumn is the most beautiful season in Hangzhou and also the peak season for tourism. Our conference coincides with the <b>19th Hangzhou Asian Games</b> (September 23 to October 8) and the <b>National Day</b> holiday (October 1 to 3), which may make it difficult to book hotels. We have recommended three hotels (near the Zijingang Campus of Zhejiang University) on the conference website and kindly ask everyone to book hotels as soon as possible (<a class="link_text" href="https://www.trip.com/" target="_blank">https://www.trip.com/</a>). </p>
           <p>Please refer to the <span class="link_text" @click="$router.push('accommodation')">link</span> for hotel information</p>
           <ul>
             <li>1) Ou Ya Mei International Hotel (No. 859 Shixiang West Road, Xihu District, Hangzhou, Zhejiang, China). </li>
