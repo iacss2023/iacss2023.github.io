@@ -6,13 +6,13 @@
         <el-table :data="timetable" stripe>
           <el-table-column align="center">
             <template v-slot="scope">
-              <p v-if="scope.row.ifstrong"><strong>{{scope.row.issue}}</strong></p>
+              <p v-if="scope.row.ifstrong" :class="{bg: scope.row.ifbg}"><strong>{{scope.row.issue}}</strong></p>
               <p v-else>{{scope.row.issue}}</p>
             </template>
           </el-table-column>
           <el-table-column align="center">
             <template v-slot="scope">
-              <p v-if="scope.row.ifstrong"><strong>{{scope.row.time}}</strong></p>
+              <p v-if="scope.row.ifstrong" :class="{bg: scope.row.ifbg}"><strong>{{scope.row.time}}</strong></p>
               <p v-else>{{scope.row.time}}</p>
             </template>
           </el-table-column>
@@ -28,12 +28,13 @@ export default {
   data () {
     return {
       timetable: [
-        { issue: 'Abstract submission', time: '01.01.2023', ifstrong: false },
-        { issue: 'Abstract submission ends', time: '30.04.2023', ifstrong: true },
-        { issue: 'Author notification (abstract)', time: '15.06.2023', ifstrong: false },
-        { issue: 'Online registration', time: '01.04.2023', ifstrong: false },
-        { issue: 'Early Bird registration ends', time: '30.06.2023', ifstrong: true },
-        { issue: 'Online registration ends', time: '30.08.2023', ifstrong: false }
+        { issue: 'Abstract submission', time: '01.01.2023', ifstrong: false, ifbg: false },
+        { issue: 'Abstract submission ends', time: '30.04.2023', ifstrong: false, ifbg: false },
+        { issue: 'Abstract submission extension deadline', time: '20.05.2023', ifstrong: true, ifbg: true },
+        { issue: 'Author notification (abstract)', time: '15.06.2023', ifstrong: false, ifbg: false },
+        { issue: 'Online registration', time: '01.04.2023', ifstrong: false, ifbg: false },
+        { issue: 'Early Bird registration ends', time: '30.06.2023', ifstrong: true, ifbg: false },
+        { issue: 'Online registration ends', time: '30.08.2023', ifstrong: false, ifbg: false }
 
       ]
     }
@@ -41,4 +42,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.bg{
+  background: #0264A2;
+  color: white;
+}
+</style>
