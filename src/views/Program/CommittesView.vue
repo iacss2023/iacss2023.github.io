@@ -55,7 +55,7 @@ export default {
           { people: 'Prof. Dr. Arnold Baca', institution: 'University of Vienna, Austria' },
           { people: 'Dr. Daniel Link', institution: 'Technical University of Munich, Germany' },
           { people: 'Prof. Dr. Jesse Davis', institution: 'University of Leuven, Belgium' },
-          { people: 'Prof. Dr. Hayri Ertan', institution: 'Anadolu University, Turkey' },
+          { people: 'Prof. Dr. Hayri Ertan', institution: 'Eskisehir Technical University, Turkey' },
           { people: 'Prof. Dr. Yingcai Wu', institution: 'Zhejiang University, China' },
           { people: 'Prof. Dr. Stuart Morgan', institution: 'AIS Canberra/ LaTrobe University, Australia' },
           { people: 'Prof. Dr. Kerstin Witte', institution: 'Otto-von-Guericke Universität, Germany' },
