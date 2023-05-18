@@ -4,6 +4,17 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Deadline Updates</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>We are pleased to announce that, upon receiving many requests, a last extension to the call for abstracts for the 14th International Symposium on Computer Science in Sport hosted by Zhejiang University in Hangzhou, China (27th-30th September 2023).</p>
+          <p>The program will feature keynote presentations from leading experts, as well as oral and poster presentations on the topics of Computer Science in Sport. To learn more about guidelines and other relevant congress news, please visit our website at <a href="https://iacssconference.org/">https://iacssconference.org/</a>.</p>
+          <p><b>The NEW submission deadline for abstracts is May 20th, 2023.</b></p>
+          <p><b>Additionally, we warmly welcome students to actively apply for the DARTFISH-IACSS Young Scientist Award.</b></p>
+          <p>Thank you for your attention, and we look forward to receiving your submissions.</p>
+          <p>Organizing Committee</p>
+          <p>April 29, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Hotel Booking Information</div>
           <p>Dear Colleagues and Friends,</p>
           <p>Autumn is the most beautiful season in Hangzhou and also the peak season for tourism. Our conference coincides with the <b>19th Hangzhou Asian Games</b> (September 23 to October 8) and the <b>National Day</b> holiday (October 1 to 3), which may make it difficult to book hotels. We have recommended three hotels (near the Zijingang Campus of Zhejiang University) on the conference website and kindly ask everyone to book hotels as soon as possible (<a class="link_text" href="https://www.trip.com/" target="_blank">https://www.trip.com/</a>). </p>
