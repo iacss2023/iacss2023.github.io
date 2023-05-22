@@ -26,7 +26,7 @@
                   :key="'childNav' + navChild.navName"
                 >
                   <el-menu-item
-                    :route="navChild.url"
+                    :route="navChild.index"
                     :index="navChild.index"
                     style="font-family: 'Open Sans'; font-weight: 400; letter-spacing: 1px"
                   >{{
@@ -237,7 +237,10 @@ export default defineComponent({
           }
         },
         {
-          parentNav: { index: 'contact', name: 'Contact Us' }
+          parentNav: {
+            index: 'contact',
+            name: 'Contact Us'
+          }
         }
       ],
       navsCn: [
@@ -360,6 +363,7 @@ export default defineComponent({
   methods: {
     navHandleSelect (key: string) {
       sessionStorage.setItem('currentPath', key)
+      console.log(key)
       this.$router.push(key)
     },
     toCn () {
@@ -440,6 +444,10 @@ export default defineComponent({
       height: 100%;
     }
   }
+}
+
+.crossline .el-form-item__label{
+  line-height: unset;
 }
 
 .view-container {

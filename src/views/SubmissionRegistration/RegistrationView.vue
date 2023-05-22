@@ -4,6 +4,15 @@
       <div class="view-title">Registration Information</div>
       <div class="view-main with-setting">
         <div class="view-section">
+          <div class="view-section-title">Registration Instructions</div>
+          <ul>
+            <li><p>Participants please download the <b><a href="./IACSS 2023_registration_form.docx" download="IACSS_2023_registration_form.docx">registration form</a></b> and send your completed registration form to <b><a href="mailto:iacss.2023@zju.edu.cn">iacss.2023@zju.edu.cn</a></b></p></li>
+            <li><p>At least one author will register for each accepted paper and present the paper at the conference; otherwise, the paper will not be included in the conference proceedings</p></li>
+            <li><p>The registration will be confirmed after registration fee being received in full and registration form being submitted to the official email address</p></li>
+          </ul>
+        </div>
+        <div class="view-section">
+<!--          <div id="registration_button"><el-button color="#ff9f3d" plain @click="$router.push('register')">Click Here for Registration</el-button></div>-->
           <div class="view-section-title">Registration Fee</div>
           <el-table :data="feeInfo" stripe>
             <el-table-column label="">
@@ -26,7 +35,7 @@
             <li><p>Access to commercial exhibition</p></li>
             <li><p>Access to poster exhibition</p></li>
             <li><p>Coffee breaks</p></li>
-            <li><p>Right to participate in the excursions of the programme</p></li>
+            <li><p>Right to participate in the excursions of the program</p></li>
             <li><p>Full conference material</p></li>
             <li><p>Invitation to Conference Dinner</p></li>
           </ul>
@@ -34,19 +43,24 @@
         <div class="view-section">
           <div class="view-section-title">Payment</div>
           <ul>
-            <li><p>via bank transfer (registration confirmation via e-mail as soon as the payment is received)</p></li>
-            <li><p>via credit card (the payment is visible on the confirmation)</p></li>
+            <li><p>via bank transfer</p></li>
+            <li><p>via Alipay</p></li>
+<!--            <li><p>via credit card (the payment is visible on the confirmation)</p></li>-->
           </ul>
+          <p>Registration confirmation via e-mail as soon as the payment is received.</p>
+          <p>The detailed payment information can be found in the registration form.</p>
         </div>
         <div class="view-section">
           <div class="view-section-title">Cancellation Policy</div>
           <ul>
-            <li><p>The payment of the conference fee will be refunded upon requests until 24th of June of 2023. A deduction of 25% related to administrative charges will be applied. All refunds will be issued after the conference. After this date, no refund will be possible. Substitutions of attendees can be requested at any time, however, for any change of names a fee of 30 USD will be charged.</p></li>
-            <li><p>In the case the conference is cancelled by any reason (COVID restrictions, for example), the full money payback is ensured</p></li>
+            <li><p>Bank account: tax 8%, refund does not incur tax and handling fee.</p></li>
+            <li><p>Alipay account: tax 8% + handling fee 0.06%, refunds do not incur taxes and fees, but the organizer still needs to bear the handling fee 0.06% that occurs after the payment arrives.</p></li>
+            <li><p>Foreign currency account: the difference of exchange rate will be generated for both crediting and refunding, no tax and handling fee will be generated.</p></li>
             <li>
-              <p>Cancellation and requests for refunds must be submitted to the event management team of the Zhejiang University:</p>
-              <p>Email: TBD</p>
-              <p>Fax: TBD</p>
+              <p>All refund requests need to be submitted to the organizer first, and the organizer will notify the conference service company for processing.</p>
+              <p>Email: <a href="mailto:iacss.2023@zju.edu.cn">iacss.2023@zju.edu.cn</a></p>
+              <p>TEL: +86 571 8707 8752</p>
+              <P>Office hours: 9:30 – 17:00 (GMT+8)</P>
             </li>
           </ul>
         </div>
@@ -56,6 +70,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'RegistrationView',
   data () {
@@ -69,7 +84,8 @@ export default {
         { affair: 'Accompanying Person', earlyBird: 120, standard: 150 }
       ]
     }
-  }
+  },
+  methods: {}
 }
 </script>
 
@@ -78,5 +94,8 @@ export default {
   font-size: 16px;
   color: #505050;
   font-weight: 600;
+}
+#registration_button{
+  margin-bottom: 20px;
 }
 </style>

@@ -30,10 +30,10 @@ export default {
       timetable: [
         { issue: 'Abstract submission', time: '01.01.2023', ifstrong: false, ifbg: false },
         { issue: 'Abstract submission ends', time: '30.04.2023', ifstrong: false, ifbg: false },
-        { issue: 'Abstract submission extension deadline', time: '20.05.2023', ifstrong: true, ifbg: true },
+        { issue: 'Abstract submission extension deadline', time: '20.05.2023', ifstrong: true, ifbg: false },
         { issue: 'Author notification (abstract)', time: '15.06.2023', ifstrong: false, ifbg: false },
-        { issue: 'Online registration', time: '01.04.2023', ifstrong: false, ifbg: false },
-        { issue: 'Early Bird registration ends', time: '30.06.2023', ifstrong: true, ifbg: false },
+        { issue: 'Online registration', time: '01.06.2023', ifstrong: false, ifbg: false },
+        { issue: 'Early Bird registration ends', time: '30.06.2023', ifstrong: true, ifbg: true },
         { issue: 'Online registration ends', time: '30.08.2023', ifstrong: false, ifbg: false }
 
       ]

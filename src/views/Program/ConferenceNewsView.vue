@@ -4,6 +4,17 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Early Bird Registration</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>We are happy to announce that the early-bird registration has been open. <b>The early-bird registration deadline is June 30th, 2023</b>.</p>
+          <p>Participants please check the conference website <a href="https://iacssconference.org/">https://iacssconference.org/</a>, download the registration form and send your completed registration form to <a href="mailto:iacss.2023@zju.edu.cn">iacss.2023@zju.edu.cn</a>.</p>
+          <p>The payment of the registration fee will be done by bank transfer or Alipay. The detailed payment information can be found in the registration form.</p>
+          <p>Please click <span class="link_text" @click="$router.push('registration')">here</span> to find the registration information and register form.</p>
+          <p>Thank you for your attention, and we look forward to seeing you soon.</p>
+          <p>Organizing Committee</p>
+          <p>May 22, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Deadline Updates</div>
           <p>Dear Colleagues and Friends,</p>
           <p>We are pleased to announce that, upon receiving many requests, a last extension to the call for abstracts for the 14th International Symposium on Computer Science in Sport hosted by Zhejiang University in Hangzhou, China (27th-30th September 2023).</p>
