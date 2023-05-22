@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="view-container">
-      <div class="view-title">Data and Deadlines</div>
+      <div class="view-title">Dates and Deadlines</div>
       <div class="view-main with-setting">
         <el-table :data="timetable" stripe>
           <el-table-column align="center">

@@ -182,7 +182,7 @@ export default defineComponent({
           children: [
             {
               index: 'datedeadline',
-              name: 'Date and Deadlines'
+              name: 'Dates and Deadlines'
             },
             {
               index: 'submission',
