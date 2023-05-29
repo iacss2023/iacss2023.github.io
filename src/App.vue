@@ -115,7 +115,7 @@
           <h4 class="widget_title">sponsored by</h4>
           <template v-for="sponsor in sponsors" :key="sponsor.name">
             <div class="bard-widget widget_media_image">
-              <a :href="sponsor.hrefUrl">
+              <a :href="sponsor.hrefUrl" target="_blank">
                 <img :src="sponsor.url" style="max-width: 100%;height: auto" alt
                 loading="lazy" sizes="(max-width:300px) 100vw, 300px">
               </a>
@@ -351,7 +351,8 @@ export default defineComponent({
         { name: 'zju', url: require('@/assets/logo_zju.png'), hrefUrl: 'https://www.zju.edu.cn/english/' }
       ],
       sponsors: [
-        { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' }
+        { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
+        { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' }
       ]
     }
   },
@@ -416,6 +417,9 @@ export default defineComponent({
   font-family: Montserrat;
   //line-height: 32px;
   text-transform: uppercase;
+}
+.widget_media_image{
+  margin-bottom: 20px;
 }
 
 .note{
