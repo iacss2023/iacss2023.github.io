@@ -25,7 +25,7 @@
             4) Evidence of student status (University stamped letter)<br>
           </p>
           <p>
-            The deadline is 30 May 2023. You must have submitted your abstract using the main submission process <router-link to="/submission">here</router-link> to be eligible to receive the award.
+            The deadline is <del>30 May 2023</del> <b>20 June 2023</b>. You must have submitted your abstract using the main submission process <router-link to="/submission">here</router-link> to be eligible to receive the award.
           </p>
         </div>
       </div>

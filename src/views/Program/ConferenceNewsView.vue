@@ -4,6 +4,14 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Award Submission Deadline Updates</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>Upon the request of several authors, we have decided to extend the submission deadline for the <span class="link_text" @click="$router.push('award')">Dartfish-IACSS Young Scientist Award</span>. <b>The new deadline for applications is June 20th, 2023</b>. We encourage everyone to actively participate and submit their applications.</p>
+          <p>Best regards,</p>
+          <p>Organizing Committee</p>
+          <p>June 8, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Early Bird Registration</div>
           <p>Dear Colleagues and Friends,</p>
           <p>We are happy to announce that the early-bird registration has been open. <b>The early-bird registration deadline is June 30th, 2023</b>.</p>
