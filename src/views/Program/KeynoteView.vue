@@ -69,6 +69,13 @@ export default {
           introduction: 'Dr. Woo Mei Teng is a Senior Conexus Manager of the School of Sports, Health and Leisure at the Republic Polytechnic.',
           detail: [
             'Dr. Mei Teng attained her Ph.D., majoring in Sports Pedagogy, at the University of Jyväskylä, Finland. Her area of specialization is balance and postural regulation, kinesiology, skill analysis, match analysis, and motor control and learning. With over 15 years of professional work experience, Mei Teng is committed to excellence in teaching, designing, and delivering quality curricula. Key accomplishments include the invention of a video-based analysis curriculum package leveraging Dartfish Technology. She works with sports coaches and supervises students’ projects in sports analysis (e.g., hockey, water polo, badminton). She also served as a performance analyst for the Singapore Indoor Hockey Men’s and Women’s teams during the 29th SEA Games. She has also served as team manager for Singapore Indoor Hockey Men’s Team for the 30th and 32nd SEA Games.']
+        },
+        {
+          img: require('@/assets/keynote/xie_xiao.jpg'),
+          name: 'Dr. Xiao Xie',
+          introduction: 'Dr. Xiao Xie is an Assistant Professor at the Department of Sports Science, Zhejiang University.',
+          detail: [
+            "Dr. Xiao Xie's research interests include data visualization, visual analytics, and human-computer interaction, with a focus on creating novel visual analysis techniques for supporting sports analysis. In football data analysis, he conducted research on the spatial and temporal changes of football formations and the dynamic changes of football passes, and designed spatial-temporal formation flows and topic-model-based passing analysis methods. In basketball data analysis, he focused on evaluating the performance of off-ball players, proposed a model to calculate the value of off-ball movements, and developed a visual analytics system to analyze massive off-ball running trajectories. He also conducted research on VR-based sports data analysis and developed an immersive visual analytics system for racket sports data. He published more than 20 papers in top journals and academic conferences, such as IEEE TVCG, CHI, KDD, etc. He received his Ph.D. degree in Computer Science from Zhejiang University."]
         }
       ]
     }
