@@ -63,7 +63,8 @@ export default {
           { people: 'Prof. Dr. Daniel Memmert', institution: 'German Sports University, Germany' },
           { people: 'Dr. Juliana Exel', institution: 'University of Vienna, Austria' },
           { people: 'Prof. Dr. Peter Dabnichki', institution: 'RMIT University, Australia' },
-          { people: 'Prof. Dr. Larry Katz', institution: 'University of Calgary, Canada' }
+          { people: 'Prof. Dr. Larry Katz', institution: 'University of Calgary, Canada' },
+          { people: 'Dr. Victor Cossich', institution: 'University of Calgary，Canada' }
         ]
       }
     }
