@@ -76,6 +76,17 @@ export default {
           introduction: 'Dr. Xiao Xie is an Assistant Professor at the Department of Sports Science, Zhejiang University.',
           detail: [
             "Dr. Xiao Xie's research interests include data visualization, visual analytics, and human-computer interaction, with a focus on creating novel visual analysis techniques for supporting sports analysis. In football data analysis, he conducted research on the spatial and temporal changes of football formations and the dynamic changes of football passes, and designed spatial-temporal formation flows and topic-model-based passing analysis methods. In basketball data analysis, he focused on evaluating the performance of off-ball players, proposed a model to calculate the value of off-ball movements, and developed a visual analytics system to analyze massive off-ball running trajectories. He also conducted research on VR-based sports data analysis and developed an immersive visual analytics system for racket sports data. He published more than 20 papers in top journals and academic conferences, such as IEEE TVCG, CHI, KDD, etc. He received his Ph.D. degree in Computer Science from Zhejiang University."]
+        },
+        {
+          img: require('@/assets/keynote/naoki suzuki.jpeg'),
+          name: 'Dr.Naoki Suzuki',
+          introduction: 'Dr. Naoki Suzuki is an associate professor at Tokyo Gakugei University in Tokyo, Japan.',
+          detail: [
+            'Dr. Naoki Suzuki completed his Ph.D. in 2007 on the assessment of physical education at Tokyo Gakugei University in Japan. His area of interest is teaching and research on physical education and teacher education. He used to be an elementary school teacher who taught elementary school students for 9 years and then transferred to the professor job in 2004. He worked at Saitama University from 2004 to 2009. He has worked at Tokyo Gakugei University since 2009. He has been an international researcher and has conducted numerous collaborative studies with foreign institutions. He has also been a visiting scholar at the State University of New York at Cortland in 2008 and at the University of Melbourne in 2017.',
+            'Dr. Suzuki is an international speaker who has presented on topics related to technology in physical education. He strongly supports the Teaching Games for Understanding model and has been a keynote speaker and presenter around the world. He is currently Vice President at Large of IOHSK, Governor of Asia of IAHPEDS and Leadership Fellow of TGfU SIG (also Advisory Board Member).',
+            'His research accomplishments are very numerous. He has published 50 more books and 150 more papers. He had over 200 research presentations. Recently, his practice of using technology in physical education has attracted a great deal of attention and these have been featured in many Japanese newspapers and on television.',
+            'His recent research has been marked by collaborations with companies and researchers in other fields. He is highly interested in collaborating with researchers with diverse expertise.'
+          ]
         }
       ]
     }

@@ -9,6 +9,7 @@
             <li><p>Participants please download the <b><a href="./IACSS 2023_registration_form.docx" download="IACSS_2023_registration_form.docx">registration form</a></b> and send your completed registration form to <b><a href="mailto:iacss.2023@zju.edu.cn">iacss.2023@zju.edu.cn</a></b></p></li>
             <li><p>At least one author will register for each accepted paper and present the paper at the conference; otherwise, the paper will not be included in the conference proceedings</p></li>
             <li><p>The registration will be confirmed after registration fee being received in full and registration form being submitted to the official email address</p></li>
+            <li><p>For invoicing, please send the following information to the official email when submitting the registration form or later: participant's name, organization, email used to receive the invoice, invoice title, and tax ID.</p></li>
           </ul>
         </div>
         <div class="view-section">
@@ -43,10 +44,11 @@
         <div class="view-section">
           <div class="view-section-title">Payment</div>
           <ul>
-            <li><p>via bank transfer</p></li>
-            <li><p>via Alipay</p></li>
+            <li><p>via bank transfer. When transferring fees, please note participant information, i.e., iacss + your name</p></li>
+            <li><p>via Alipay. For participants who require Alipay, you can also transfer fee by scanning the QR code below, and please note the participant information when transferring, i.e., iacss + your name. </p></li>
 <!--            <li><p>via credit card (the payment is visible on the confirmation)</p></li>-->
           </ul>
+          <img :src="paymentAddress" style="width: 300px;margin-left: 100px"/>
           <p>Registration confirmation via e-mail as soon as the payment is received.</p>
           <p>The detailed payment information can be found in the registration form.</p>
         </div>
@@ -82,7 +84,8 @@ export default {
         { affair: 'Student - Member', earlyBird: 190, standard: 210 },
         { affair: 'Exhibitors', earlyBird: 250, standard: 270 },
         { affair: 'Accompanying Person', earlyBird: 120, standard: 150 }
-      ]
+      ],
+      paymentAddress: require('@/assets/payment.png')
     }
   },
   methods: {}

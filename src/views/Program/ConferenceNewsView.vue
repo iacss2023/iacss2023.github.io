@@ -4,6 +4,15 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Registration Payment Reminder</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>In order to provide a more convenient way for participants to make payments, we have prepared an Alipay QR code on the <span class="link_text" @click="$router.push('registration')">registration information</span> page for participants to scan and transfer fees.</p>
+          <p>For participants who need to be invoiced, please note that additional information will be required to send to the official email, including participant's name, organization, email for receiving the invoice, invoice title, and tax ID.</p>
+          <p>Thank you all!</p>
+          <p>IACSS 2023 Organizing Committee</p>
+          <p>June 25, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Hotel Advance Reservation Reminder</div>
           <p>Dear Colleagues and Friends,</p>
           <p>After the review by the conference academic committee, we have sent out the conference invitation letters to everyone. Please check your emails for further details. We kindly request that you complete the conference registration as soon as possible.</p>
