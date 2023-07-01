@@ -98,11 +98,14 @@
         <div class="sidebar-left is_stuck" style="position: sticky; top: 0; width: 192px; padding-right: 32px">
           <h4 class="widget_title">supported by</h4>
           <template v-for="supporter in supporterImgs" :key="supporter.name">
-            <div class="bard-widget widget_media_image">
+            <div v-if="supporter.url" class="bard-widget widget_media_image">
               <a :href="supporter.hrefUrl">
                 <img :src="supporter.url" style="max-width: 100%; height: auto" alt
                      loading="lazy" sizes="(max-width:300px) 100vw, 300px">
               </a>
+            </div>
+            <div v-else class="bard-widget sponsor-text page-container .tip">
+              <span>{{supporter.name}}</span>
             </div>
           </template>
         </div>
@@ -351,15 +354,15 @@ export default defineComponent({
       publicPath: process.env.BASE_URL,
       supporterImgs: [
         { name: 'conference', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: 'https://iacss.org/' },
-        { name: 'zju', url: require('@/assets/logo_zju.png'), hrefUrl: 'https://www.zju.edu.cn/english/' }
-      ],
-      sponsors: [
-        { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
-        { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' },
+        { name: 'zju', url: require('@/assets/logo_zju.png'), hrefUrl: 'https://www.zju.edu.cn/english/' },
         { name: 'College of Eduction, Zhejiang University', hrefUrl: 'http://www.ced.zju.edu.cn/' },
         { name: 'Zhejiang University Education Foundation Shen Shanhong Fund' },
         { name: 'The Fundamental Research Funds for the Central Universities' },
         { name: 'Digital Sport and Health Laboratory, Zhejiang University' }
+      ],
+      sponsors: [
+        { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
+        { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' }
       ]
     }
   },
@@ -431,10 +434,12 @@ export default defineComponent({
 .sponsor-text{
   font-family: Montserrat;
   font-size: 12px;
-  margin: 10px 0;
-  border: 1px solid #ebebeb;
-  padding: 10px 0;
-  background-color: #ebebeb;
+  //border: 1px solid #ebebeb;
+  padding: 8px 16px;
+  background-color: #f4faff;
+  border-radius: 4px;
+  border-bottom: 3px solid #50bfff;
+  margin: 20px 0;
 }
 
 .note{
