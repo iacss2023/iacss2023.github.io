@@ -114,11 +114,14 @@
         <div class="sidebar-right is_stuck" style="position: static; width: 192px; padding-left: 32px">
           <h4 class="widget_title">sponsored by</h4>
           <template v-for="sponsor in sponsors" :key="sponsor.name">
-            <div class="bard-widget widget_media_image">
+            <div class="bard-widget widget_media_image" v-if="sponsor.url">
               <a :href="sponsor.hrefUrl" target="_blank">
                 <img :src="sponsor.url" style="max-width: 100%;height: auto" alt
                 loading="lazy" sizes="(max-width:300px) 100vw, 300px">
               </a>
+            </div>
+            <div v-else class="bard-widget sponsor-text">
+              <span>{{sponsor.name}}</span>
             </div>
           </template>
         </div>
@@ -352,7 +355,11 @@ export default defineComponent({
       ],
       sponsors: [
         { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
-        { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' }
+        { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' },
+        { name: 'College of Eduction, Zhejiang University', hrefUrl: 'http://www.ced.zju.edu.cn/' },
+        { name: 'Zhejiang University Education Foundation Shen Shanhong Fund' },
+        { name: 'The Fundamental Research Funds for the Central Universities' },
+        { name: 'Digital Sport and Health Laboratory, Zhejiang University' }
       ]
     }
   },
@@ -420,6 +427,14 @@ export default defineComponent({
 }
 .widget_media_image{
   margin-bottom: 20px;
+}
+.sponsor-text{
+  font-family: Montserrat;
+  font-size: 12px;
+  margin: 10px 0;
+  border: 1px solid #ebebeb;
+  padding: 10px 0;
+  background-color: #ebebeb;
 }
 
 .note{
