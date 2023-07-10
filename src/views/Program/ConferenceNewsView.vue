@@ -6,7 +6,7 @@
         <div class="view-section">
           <div class="view-section-title small">Hotel Reservation Reminder</div>
           <p>Dear Colleagues and Friends,</p>
-          <p>Hangzhou is one of the most famous tourist cities in China, and September is the best season to visit Hangzhou. Furthermore, our conference coincides with Hangzhou Asian Games (September 23rd to October 8th), the Mid-Autumn Festival (September 29th), and the National Day holiday (September 30th to October 6th). Therefore, hotels in Hangzhou will be in high demand.</p>
+          <p>Hangzhou is one of the most famous tourist cities in China, and September is the best season to visit Hangzhou. Furthermore, our conference coincides with Hangzhou Asian Games (September 23rd to October 8th), the Mid-Autumn Festival (September 29th), and the National Day holiday (September 30th to October 6th). Therefore, <b>hotels in Hangzhou will be in high demand</b>.</p>
           <p>We earnestly request that you make hotel reservations as soon as possible through the suggested <span class="link_text" @click="$router.push('accommodation')">webpage</span>.</p>
           <p>Thank you all!</p>
           <p>IACSS 2023 Organizing Committee</p>
