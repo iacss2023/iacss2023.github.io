@@ -3,18 +3,23 @@
     <div class="view-container">
       <div class="view-title">Program</div>
       <div class="view-main with-setting">
-        <el-table :data="programSchedule" stripe>
-          <el-table-column align="center">
-            <template v-slot="scope">
-              <p>{{scope.row.program}}</p>
-            </template>
-          </el-table-column>
-          <el-table-column align="center">
-            <template v-slot="scope">
-              <p>{{scope.row.time}}</p>
-            </template>
-          </el-table-column>
-        </el-table>
+        <iframe id="myframe"
+                src="./Conference Schedule (8-4).pdf"
+                width="800" height="800" frameborder="0"></iframe>
+        <br>
+        <el-button round type="info"><a class="download_text" href="./Conference Schedule (8-4).pdf" download="Conference Schedule (8-4).pdf">Download</a></el-button>
+<!--        <el-table :data="programSchedule" stripe>-->
+<!--          <el-table-column align="center">-->
+<!--            <template v-slot="scope">-->
+<!--              <p>{{scope.row.program}}</p>-->
+<!--            </template>-->
+<!--          </el-table-column>-->
+<!--          <el-table-column align="center">-->
+<!--            <template v-slot="scope">-->
+<!--              <p>{{scope.row.time}}</p>-->
+<!--            </template>-->
+<!--          </el-table-column>-->
+<!--        </el-table>-->
       </div>
     </div>
   </div>
@@ -38,4 +43,12 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.download_text{
+  text-underline: none;
+  color: white;
+  /*font-weight: bold;*/
+  /*font-size: 16px;*/
+  text-align: left;
+}
+</style>

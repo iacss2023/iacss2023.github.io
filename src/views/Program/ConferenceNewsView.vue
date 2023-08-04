@@ -4,6 +4,15 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Conference Program Update</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>The conference schedule (draft) has been published on the website (<span class="link_text" @click="$router.push('program')">Conference Program</span>). If this schedule is not suitable for you, please email us at <a href="mailto:iacss.2023@zju.edu.cn">iacss.2023@zju.edu.cn</a>. We warmly welcome you to join IACSS 2023 at Zhejiang University!</p>
+          <p>We look forward to seeing you in Hangzhou!</p>
+          <p>Thank you all!</p>
+          <p>IACSS 2023 Organizing Committee</p>
+          <p>August 4, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Hotel Reservation Reminder</div>
           <p>Dear Colleagues and Friends,</p>
           <p>Hangzhou is one of the most famous tourist cities in China, and September is the best season to visit Hangzhou. Furthermore, our conference coincides with Hangzhou Asian Games (September 23rd to October 8th), the Mid-Autumn Festival (September 29th), and the National Day holiday (September 30th to October 6th). Therefore, <b>hotels in Hangzhou will be in high demand</b>.</p>
