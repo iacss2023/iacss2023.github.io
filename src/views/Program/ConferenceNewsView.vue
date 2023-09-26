@@ -4,6 +4,15 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Campus map and Network connection</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>To assist you in becoming acquainted with the conference venue, we have included a map of the campus where the conference will be held, with important addresses clearly marked. You can download the specific map (<a class="link_text" href="./map_en.pdf" download="map_en.pdf">English</a>, <a class="link_text" href="./map_cn.pdf" download="map_cn.pdf">Chinese</a>) or view the <span class="link_text" @click="$router.push('venue')">Venue</span>.</p>
+          <p>While you are staying at Zhejiang University, you will have access to the Wi-Fi network. Participants from institutions outside of China are recommended to connect through eduroam (<a class="link_text" href="./network-connection.pdf" download="network-connection.pdf">connection instruction</a>), while participants from institutions within China are advised to use ZJU-Guest.</p>
+          <p>We look forward to welcoming you to the conference.</p>
+          <p>IACSS 2023 Organizing Committee</p>
+          <p>September 22, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Conference Program</div>
           <p>Dear Colleagues and Friends,</p>
           <p>The formal conference schedule has been published on the website (<span class="link_text" @click="$router.push('program')">Conference Program</span>). We warmly welcome you to join IACSS 2023 at Zhejiang University! We look forward to seeing you in Hangzhou!</p>
