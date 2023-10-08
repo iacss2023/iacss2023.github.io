@@ -4,6 +4,14 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Conference Photos Sharing</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>Thanks to all attendees, the IACSS 2023 conference has been successfully concluded.</p>
+          <p>We have selected photos from the conference programs and provided two links (<a class="link_text" href="https://drive.google.com/drive/folders/1PYVb9V1875rFNoKNT4WrZQwpo1MDaCrP?usp=drive_link">Google Drive</a> and <a class="link_text" href="https://pan.baidu.com/s/1B30Fz2RvFgtFk12TDo2alQ?pwd=0000">BaiduNetDisk</a> ) so that attendees can choose the link they can use to view the shared photos and download them.</p>
+          <p>IACSS 2023 Organizing Committee</p>
+          <p>October 8, 2023</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Campus map and Network connection</div>
           <p>Dear Colleagues and Friends,</p>
           <p>To assist you in becoming acquainted with the conference venue, we have included a map of the campus where the conference will be held, with important addresses clearly marked. You can download the specific map (<a class="link_text" href="./map_en.pdf" download="map_en.pdf">English</a>, <a class="link_text" href="./map_cn.pdf" download="map_cn.pdf">Chinese</a>) or view the <span class="link_text" @click="$router.push('venue')">Venue</span>.</p>
