@@ -1,4 +1,4 @@
-# iacss2023homepage
+# iacsshomepage
 
 ## Project setup
 ```

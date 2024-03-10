@@ -1,248 +1,220 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import Home23 from '@/views/app23.vue'
+import Home24 from '@/views/app24.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    redirect: '/2024'
   },
   {
-    path: '/venue',
-    name: 'venue',
-    component: () => import('../views/Venue/VenueView.vue')
+    path: '/2024',
+    name: 'app24',
+    component: Home24,
+    children: [
+      {
+        path: '/2024',
+        name: 'home24',
+        component: () => import('../views/2024/HomeView.vue')
+      },
+      {
+        path: 'venue',
+        name: 'venue24',
+        component: () => import('../views/2024/Related/VenueView.vue')
+      },
+      {
+        path: 'creps',
+        name: 'creps',
+        component: () => import('../views/2024/Related/CrepsView.vue')
+      },
+      {
+        path: 'strasbourg',
+        name: 'strasbourg',
+        component: () => import('../views/2024/Related/StrasbourgView.vue')
+      },
+      {
+        path: 'conferencehistory',
+        name: 'conferencehistory',
+        component: () => import('../views/2024/Related/ConferenceHistoryView.vue')
+      },
+      {
+        path: 'travelstrasbourg',
+        name: 'travelstrasbourg',
+        component: () => import('../views/2024/Travel/TravelStrasbourgView.vue')
+      },
+      {
+        path: 'hotel',
+        name: 'hotel',
+        component: () => import('../views/2024/Travel/HotelView.vue')
+      },
+      {
+        path: 'registration',
+        name: 'registration24',
+        component: () =>
+          import('../views/2024/Travel/RegistrationView.vue')
+      },
+      {
+        path: 'speaker',
+        name: 'speaker24',
+        component: () => import('../views/2024/SpeakerView.vue')
+      },
+      {
+        path: 'news',
+        name: 'news24',
+        component: () => import('../views/2024/Program/NewsView.vue')
+      },
+      {
+        path: 'program',
+        name: 'program24',
+        component: () => import('../views/2024/Program/ProgramView.vue')
+      },
+      {
+        path: 'committees',
+        name: 'committees24',
+        component: () => import('../views/2024/Program/CommittesView.vue')
+      },
+      {
+        path: 'contact',
+        name: 'contact24',
+        component: () => import('../views/2024/ContactView.vue')
+      }
+    ]
   },
   {
-    path: '/venueHangzhou',
-    name: 'venueHangzhou',
-    component: () => import('../views/Venue/VenueHangzhouView.vue')
-  },
-  {
-    path: '/zju',
-    name: 'zju',
-    component: () => import('../views/Venue/ZjuView.vue')
-  },
-  {
-    path: '/coe',
-    name: 'coe',
-    component: () => import('../views/Venue/CoeView.vue')
-  },
-  {
-    path: '/dss',
-    name: 'dss',
-    component: () => import('../views/Venue/DssView.vue')
-  },
-  {
-    path: '/sportsteam',
-    name: 'sportsteam',
-    component: () => import('../views/Venue/SportsTeamView.vue')
-  },
-  {
-    path: '/conferencehistory',
-    name: 'conferencehistory',
-    component: () => import('../views/Venue/ConferenceHistoryView.vue')
-  },
-  {
-    path: '/travelhangzhou',
-    name: 'travelhangzhou',
-    component: () => import('../views/Travel/TravelHangzhouView.vue')
-  },
-  {
-    path: '/accommodation',
-    name: 'accommodation',
-    component: () => import('../views/Travel/AccommodationView.vue')
-  },
-  {
-    path: '/datedeadline',
-    name: 'datedeadline',
-    component: () =>
-      import('../views/SubmissionRegistration/DateDeadlineView.vue')
-  },
-  {
-    path: '/submission',
-    name: 'submission',
-    component: () =>
-      import('../views/SubmissionRegistration/SubmissionView.vue')
-  },
-  {
-    path: '/registration',
-    name: 'registration',
-    component: () =>
-      import('../views/SubmissionRegistration/RegistrationView.vue')
-  },
-  {
-    path: '/presentation',
-    name: 'presentation',
-    component: () =>
-      import('../views/SubmissionRegistration/PresentationView.vue')
-  },
-  {
-    path: '/award',
-    name: 'award',
-    component: () => import('../views/SubmissionRegistration/AwardView.vue')
-  },
-  {
-    path: '/program',
-    name: 'program',
-    component: () => import('../views/Program/ProgramView.vue')
-  },
-  {
-    path: '/conferencenews',
-    name: 'conferencenews',
-    component: () => import('../views/Program/ConferenceNewsView.vue')
-  },
-  {
-    path: '/conferencethemes',
-    name: 'conferencethemes',
-    component: () => import('../views/Program/ConferenceThemesView.vue')
-  },
-  {
-    path: '/committees',
-    name: 'committees',
-    component: () => import('../views/Program/CommittesView.vue')
-  },
-  {
-    path: '/keynote',
-    name: 'keynote',
-    component: () => import('../views/Program/KeynoteView.vue')
-  },
-  {
-    path: '/sponsoring',
-    name: 'sponsoring',
-    component: () => import('../views/SponsoringView.vue')
-  },
-  {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('../views/ContactView.vue')
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  },
-  {
-    path: '/cn',
-    name: 'cn',
-    component: () => import('../views/cnViews/HomeViewCn.vue')
-  },
-  {
-    path: '/cn/venue',
-    name: 'venuecn',
-    component: () => import('../views/cnViews/VenueCn/VenueViewCn.vue')
-  },
-  {
-    path: '/cn/venueHangzhou',
-    name: 'venueHangzhouCn',
-    component: () => import('../views/cnViews/VenueCn/VenueHangzhouViewCn.vue')
-  },
-  {
-    path: '/cn/zju',
-    name: 'zjucn',
-    component: () => import('../views/cnViews/VenueCn/ZjuViewCn.vue')
-  },
-  {
-    path: '/cn/coe',
-    name: 'coecn',
-    component: () => import('../views/cnViews/VenueCn/CoeViewCn.vue')
-  },
-  {
-    path: '/cn/dss',
-    name: 'dsscn',
-    component: () => import('../views/cnViews/VenueCn/DssViewCn.vue')
-  },
-  {
-    path: '/cn/sportsteam',
-    name: 'sportsteamcn',
-    component: () => import('../views/cnViews/VenueCn/SportsTeamViewCn.vue')
-  },
-  {
-    path: '/cn/conferencehistory',
-    name: 'conferencehistorycn',
-    component: () => import('../views/cnViews/VenueCn/ConferenceHistoryViewCn.vue')
-  },
-  {
-    path: '/cn/travelhangzhou',
-    name: 'travelhangzhoucn',
-    component: () => import('../views/cnViews/TravelCn/TravelHangzhouViewCn.vue')
-  },
-  {
-    path: '/cn/accommodation',
-    name: 'accommodationcn',
-    component: () => import('../views/cnViews/TravelCn/AccommodationViewCn.vue')
-  },
-  {
-    path: '/cn/datedeadline',
-    name: 'datedeadlinecn',
-    component: () =>
-      import('../views/cnViews/SubmissionRegistrationCn/DateDeadlineViewCn.vue')
-  },
-  {
-    path: '/cn/submission',
-    name: 'submissioncn',
-    component: () =>
-      import('../views/cnViews/SubmissionRegistrationCn/SubmissionViewCn.vue')
-  },
-  {
-    path: '/cn/registration',
-    name: 'registrationcn',
-    component: () =>
-      import('../views/cnViews/SubmissionRegistrationCn/RegistrationViewCn.vue')
-  },
-  {
-    path: '/cn/presentation',
-    name: 'presentationcn',
-    component: () =>
-      import('../views/cnViews/SubmissionRegistrationCn/PresentationViewCn.vue')
-  },
-  {
-    path: '/cn/award',
-    name: 'awardcn',
-    component: () => import('../views/cnViews/SubmissionRegistrationCn/AwardViewCn.vue')
-  },
-  {
-    path: '/cn/program',
-    name: 'programcn',
-    component: () => import('../views/cnViews/ProgramCn/ProgramViewCn.vue')
-  },
-  {
-    path: '/cn/conferencenews',
-    name: 'conferencenewscn',
-    component: () => import('../views/cnViews/ProgramCn/ConferenceNewsViewCn.vue')
-  },
-  {
-    path: '/cn/conferencethemes',
-    name: 'conferencethemescn',
-    component: () => import('../views/cnViews/ProgramCn/ConferenceThemesViewCn.vue')
-  },
-  {
-    path: '/cn/committees',
-    name: 'committeescn',
-    component: () => import('../views/cnViews/ProgramCn/CommittesViewCn.vue')
-  },
-  {
-    path: '/cn/keynote',
-    name: 'keynotecn',
-    component: () => import('../views/cnViews/ProgramCn/KeynoteViewCn.vue')
-  },
-  {
-    path: '/cn/sponsoring',
-    name: 'sponsoringcn',
-    component: () => import('../views/cnViews/SponsoringViewCn.vue')
-  },
-  {
-    path: '/cn/contact',
-    name: 'contactcn',
-    component: () => import('../views/cnViews/ContactViewCn.vue')
+    path: '/2023',
+    name: 'app23',
+    component: Home23,
+    children: [
+      {
+        path: '/2023',
+        name: 'home23',
+        component: () => import('../views/2023/HomeView.vue')
+      },
+      {
+        path: 'venue',
+        name: 'venue23',
+        component: () => import('../views/2023/Venue/VenueView.vue')
+      },
+      {
+        path: 'venueHangzhou',
+        name: 'venueHangzhou',
+        component: () => import('../views/2023/Venue/VenueHangzhouView.vue')
+      },
+      {
+        path: 'zju',
+        name: 'zju',
+        component: () => import('../views/2023/Venue/ZjuView.vue')
+      },
+      {
+        path: 'coe',
+        name: 'coe',
+        component: () => import('../views/2023/Venue/CoeView.vue')
+      },
+      {
+        path: 'dss',
+        name: 'dss',
+        component: () => import('../views/2023/Venue/DssView.vue')
+      },
+      {
+        path: 'sportsteam',
+        name: 'sportsteam',
+        component: () => import('../views/2023/Venue/SportsTeamView.vue')
+      },
+      {
+        path: 'conferencehistory',
+        name: 'conferencehistory23',
+        component: () => import('../views/2023/Venue/ConferenceHistoryView.vue')
+      },
+      {
+        path: 'travelhangzhou',
+        name: 'travelhangzhou',
+        component: () => import('../views/2023/Travel/TravelHangzhouView.vue')
+      },
+      {
+        path: 'accommodation',
+        name: 'accommodation',
+        component: () => import('../views/2023/Travel/AccommodationView.vue')
+      },
+      {
+        path: 'datedeadline',
+        name: 'datedeadline',
+        component: () =>
+          import('../views/2023/SubmissionRegistration/DateDeadlineView.vue')
+      },
+      {
+        path: 'submission',
+        name: 'submission23',
+        component: () =>
+          import('../views/2023/SubmissionRegistration/SubmissionView.vue')
+      },
+      {
+        path: 'registration',
+        name: 'registration23',
+        component: () =>
+          import('../views/2023/SubmissionRegistration/RegistrationView.vue')
+      },
+      {
+        path: 'presentation',
+        name: 'presentation',
+        component: () =>
+          import('../views/2023/SubmissionRegistration/PresentationView.vue')
+      },
+      {
+        path: 'award',
+        name: 'award',
+        component: () => import('../views/2023/SubmissionRegistration/AwardView.vue')
+      },
+      {
+        path: 'program',
+        name: 'program23',
+        component: () => import('../views/2023/Program/ProgramView.vue')
+      },
+      {
+        path: 'conferencenews',
+        name: 'conferencenews23',
+        component: () => import('../views/2023/Program/ConferenceNewsView.vue')
+      },
+      {
+        path: 'conferencethemes',
+        name: 'conferencethemes',
+        component: () => import('../views/2023/Program/ConferenceThemesView.vue')
+      },
+      {
+        path: 'committees',
+        name: 'committees',
+        component: () => import('../views/2023/Program/CommittesView.vue')
+      },
+      {
+        path: 'keynote',
+        name: 'keynote',
+        component: () => import('../views/2023/Program/KeynoteView.vue')
+      },
+      {
+        path: 'sponsoring',
+        name: 'sponsoring',
+        component: () => import('../views/2023/SponsoringView.vue')
+      },
+      {
+        path: 'contact',
+        name: 'contact23',
+        component: () => import('../views/2023/ContactView.vue')
+      },
+      {
+        path: 'about',
+        name: 'about23',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ '../views/2023/AboutView.vue')
+      }
+    ]
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  // history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 
