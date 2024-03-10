@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import Home23 from '@/views/app23.vue'
 import Home24 from '@/views/app24.vue'
 
@@ -213,8 +213,8 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  // history: createWebHashHistory(process.env.BASE_URL),
-  history: createWebHistory(process.env.BASE_URL),
+  // history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(process.env.BASE_URL),
   routes
 })
 

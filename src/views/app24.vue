@@ -167,14 +167,12 @@ export default defineComponent({
   },
   watch: {
     $route (to) {
-      console.log(to)
       this.updateNav(to.path)
     }
   },
   methods: {
     navHandleSelect (key: string) {
       sessionStorage.setItem('currentPath', key)
-      console.log(key)
       this.$router.push(key)
     },
     toCn () {
