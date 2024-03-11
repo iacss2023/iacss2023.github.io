@@ -14,8 +14,11 @@
             <el-col :span="18">
               <el-table :data="history" style="width: 100%;">
                 <el-table-column prop="year" label="Year" width="100" align="center"/>
-                <el-table-column prop="location" label="Location" align="center"/>
-                <el-table-column prop="country" label="Country" align="center"/>
+                <el-table-column prop="location" label="Location" align="center">
+                  <template v-slot="scope">
+                    <a :href="scope.row.url" target="_blank" class="buttonText">{{scope.row.location}}</a>
+                  </template>
+                </el-table-column>                <el-table-column prop="country" label="Country" align="center"/>
                 <el-table-column prop="symposiumOrder" label="IACSS International Symposium" align="center"/>
                 <el-table-column prop="conferenceOrder" label="IACSS Conference" align="center"/>
               </el-table>
@@ -51,7 +54,8 @@ export default {
         { year: 2019, location: 'Moscow', country: 'Russia', symposiumOrder: 12, conferenceOrder: '' },
         { year: 2021, location: 'Vienna', country: 'Austria', symposiumOrder: '', conferenceOrder: 5 },
         { year: 2022, location: 'Vienna', country: 'Austria', symposiumOrder: 13, conferenceOrder: '' },
-        { year: 2023, location: 'Hangzhou', country: 'China', symposiumOrder: 14, conferenceOrder: '' }
+        { year: 2023, location: 'Hangzhou', country: 'China', symposiumOrder: 14, conferenceOrder: '' },
+        { year: 2024, location: 'Strasbourg', country: 'France', symposiumOrder: '', conferenceOrder: '6', url: '/#/' }
       ]
     }
   }
