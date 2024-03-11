@@ -3,20 +3,31 @@
     <div class="view-container">
       <div class="view-title">Speakers</div>
       <div class="view-main">
-        <hr class="hr-block-wrapper">
-        <div v-for="speaker in speakers" class="view-section" :key="speaker">
+        <div class="view-section" v-if="!ifChosen">
+          <el-row :gutter="10">
+            <el-col :span="4" v-for="speaker in speakers" :key="speaker" style="margin-bottom: 10px">
+              <div class="speaker-photo row">
+                <img :src="speaker.img" class="photo" @click="choose_player(speaker)">
+              </div>
+              <span class="speaker-name">{{speaker.name}}</span>
+            </el-col>
+          </el-row>
+        </div>
+        <div class="view-section" v-else>
+          <div class="view-section-title" @click="ifChosen=false" style="cursor: pointer">Back to List</div>
+          <hr class="hr-block-wrapper">
           <el-row :gutter="10">
             <el-col :span="10">
               <div class="speaker-photo">
-                <img :src="speaker.img" class="photo">
+                <img :src="chosenSpeaker.img" class="photo">
               </div>
             </el-col>
             <el-col :span="14">
               <div class="speaker-info">
-                <p class="name view-section-title">{{speaker.name}}</p>
-                <p class="intro view-section-title small">{{speaker.introduction}}</p>
+                <p class="name view-section-title">{{chosenSpeaker.name}}</p>
+                <p class="intro view-section-title small">{{chosenSpeaker.introduction}}</p>
                 <div class="detail">
-                  <div v-for="item in speaker.detail" :key="item">
+                  <div v-for="item in chosenSpeaker.detail" :key="item">
                     <p>{{item}}</p>
                   </div>
                 </div>
@@ -34,9 +45,11 @@ export default {
   name: 'SpeakerView',
   data () {
     return {
+      ifChosen: false,
+      chosenSpeaker: {},
       speakers: [
         {
-          img: require('../../assets/keynote/martin_lames.jpg'),
+          img: require('../../../assets/keynote/martin_lames.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Martin Lames',
           introduction: 'Martin Lames is currently the Professor and Chairholder of Performance Analysis and Sports Informatics at Technical University of Munich.',
@@ -49,7 +62,7 @@ export default {
           ]
         },
         {
-          img: require('../../assets/keynote/sam_robertson.jpg'),
+          img: require('../../../assets/keynote/sam_robertson.jpg'),
           name: 'Prof. Dr Sam Robertson',
           introduction: 'Dr. Sam Robertson is a Professor at Victoria University and the host of the popular future of sport podcasts.',
           detail: [
@@ -57,7 +70,7 @@ export default {
           ]
         },
         {
-          img: require('../../assets/keynote/hyongjun_choi.png'),
+          img: require('../../../assets/keynote/hyongjun_choi.png'),
           name: 'Prof. Dr. Hyongjun Choi',
           introduction: 'Dr. Hyongjun Choi is a Professor of the Department of Physical Education, College of Education at Dankook University.',
           detail: [
@@ -65,21 +78,21 @@ export default {
           ]
         },
         {
-          img: require('../../assets/keynote/woo_mei_teng.png'),
+          img: require('../../../assets/keynote/woo_mei_teng.png'),
           name: 'Dr. Woo Mei Teng',
           introduction: 'Dr. Woo Mei Teng is a Senior Conexus Manager of the School of Sports, Health and Leisure at the Republic Polytechnic.',
           detail: [
             'Dr. Mei Teng attained her Ph.D., majoring in Sports Pedagogy, at the University of Jyväskylä, Finland. Her area of specialization is balance and postural regulation, kinesiology, skill analysis, match analysis, and motor control and learning. With over 15 years of professional work experience, Mei Teng is committed to excellence in teaching, designing, and delivering quality curricula. Key accomplishments include the invention of a video-based analysis curriculum package leveraging Dartfish Technology. She works with sports coaches and supervises students’ projects in sports analysis (e.g., hockey, water polo, badminton). She also served as a performance analyst for the Singapore Indoor Hockey Men’s and Women’s teams during the 29th SEA Games. She has also served as team manager for Singapore Indoor Hockey Men’s Team for the 30th and 32nd SEA Games.']
         },
         {
-          img: require('../../assets/keynote/xie_xiao.jpg'),
+          img: require('../../../assets/keynote/xie_xiao.jpg'),
           name: 'Dr. Xiao Xie',
           introduction: 'Dr. Xiao Xie is an Assistant Professor at the Department of Sports Science, Zhejiang University.',
           detail: [
             "Dr. Xiao Xie's research interests include data visualization, visual analytics, and human-computer interaction, with a focus on creating novel visual analysis techniques for supporting sports analysis. In football data analysis, he conducted research on the spatial and temporal changes of football formations and the dynamic changes of football passes, and designed spatial-temporal formation flows and topic-model-based passing analysis methods. In basketball data analysis, he focused on evaluating the performance of off-ball players, proposed a model to calculate the value of off-ball movements, and developed a visual analytics system to analyze massive off-ball running trajectories. He also conducted research on VR-based sports data analysis and developed an immersive visual analytics system for racket sports data. He published more than 20 papers in top journals and academic conferences, such as IEEE TVCG, CHI, KDD, etc. He received his Ph.D. degree in Computer Science from Zhejiang University."]
         },
         {
-          img: require('../../assets/keynote/naoki suzuki.jpeg'),
+          img: require('../../../assets/keynote/naoki suzuki.jpeg'),
           name: 'Dr.Naoki Suzuki',
           introduction: 'Dr. Naoki Suzuki is an associate professor at Tokyo Gakugei University in Tokyo, Japan.',
           detail: [
@@ -88,8 +101,22 @@ export default {
             'His research accomplishments are very numerous. He has published 50 more books and 150 more papers. He had over 200 research presentations. Recently, his practice of using technology in physical education has attracted a great deal of attention and these have been featured in many Japanese newspapers and on television.',
             'His recent research has been marked by collaborations with companies and researchers in other fields. He is highly interested in collaborating with researchers with diverse expertise.'
           ]
+        },
+        {
+          img: require('../../../assets/keynote/zhang_hui.jpg'),
+          // img: require('src/assets/keynote/martin_lames.jpg'),
+          name: 'Prof. Dr. Hui Zhang',
+          introduction: '',
+          detail: []
         }
       ]
+    }
+  },
+  methods: {
+    choose_player (speaker) {
+      console.log(speaker)
+      this.chosenSpeaker = speaker
+      this.ifChosen = true
     }
   }
 }
@@ -104,9 +131,20 @@ export default {
   max-width: 500px;
   height: auto;
 }
+.row.speaker-photo{
+  //height: 100%;
+}
+.row.speaker-photo .photo{
+  height: 260px;
+  cursor: pointer;
+}
 .speaker-info .name{
   font-size: 20px;
   font-weight: bold;
+}
+.speaker-name{
+  display: block;
+  text-align: center;
 }
 .speaker-info .intro{
   font-size: 15px;

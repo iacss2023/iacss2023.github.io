@@ -56,7 +56,7 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: 'speaker',
         name: 'speaker24',
-        component: () => import('../views/2024/SpeakerView.vue')
+        component: () => import('../views/2024/Speaker/SpeakerView.vue')
       },
       {
         path: 'news',
