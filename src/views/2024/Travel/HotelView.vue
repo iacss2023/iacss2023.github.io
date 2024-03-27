@@ -3,7 +3,40 @@
     <div class="view-container">
       <div class="view-title">HOTEL</div>
       <div class="view-main">
-        <div class="view-section-title">TBD</div>
+        <div class="view-text">
+          <p>Here you can find some options for accommodation in Strasbourg. Please note that these are suggestions of a third party vendor`s service. Any activity, including purchase made, on the third party service shall be governed by such third party vendor`s terms and conditions.</p>
+        </div>
+        <hr class="hr-block-wrapper">
+        <div v-for="hotel in hotels" class="view-section" :key="hotel">
+          <el-row :gutter="10">
+            <el-col :span="10">
+              <el-carousel :interval="5000" arrow="hover">
+                <el-carousel-item v-for="item in hotel.imgs" :key="item">
+                  <img class="hotel-image" :src="item">
+                </el-carousel-item>
+              </el-carousel>
+            </el-col>
+            <el-col :span="14">
+              <div class="hotel-info">
+                <p class="name view-section-title">{{hotel.name}}</p>
+                <p class="address view-section-title small">Address: {{hotel.address}}</p>
+                <p class="view-section-title small transport">Introduction:</p>
+                <ul>
+                  <li v-for="item in hotel.introduction" :key="item" class="transport_list">
+                    {{item}}
+                  </li>
+                </ul>
+                <p class="view-section-title small transport">Price: (price for two nights)</p>
+                <ul>
+                  <li v-for="item in hotel.price" :key="item" class="transport_list">
+                    <span>{{item.type}}: {{item.price}}</span>
+                  </li>
+                </ul>
+                <a class="view-section-title small hotel-text" :href="hotel.bookinglink" target="_blank">Booking</a>
+              </div>
+            </el-col>
+          </el-row>
+        </div>
       </div>
     </div>
   </div>
@@ -25,73 +58,34 @@ export default {
       ],
       hotels: [
         {
-          name: 'Ou Ya Mei International Hotel',
+          name: 'Hôtel Restaurant Athena Spa',
           imgs: [
-            require('../../../assets/accommodation/ouyamei_1.jpg'),
-            require('../../../assets/accommodation/ouyamei_2.jpg'),
-            require('../../../assets/accommodation/ouyamei_3.jpg')],
-          address: 'No. 859 Shixiang West Road, Xihu District, Hangzhou, Zhejiang, China',
-          transport: [
-            {
-              method: '(1) Metro Station',
-              solutions: ['Jiangcun, About 6min(s) from hotel by car (2.1 km)', 'Zijingang Campus Zhejiang University,About 7min(s) from hotel by car (2.7 km)']
-            },
-            {
-              method: '(2) Train Station',
-              solutions: ['Hangzhou Railway Station, About 31min(s) from hotel by car (19.1 km)', 'Hangzhou East Railway Station, About 34min(s) from hotel by car (19.3 km)']
-            },
-            {
-              method: '(3) Airport',
-              solutions: ['Hangzhou Xiaoshan International Airport, About 70min(s) from hotel by car (45.7 km)']
-            }
+            require('../../../assets/accommodation/athenaspa_1.jpg'),
+            require('../../../assets/accommodation/athenaspa_2.jpg'),
+            require('../../../assets/accommodation/athenaspa_3.jpg'),
+            require('../../../assets/accommodation/athenaspa_4.jpg'),
+            require('../../../assets/accommodation/athenaspa_5.jpg')
           ],
-          tel: '+86-0571-81959999'
+          address: '1 Rue Armande Béjart, 67200 Strasbourg, France',
+          price: [{ type: 'Class Double Room', price: '$243' }, { type: 'Double Room', price: '$243' }, { type: 'Classic Twin Room', price: '$243' }],
+          introduction: [
+            'Hôtel Restaurant Athena Spa is located less than 1.9 mi from the center of Strasbourg and features a fitness center that is open 24 hours a day.'
+          ],
+          bookinglink: 'https://www.booking.com/hotel/fr/athena-spa.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaMkBiAEBmAExuAEHyAEN2AEB6AEB-AECiAIBqAIDuAKYytqvBsACAdICJGEzMjkxZmZjLTM1ZGUtNDhhMy05NzIyLWFiYmYwZjJlOWNiN9gCBeACAQ&sid=4f256ea33f29959f3acbf5ff2056c980&all_sr_blocks=112122806_366496800_0_2_0;checkin=2024-07-28;checkout=2024-07-30;dest_id=-1471697;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=25;highlighted_blocks=112122806_366496800_0_2_0;hpos=25;matching_block_id=112122806_366496800_0_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=112122806_366496800_0_2_0__21260;srepoch=1710663076;srpvid=0dee39662f82019c;type=total;ucfs=1&#map_closed '
         },
         {
-          name: 'Zijingang International Hotel',
+          name: 'Hotel des Vosges BW Premier Collection',
           imgs: [
-            require('../../../assets/accommodation/zijingang_1.jpg'),
-            require('../../../assets/accommodation/zijingang_2.jpg'),
-            require('../../../assets/accommodation/zijingang_3.jpg')],
-          address: 'No.796 Shenhua Road, Xihu District, Hangzhou, Zhejiang, China',
-          transport: [
-            {
-              method: '(1) Metro Station',
-              solutions: ['Xialongwei, About 7min(s) from hotel by foot (490m)', 'Sanba, About 15min(s) from hotel by foot (1.0 km)']
-            },
-            {
-              method: '(2) Train Station',
-              solutions: ['Hangzhou Railway Station, About 25min(s) from hotel by car (15.8 km)', 'Hangzhou East Railway Station, About 25min(s) from hotel by car (15.9 km)']
-            },
-            {
-              method: '(3) Airport',
-              solutions: ['Hangzhou Xiaoshan International Airport, About 62min(s) from hotel by car (42.7 km)']
-            }
-          ],
-          tel: '+86-0571-89731046'
-        },
-        {
-          name: 'Zheda Yuanzheng Forest Hotel',
-          imgs: [
-            require('../../../assets/accommodation/zhedayuanzheng_1.jpg'),
-            require('../../../assets/accommodation/zhedayuanzheng_2.jpg'),
-            require('../../../assets/accommodation/zhedayuanzheng_3.jpg')],
-          address: 'Building D1, No.1 Xiyuanba Road, Xihu District, Hangzhou, Zhejiang, China',
-          transport: [
-            {
-              method: '(1) Metro Station',
-              solutions: ['Jiangcun, About 6min(s) from hotel by car (2.3 km)']
-            },
-            {
-              method: '(2) Train Station',
-              solutions: ['Hangzhou East Railway Station, About 30min (s) from hotel by car (20.5 km)', 'Hangzhou Railway Station, About 26min(s) from hotel by car (20.5 km)']
-            },
-            {
-              method: '(3) Airport',
-              solutions: ['Hangzhou Xiaoshan International Airport, About 71min(s) from hotel by car (47.1 km)']
-            }
-          ],
-          tel: '+86-0571-56573999'
+            require('../../../assets/accommodation/vosgesbw_1.jpg'),
+            require('../../../assets/accommodation/vosgesbw_2.jpg'),
+            require('../../../assets/accommodation/vosgesbw_3.jpg'),
+            require('../../../assets/accommodation/vosgesbw_4.jpg'),
+            require('../../../assets/accommodation/vosgesbw_5.jpg')],
+          address: '3 Place De La Gare , 67000 Strasbourg, France',
+          price: [{ type: 'Comfort Queen Room', price: '$243' }, { type: 'Comfort Twin Room', price: '$243' }, { type: 'Executive King Room', price: '$292' }, { type: 'Superior Twin Room with City View', price: '$292' }],
+          introduction: [
+            'Hotel des Vosges is located in Stasbourg near the train station and the city center. It offers comfortable and affordable accommodations.'],
+          bookinglink: 'https://www.booking.com/hotel/fr/des-vosges.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaMkBiAEBmAExuAEHyAEN2AEB6AEB-AECiAIBqAIDuAKYytqvBsACAdICJGEzMjkxZmZjLTM1ZGUtNDhhMy05NzIyLWFiYmYwZjJlOWNiN9gCBeACAQ&sid=4f256ea33f29959f3acbf5ff2056c980;checkin=2024-07-28;checkout=2024-07-30;room1=A,A;homd=1;srpvid=78f33992895701be;srepoch=1710663276;atlas_src=hp_iw_title '
         }
       ]
     }
@@ -100,6 +94,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.hotel-image{
+  width: 100%;
+}
 .description-list{
   //background-color: #eeeeee;
   //padding: 20px 5px;
