@@ -47,11 +47,17 @@ const routes: Array<RouteRecordRaw> = [
         name: 'hotel',
         component: () => import('../views/2024/Travel/HotelView.vue')
       },
+      // {
+      //   path: 'registration',
+      //   name: 'registration24',
+      //   component: () =>
+      //     import('../views/2024/Travel/RegistrationView.vue')
+      // },
       {
-        path: 'registration',
-        name: 'registration24',
+        path: 'application',
+        name: 'application24',
         component: () =>
-          import('../views/2024/Travel/RegistrationView.vue')
+          import('../views/2024/Travel/ApplicationView.vue')
       },
       {
         path: 'speaker',

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="view-container">
-      <div class="view-title">Registration Information</div>
+      <div class="view-title">Application Information</div>
       <div class="view-main with-setting">
         <div class="view-section-title">TBD</div>
       </div>

@@ -100,7 +100,7 @@ export default defineComponent({
           ]
         },
         {
-          parentNav: { index: 'travelRegistration', name: 'Travel and Registration' },
+          parentNav: { index: 'travelRegistration', name: 'Travel and Application' },
           children: [
             {
               index: '/2024/travelstrasbourg',
@@ -110,9 +110,13 @@ export default defineComponent({
               index: '/2024/hotel',
               name: 'Hotel'
             },
+            // {
+            //   index: '/2024/registration',
+            //   name: 'Registration'
+            // },
             {
-              index: '/2024/registration',
-              name: 'Registration'
+              index: '/2024/application',
+              name: 'Application'
             }
           ]
         },
@@ -349,6 +353,8 @@ export default defineComponent({
     background-color: #fffaf3 !important;
   }
   .view-main{
+    width: 960px;
+    margin: 0 auto;
     p{
       text-align: left;
     }

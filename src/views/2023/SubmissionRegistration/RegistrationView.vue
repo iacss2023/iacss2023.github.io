@@ -49,7 +49,7 @@
             <li><p>via Alipay. For participants who require Alipay, you can also transfer fee by scanning the QR code below, and please note the participant information when transferring, i.e., iacss + your name. </p></li>
 <!--            <li><p>via credit card (the payment is visible on the confirmation)</p></li>-->
           </ul>
-          <img :src="paymentAddress" style="width: 300px;margin-left: 100px"/>
+<!--          <img :src="paymentAddress" style="width: 300px;margin-left: 100px"/>-->
           <p>Registration confirmation via e-mail as soon as the payment is received.</p>
           <p>The detailed payment information can be found in the registration form.</p>
         </div>
@@ -86,8 +86,7 @@ export default {
         { affair: 'Student - Member', earlyBird: 190, standard: 210 },
         { affair: 'Exhibitors', earlyBird: 250, standard: 270 },
         { affair: 'Accompanying Person', earlyBird: 120, standard: 150 }
-      ],
-      paymentAddress: require('../../../assets/payment.png')
+      ]
     }
   },
   methods: {}
