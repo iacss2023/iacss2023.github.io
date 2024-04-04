@@ -31,6 +31,12 @@
                     <p>{{item}}</p>
                   </div>
                 </div>
+                <p class="intro view-section-title small">Abstract of the talk</p>
+                <div class="detail">
+                  <div v-for="item in chosenSpeaker.abstract" :key="item">
+                    <p>{{item}}</p>
+                  </div>
+                </div>
               </div>
             </el-col>
           </el-row>
@@ -59,6 +65,20 @@ export default {
             'In addition to these practical and theoretical activities, there is a methodological interest in promoting methods in performance analysis. In earlier times, the design and validation of observational systems was dominant, but in the last two decades, methods of position detection came into reach. Actual topics here are the design of validation studies for the different technologies of position detection in sports and special problems such as comparability and gold standard development.',
             'During the decades of his scientific activities, informatics became an increasingly valuable tool for supporting practical and theoretical performance analysis. This has led to the foundation of the scientific discipline of sports informatics. Martin Lames was involved in the foundation of IACSS, a scientific umbrella organization for interdisciplinary groups applying informatics in sports. He was member of the founding board, general secretary, from 2013 to 2022 president and is now one of the honorary presidents of IACSS.',
             'He recently published a textbook “Performance Analysis in Game Sports – Concepts and Methods”. One of its main messages is that we mustn’t forget that the properties of game sports that cause troubles for scientists, e.g., emergence and unpredictability, are the reason why they are so attractive for spectators and media, i.e., why they exist.'
+          ]
+        },
+        {
+          img: require('../../../assets/keynote/Passfoto_witte.jpg'),
+          name: 'Prof. Dr. Kerstin Witte',
+          introduction: 'Dr. Kerstin Witte is a Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
+          detail: [
+            "Dr. Kerstin Witte's research interests include human movement sciences, sports equipment technology/sports technology, biomechanical modeling, performance diagnostics, and application for the following sports (running, karate, horse riding, swimming, rowing)."],
+          abstract: [
+            'Real-time feedback can be used to increase the efficiency of athletics throws training. This is based on inertial sensors that can be used to calculate the performance-determining parameters after each throw and display them synchronized with a video. The presentation demonstrates examples of the hammer throw and the shot put. In general, the phasing of the movement can be based on the touchdown and lift-off of the feet by automatically detecting the acceleration peaks of the sensors attached to the feet.',
+            'For the hammer throw, the throws of 6 athletes were analyzed using a full-body sensor suit, whereby 37 literature-based biomechanical parameters were determined. The following performance-determining parameters were established using correlation analysis and PCA: Stance times, hand speed or angular velocity, and twisting between hip and shoulder. A single sensor worn on the wrist also provides important information about the movement technique in the individual turns.',
+            'For the rotational technique of the shot put, the performance-determining biomechanical parameters reported in the literature were determined using inertial sensors on various body segments. This makes it possible for the trainer to record the desired parameters individually for each athlete during training. Twisting also plays an important role here. Whereas in the past it was hardly possible to determine this parameter with sufficient accuracy using camera-based systems, this is no problem with sensor-based systems.',
+            'Finally, the fact that it is now possible to implement a sensor in the throwing device is discussed. This allows recognition of technical errors based on the acceleration curve of the hammer or ball over time. The para-athletes are currently testing the specially produced sensor-based balls.',
+            'Critically, however, it must be noted that it has not yet been possible to determine the speed and angle at the time of release with sufficient accuracy.'
           ]
         },
         // {

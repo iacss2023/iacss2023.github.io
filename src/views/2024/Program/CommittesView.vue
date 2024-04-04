@@ -37,9 +37,10 @@ export default {
           { people: 'Prof. Dr. Martin Lames', institution: 'Technical University of Munich, Germany' },
           { people: 'Prof. Dr. Arnold Baca', institution: 'University of Vienna, Austria' },
           { people: 'Prof. Dr. Hui Zhang', institution: 'Zhejiang University, China' },
-          { people: 'Dr. Daniel Link', institution: 'Technical University of Munich, Germany' },
+          { people: 'Prof. Dr. Daniel Link', institution: 'Technical University of Munich, Germany' },
           { people: 'Dr. Juliana Exel', institution: 'University of Vienna, Austria' },
-          { people: 'Asst. Prof. Dr. Komar John', institution: 'Nanyang Technological University, Singapore' }
+          { people: 'Asst. Prof. Dr. Komar John', institution: 'Nanyang Technological University, Singapore' },
+          { people: 'Prof. Dr. Claude Karcher', institution: 'Strasbourg University. France' }
         ]
         // scientific: [
         //   { people: 'Prof. Dr. Hui Zhang', institution: 'Zhejiang University, China' },
