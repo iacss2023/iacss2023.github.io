@@ -68,6 +68,19 @@ export default {
           ]
         },
         {
+          img: require('../../../assets/keynote/hui zhang.jpg'),
+          // img: require('src/assets/keynote/martin_lames.jpg'),
+          name: 'Prof. Dr. Hui Zhang',
+          introduction: 'Dr. Hui Zhang is a Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
+          detail: [
+            "Dr. Hui Zhang's research interests revolve around sports performance analysis, encompassing modeling, data mining, simulation, and prediction. Particularly, he specializes in both theoretical and applied dimensions of table tennis tactical analysis. Dr. Hui Zhang holds a longstanding position as the principal expert in match analysis for the Chinese table tennis team and has contributed as a technical analyst during their campaigns in the Beijing, London, and Tokyo Olympics."
+          ],
+          abstractTitle: 'Key indicator for winning soccer matches: Net efficiency',
+          abstract: [
+            "Currently, soccer match analysis primarily focuses on research related to team tactics and techniques, such as offensive and defensive tactics or transitions between them. There is limited attention given to the issue of match efficiency. Consequently, it is often challenging to explain why a team dominates possession (with over 60% ball possession) during a game but fails to secure victory. This study, using examples from the top five European leagues and European competitions, introduces the concept and calculation formulas for soccer match efficiency, including offensive efficiency, defensive efficiency, and net efficiency. The results of this study indicate that net efficiency, within a certain range, can gauge the balance between a team's offensive and defensive efficiency and provide a better explanation for the phenomenon of 'dominating possession but failing to win.'"
+          ]
+        },
+        {
           img: require('../../../assets/keynote/Passfoto_witte.jpg'),
           name: 'Prof. Dr. Kerstin Witte',
           introduction: 'Dr. Kerstin Witte is a Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
@@ -93,7 +106,7 @@ export default {
             'Heart rate recovery (HRR) is a measure of time required for the heart to resume its resting heart rate (HR) after a maximal intensity exercise load. Quicker recovery has been associated with better cardiorespiratory fitness (CRF). Therefore, HRR can be regarded as a fitness indicator and may serve as a tool to monitor the performance potential of an athlete as well as to optimize the training schedule. To reliably measure HRR requires the athlete to enter a controlled laboratory setup with an ergometer or a treadmill. There is no standard or generally agreed upon protocol to measure HRR. One common approach is to measure the drop of heart rate during the first 30, 60, or 120 seconds following the cessation of maximal exercise load. However, such laboratory testing interrupts training schedules and may not always be available in practice. In this work, we propose ways to estimate HRR from data collected with power meters and heart rate sensors during field rides. This allows for continuous and automatic tracking of HRR without the burden of regular lab tests Our general approach is as follows. Given power and HR data we estimate linear and dynamical systems that serve as accurate mathematical models to predict the heart rate from power data. These models can also predict the decay of HR after a bout of maximal exercise intensity and thereby yield a way to estimate the HRR.The first model assumes a linear function that defines the HR equilibrium for given (constant) power demands. An ordinary differential equation (ODE) rules that the HR derivative is proportional to the difference of the HR equilibrium for the current power demand and the present HR. For constant power demands this model prescribes exponential solutions for the HR that asymptotically approach the corresponding equilibrium HR. The inverse constant of proportionality in the ODE can be interpreted as the time duration required for the HR to drop 63% towards the resting HR after a presumed constant exercise load. This time constant therefore can take up the role of HRR. The second model is a Wiener system, given by the sum of the convolution of the uniformly sampled power signal and the resting HR. The (one-sided) convolution kernel accounts for the accumulated influence of the past power demand on the current heart rate and also models the delayed effect of changes in power on the heart rate. Again, the 63% drop towards the resting HR after a constant exercise load can be read off the model; it is given by the 63rd percentile of the convolution kernel.',
             'Our models are extended and improved versions of previously proposed models for HR prediction from power data. We discuss, validate, and compare the HR response and estimated HRR from the two models on a large dataset consisting of all recorded training and racing activities of three professional world class cyclists and three ambitious hobby riders collected over three consecutive years in about 4500 recorded rides.'
           ]
-        },
+        }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
         //   name: 'Prof. Dr Sam Robertson',
@@ -117,13 +130,6 @@ export default {
         //   detail: [
         //     'Dr. Mei Teng attained her Ph.D., majoring in Sports Pedagogy, at the University of Jyväskylä, Finland. Her area of specialization is balance and postural regulation, kinesiology, skill analysis, match analysis, and motor control and learning. With over 15 years of professional work experience, Mei Teng is committed to excellence in teaching, designing, and delivering quality curricula. Key accomplishments include the invention of a video-based analysis curriculum package leveraging Dartfish Technology. She works with sports coaches and supervises students’ projects in sports analysis (e.g., hockey, water polo, badminton). She also served as a performance analyst for the Singapore Indoor Hockey Men’s and Women’s teams during the 29th SEA Games. She has also served as team manager for Singapore Indoor Hockey Men’s Team for the 30th and 32nd SEA Games.']
         // },
-        {
-          img: require('../../../assets/keynote/xie_xiao.jpg'),
-          name: 'Dr. Xiao Xie',
-          introduction: 'Dr. Xiao Xie is an Assistant Professor at the Department of Sports Science, Zhejiang University.',
-          detail: [
-            "Dr. Xiao Xie's research interests include data visualization, visual analytics, and human-computer interaction, with a focus on creating novel visual analysis techniques for supporting sports analysis. In football data analysis, he conducted research on the spatial and temporal changes of football formations and the dynamic changes of football passes, and designed spatial-temporal formation flows and topic-model-based passing analysis methods. In basketball data analysis, he focused on evaluating the performance of off-ball players, proposed a model to calculate the value of off-ball movements, and developed a visual analytics system to analyze massive off-ball running trajectories. He also conducted research on VR-based sports data analysis and developed an immersive visual analytics system for racket sports data. He published more than 20 papers in top journals and academic conferences, such as IEEE TVCG, CHI, KDD, etc. He received his Ph.D. degree in Computer Science from Zhejiang University."]
-        },
         // {
         //   img: require('../../../assets/keynote/naoki suzuki.jpeg'),
         //   name: 'Dr.Naoki Suzuki',
@@ -135,13 +141,6 @@ export default {
         //     'His recent research has been marked by collaborations with companies and researchers in other fields. He is highly interested in collaborating with researchers with diverse expertise.'
         //   ]
         // },
-        {
-          img: require('../../../assets/keynote/zhang_hui.jpg'),
-          // img: require('src/assets/keynote/martin_lames.jpg'),
-          name: 'Prof. Dr. Hui Zhang',
-          introduction: '',
-          detail: []
-        }
       ]
     }
   },
