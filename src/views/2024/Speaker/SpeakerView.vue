@@ -31,7 +31,7 @@
                     <p>{{item}}</p>
                   </div>
                 </div>
-                <p class="intro view-section-title small">Abstract of the talk</p>
+                <p class="intro view-section-title small">Talk: {{chosenSpeaker.abstractTitle}}</p>
                 <div class="detail">
                   <div v-for="item in chosenSpeaker.abstract" :key="item">
                     <p>{{item}}</p>
@@ -73,6 +73,7 @@ export default {
           introduction: 'Dr. Kerstin Witte is a Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
           detail: [
             "Dr. Kerstin Witte's research interests include human movement sciences, sports equipment technology/sports technology, biomechanical modeling, performance diagnostics, and application for the following sports (running, karate, horse riding, swimming, rowing)."],
+          abstractTitle: 'Sensor-based technique diagnostics in Olympic Hammer Throw and Shot Put for Athletes and Para-Athletes',
           abstract: [
             'Real-time feedback can be used to increase the efficiency of athletics throws training. This is based on inertial sensors that can be used to calculate the performance-determining parameters after each throw and display them synchronized with a video. The presentation demonstrates examples of the hammer throw and the shot put. In general, the phasing of the movement can be based on the touchdown and lift-off of the feet by automatically detecting the acceleration peaks of the sensors attached to the feet.',
             'For the hammer throw, the throws of 6 athletes were analyzed using a full-body sensor suit, whereby 37 literature-based biomechanical parameters were determined. The following performance-determining parameters were established using correlation analysis and PCA: Stance times, hand speed or angular velocity, and twisting between hip and shoulder. A single sensor worn on the wrist also provides important information about the movement technique in the individual turns.',
