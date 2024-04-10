@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       programSchedule: [
-        { program: 'Check in', time: 'Saturday, 27.07.2024' },
+        // { program: 'Check in', time: 'Saturday, 27.07.2024' },
         { program: 'Check in (Morning), Opening ceremony, Speech and Discussion', time: 'Sunday, 28.07.2024' },
         { program: 'Speech and Discussion, Workshop dinner', time: 'Monday, 29.07.2024' },
         { program: 'Speech and Discussion, Closing ceremony (Morning), City sightseeing (afternoon and evening)', time: 'Tuesday, 30.07.2024' },

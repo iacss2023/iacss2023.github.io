@@ -8,7 +8,7 @@
             <div class="post-content">
               <div id="congress-name">
                 <h2 class="congress-title text-white">
-                  IACSS Olympic Workshop
+                  IACSS at Paris 2024 Olympic Games
                   <br>
                   Sport Informatics in support of Olympic and Paralympic Sports
                 </h2>
@@ -58,18 +58,17 @@
                   <div class="affair-header">
                     <div class="affair-icon" style="background-color: #723000;border-color: #723000">
                       <a>
-                        <el-icon color="white" class="icon-center" @click="$router.push('/2024/registration')">
+                        <el-icon color="white" class="icon-center" @click="$router.push('/2024/application')">
                           <Edit />
                         </el-icon>
                       </a>
                     </div>
-                    <div class="affair-title">Registration</div>
+                    <div class="affair-title">Application</div>
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      To register for the workshop please visit out Registration page.
-                      All information regarding the registration fees,
-                      our cancellation policy and the link to the registration-mask is readily available.
+                      To apply for the workshop please visit out Application page.
+                      All information regarding the application solution, application deadline, and application fee is readily available.
                     </p>
                   </div>
                 </div>

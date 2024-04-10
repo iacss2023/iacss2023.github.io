@@ -10,9 +10,12 @@
             <li><p>The registration will be confirmed after the registration form being submitted to the official email address</p></li>
             <li><p>To present the information of your report, we need <b>a photo of</b> the participant (width: height ≈ 3:4), <b>a brief biography</b> of the individual, and <b>a summary of the content of the report</b>.</p></li>
             <li><p>More details please refer to the <span class="link_text" @click="$router.push('/2024/speaker')">speaker page</span></p></li>
+            <li><p>The deadline for the workshop application is <strong>June 15th</strong>, so please submit your application form and follow up with your mailbox for a response.</p></li>
           </ul>
-          <p class="note title" style="margin-top: 10px">*Participation fee</p>
-          <p class="note">Participants are required to pay a participation fee, the exact amount of which will depend on the number of participants.</p>
+        </div>
+        <div class="view-section">
+          <div class="view-section-title">Participation fee</div>
+          <p>All participants will have a standardized participation fee of €100, please watch for the response email to the application for details on how to pay the fee.</p>
         </div>
       </div>
     </div>
