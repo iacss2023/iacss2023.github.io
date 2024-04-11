@@ -32,7 +32,7 @@
                   </div>
                 </div>
                 <p class="intro view-section-title small">Talk: {{chosenSpeaker.abstractTitle}}</p>
-                <div class="detail">
+                <div class="detail" v-if="chosenSpeaker.abstract!=null">
                   <div v-for="item in chosenSpeaker.abstract" :key="item">
                     <p>{{item}}</p>
                   </div>
@@ -106,6 +106,14 @@ export default {
             'Heart rate recovery (HRR) is a measure of time required for the heart to resume its resting heart rate (HR) after a maximal intensity exercise load. Quicker recovery has been associated with better cardiorespiratory fitness (CRF). Therefore, HRR can be regarded as a fitness indicator and may serve as a tool to monitor the performance potential of an athlete as well as to optimize the training schedule. To reliably measure HRR requires the athlete to enter a controlled laboratory setup with an ergometer or a treadmill. There is no standard or generally agreed upon protocol to measure HRR. One common approach is to measure the drop of heart rate during the first 30, 60, or 120 seconds following the cessation of maximal exercise load. However, such laboratory testing interrupts training schedules and may not always be available in practice. In this work, we propose ways to estimate HRR from data collected with power meters and heart rate sensors during field rides. This allows for continuous and automatic tracking of HRR without the burden of regular lab tests Our general approach is as follows. Given power and HR data we estimate linear and dynamical systems that serve as accurate mathematical models to predict the heart rate from power data. These models can also predict the decay of HR after a bout of maximal exercise intensity and thereby yield a way to estimate the HRR.The first model assumes a linear function that defines the HR equilibrium for given (constant) power demands. An ordinary differential equation (ODE) rules that the HR derivative is proportional to the difference of the HR equilibrium for the current power demand and the present HR. For constant power demands this model prescribes exponential solutions for the HR that asymptotically approach the corresponding equilibrium HR. The inverse constant of proportionality in the ODE can be interpreted as the time duration required for the HR to drop 63% towards the resting HR after a presumed constant exercise load. This time constant therefore can take up the role of HRR. The second model is a Wiener system, given by the sum of the convolution of the uniformly sampled power signal and the resting HR. The (one-sided) convolution kernel accounts for the accumulated influence of the past power demand on the current heart rate and also models the delayed effect of changes in power on the heart rate. Again, the 63% drop towards the resting HR after a constant exercise load can be read off the model; it is given by the 63rd percentile of the convolution kernel.',
             'Our models are extended and improved versions of previously proposed models for HR prediction from power data. We discuss, validate, and compare the HR response and estimated HRR from the two models on a large dataset consisting of all recorded training and racing activities of three professional world class cyclists and three ambitious hobby riders collected over three consecutive years in about 4500 recorded rides.'
           ]
+        },
+        {
+          img: require('../../../assets/keynote/yaping_zhong.jpg'),
+          name: 'Prof. Dr. Yaping Zhong',
+          introduction: 'Dr. Yaping Zhong is a Professor in Sports Big-data Research Center at Wuhan Sports University, Wuhan, China.',
+          detail: [
+            "Dr. Yaping Zhong's research interests include Intelligent Sports and data mining."],
+          abstractTitle: 'Frontier Progress in Promoting Health through Exercise Supported by AI'
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
