@@ -31,7 +31,7 @@
                     <p>{{item}}</p>
                   </div>
                 </div>
-                <p class="intro view-section-title small">Talk: {{chosenSpeaker.abstractTitle}}</p>
+                <p class="intro view-section-title small" v-if="chosenSpeaker.abstractTitle">Talk: {{chosenSpeaker.abstractTitle}}</p>
                 <div class="detail" v-if="chosenSpeaker.abstract!=null">
                   <div v-for="item in chosenSpeaker.abstract" :key="item">
                     <p>{{item}}</p>
@@ -114,6 +114,21 @@ export default {
           detail: [
             "Dr. Yaping Zhong's research interests include Intelligent Sports and data mining."],
           abstractTitle: 'Frontier Progress in Promoting Health through Exercise Supported by AI'
+        },
+        {
+          img: require('../../../assets/keynote/tianbiao liu.jpg'),
+          name: 'Dr. Tianbiao Liu',
+          introduction: 'Dr. Tianbiao Liu is an Associate Professor at the College of Physical Education and Sports, Beijing Normal University in Beijing, China.',
+          detail: [
+            "Dr. Tianbiao Liu's research interests primarily focus on sports performance analysis, particularly the application of data mining and complex network analysis in team sports tactics and techniques."],
+          abstractTitle: 'The Evolution of Football Tactics from the 2010 to 2022 World Cups: A Social Network Analysis Perspective'
+        },
+        {
+          img: require('../../../assets/keynote/yingcai wu.jpg'),
+          name: 'Prof. Dr. Yingcai Wu',
+          introduction: 'Dr. Yingcai Wu is a Professor at the State Key Lab of CAD & CG, Zhejiang University, Hangzhou, China.',
+          detail: [
+            "Dr. Yingcai Wu's research interests lie in the fields of visual analytics, information visualization, and human-computer interaction, with a particular focus on sport computing, big data analysis, text visualization, and behavior analysis."]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
