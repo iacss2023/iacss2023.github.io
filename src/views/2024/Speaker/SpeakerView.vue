@@ -117,7 +117,7 @@ export default {
         },
         {
           img: require('../../../assets/keynote/tianbiao liu.jpg'),
-          name: 'Dr. Tianbiao Liu',
+          name: 'A.P. Dr. Tianbiao Liu',
           introduction: 'Dr. Tianbiao Liu is an Associate Professor at the College of Physical Education and Sports, Beijing Normal University in Beijing, China.',
           detail: [
             "Dr. Tianbiao Liu's research interests primarily focus on sports performance analysis, particularly the application of data mining and complex network analysis in team sports tactics and techniques."],
