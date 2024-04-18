@@ -129,6 +129,17 @@ export default {
           introduction: 'Dr. Yingcai Wu is a Professor at the State Key Lab of CAD & CG, Zhejiang University, Hangzhou, China.',
           detail: [
             "Dr. Yingcai Wu's research interests lie in the fields of visual analytics, information visualization, and human-computer interaction, with a particular focus on sport computing, big data analysis, text visualization, and behavior analysis."]
+        },
+        {
+          img: require('../../../assets/keynote/John_Komar.png'),
+          name: 'Asst. Prof. Dr. John Komar',
+          introduction: 'Dr. John Komar is an Assistant Professor at the National Institute of Education, Physical Education and Sport Science, Nanyang Technological University, Singapore.',
+          detail: [
+            "Dr. John Komar's research interests include the functional role of movement variability in investigating motor expertise and motor learning, performance analysis in sport, as well as the application of a constraints-led approach in pedagogy. He also conducts research and professional education on the use of data analytics and technology in Education and Sport."],
+          abstractTitle: '"Even if we end up bottom of the table, we must always play our style of football" (M. Sarri): On the importance of flexibility and adaptability of playing styles for performing in football',
+          abstract: [
+            'The aim of this study was to examine the relationship between flexibility, stability, and adaptability of playing style responses throughout the season and team match performance outcomes in professional football. We examined 21,708 matches played in the top five leagues in Europe from the 2014/15 to 2019/20 season. Playing styles used by each team in each match was derived through a Gaussian-Mixture Model clustering of 31 match actions. The relationship between playing style choice and match outcome was also analysed using Multinomial Logistic Regression. However, team and opposition playing style predicted match outcome with low precision (39.78%). Flexibility, stability, and adaptability of playing styles were derived using the coefficient of unalikeability, and relationship with performance outcomes were computed using Pearson’s correlation. Playing style flexibility was positively correlated with both offensive and defensive performance outcomes and win frequency (p < .01). Conversely, teams displaying higher playing style stability conceded more shots in the penalty box but also demonstrated poorer offensive performance outcomes (p < .01). Playing style adaptability, indicative of high flexibility and stability, was positively associated with defensive performance outcomes and win frequency (p < .01). Our results indicate that high playing style variability, rather than mastering one specific style of play, may be a significant indicator of team performance. We therefore suggest that both flexibility and adaptability are key skills to develop during player development pathways. '
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
