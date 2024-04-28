@@ -10,7 +10,7 @@
           Feel free to contact us by sending an email to the three committee members below.
         </div>
         <ul>
-          <li><p><strong>Prof. Dr. Claude Karcher</strong>, Email: claude.karcher@gmail.com</p></li>
+          <li><p><strong>Dr. Claude Karcher</strong>, Email: claude.karcher@gmail.com</p></li>
           <li><p><strong>Prof. Dr. Hui Zhang</strong>, Email:zhang_hui@zju.edu.cn</p></li>
           <li><p><strong>Asst. Prof. Dr. Komar John</strong>, Email: john.komar@nie.edu.sg</p></li>
         </ul>
