@@ -156,6 +156,30 @@ export default {
             'The practical applications of tracking technologies extend beyond physical load assessment to tactical analysis. They enable coaches to dissect game strategies, formations, and player engagements, enhancing tactical planning and execution. For instance, tracking data can be used to refine defensive strategies or optimize offensive setups by analyzing player positioning and movement patterns during various game phases.',
             'Looking to the future, the field of tracking technology in handball is poised for further innovation. Emerging trends suggest a shift towards integrated systems that combine different types of data collection technologies, offering a more holistic view of player performance and game dynamics. The integration of artificial intelligence and machine learning could further enhance the predictive accuracy of these systems, leading to more personalized and effective training and recovery programs.'
           ]
+        },
+        {
+          img: require('../../../assets/keynote/daniel_link.jpg'),
+          name: 'Prof. Dr. Daniel Link',
+          introduction: 'Dr. Daniel Link is a professor for Performance Analysis and Sports Analytics at Technical University Munich, Germany.',
+          detail: [
+            "Dr. Daniel Link's research deals with the systematics of training and competition as well as the digitalization of sports. This includes technological aspects of data acquisition, mathematical model-ing of performance phenomena, and visualization and analysis of data in sports. One focus of his work lies on using spatio-temporal data in team sports, e.g., by applying approaches from artificial intelligence and the development of physical and technical-tactical performance metrics. Daniel Link supports federations and top-level teams in implementing game analysis. He is a reviewer for scientific journals, member of various international scientific organizations and acts as a reviewer for the main German founding agency for sport science."],
+          abstractTitle: 'On the road to Paris 2024 - Anticipation Training in Beach Volleyball Using VR goggles',
+          abstract: [
+            'Performance data has played a decisive role in game sports for decades. This applies both to opponent analysis for match preparation and to self-analysis for training control. In beach volleyball in particular, in addition to an effective serve, anticipation of the opponent\'s attack is crucial for a successful block/defense performance. This talk will present a joined project of Technical University Munich and the German Volleyball federation aiming to improve the anticipation of German national players in preparation of 2024 Olympics. The key idea of the project is to use video recordings of opponents and fade out the video short before the opponent player attacks the ball on the third contact. Players had to find visual cues which allow them to estimate the attacking technique (spike vs shot) and the direction (line vs. cross). In order to gain a deeper understanding of eye movements during anticipation per-formance in a defensive situation, an additional study of eye movements was carried out on national team players using eye tracking. Initial results show that national players clearly stand out from amateur players in terms of the prediction quality of defense-relevant ques-tions about the type and direction of an attacking shot. Furthermore, it was shown that the eye movements of top players and amateur players also differ, which may be a reason for their better anticipation skills.']
+        },
+        {
+          img: require('../../../assets/keynote/brice_guignard.jpg'),
+          name: 'Asst. Prof. Dr. Brice Guignard',
+          introduction: 'Dr. Brice Guignard is an assistant professor at Inter-university Laboratory of Human Movement Sciences at Universite Claude Bernard Lyon 1, France.',
+          detail: [
+            "Dr. Brice Guignard's research interests include motor control analyses and biomechanics measurements applied to swimming or to the prediction of behaviors in professional handball from local positioning system (LPS) data acquisition."],
+          abstractTitle: 'Scoring in Handball: What additional insights can ball tracking provide alongside player tracking data?',
+          abstract: [
+            'Today, certain player tracking technologies in handball are being used in some international competitions to collect various metrics that can be presented in real-time or at halftime to spectators.',
+            'During our presentation, we will focus particularly on the data derived from player positions, but also and especially on ball data registered with LPS. Indeed, these systems capture the ball\'s position in 3 dimensions over time, approximately from 20 to 50 times per second.',
+            'Through video analysis of 4 matches from a women\'s European championship, we have sequenced all shots from both teams, and we will compare this collection of objective data (timing of the shot; team that shot; result of the shot; additional info of the game context) with the LPS system recordings. This LPS analysis would allow to extract a set of metrics that accurately characterize the shots: the speed/acceleration of the ball; its coordinates on the field at the moment of the shot; the distance between the shot and the goal; the angle between the ball, the center of the goal, and the goalkeeper; the result of the shot: goal or not; the positioning of the ball in the goal when it crosses the line; etc.',
+            'Ultimately, the objective of this work is to develop a model (for example an algorithm based on machine learning principles) that could automatically extract each shot from the match, along with contextual information (goalkeeper behavior, defensive positioning, technical characteristics of the shot, decision-making by the player responsible for the shot, etc.).'
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
