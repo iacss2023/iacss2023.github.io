@@ -182,6 +182,17 @@ export default {
             'Through video analysis of 4 matches from a women\'s European championship, we have sequenced all shots from both teams, and we will compare this collection of objective data (timing of the shot; team that shot; result of the shot; additional info of the game context) with the LPS system recordings. This LPS analysis would allow to extract a set of metrics that accurately characterize the shots: the speed/acceleration of the ball; its coordinates on the field at the moment of the shot; the distance between the shot and the goal; the angle between the ball, the center of the goal, and the goalkeeper; the result of the shot: goal or not; the positioning of the ball in the goal when it crosses the line; etc.',
             'Ultimately, the objective of this work is to develop a model (for example an algorithm based on machine learning principles) that could automatically extract each shot from the match, along with contextual information (goalkeeper behavior, defensive positioning, technical characteristics of the shot, decision-making by the player responsible for the shot, etc.).'
           ]
+        },
+        {
+          img: require('../../../assets/keynote/florentina_hettinga.jpg'),
+          name: 'Prof. Dr. Florentina Hettinga',
+          introduction: 'A professor at the Department of Sport, Exercise and Rehabilitation at Northumbria University.',
+          detail: [
+            "Dr Florentina Hettinga's research work revolves around exercise and exercise engagement in people with chronic conditions and/or disability, with a particular focus on fatigue, self-regulation and exercise motivation. She is involved in well-funded and impactful multi-center and cross-University projects on these topics, such as ReSpAct and ErasmusPlus IDEAL. Also, competition in elite athletes is a major topic of her research. She explores head-to-head competition in middle distance and endurance sports, both in the lab as well as in the field, and developed a framework to better understand competitive performance, pacing and in-race decision-making, interactions between athletes and potential ways to enhance training and performance using avatars. She explored novel ways to analyse large datasets of competitive performances to better understand athletes’ tactical decision-making and pacing. She is honoured to hold Fellowships of BASES, ECSS and ACSM, and is Editor-in-Chief of the Diamond open-access journal ‘European Journal of Adapted Physical Activity’."],
+          abstractTitle: 'Sport Informatics in Speed Skating',
+          abstract: [
+            'Competition between athletes is central to sport. Athletes need to determine how and when to invest their limited energy resources to optimise and self-regulate their pace. In this process, they are incorporating their physiological and biomechanical capacity as well as environmental factors, such as the presence and behaviour of another athlete. In the Winter Olympic sport of speed skating, pacing and tactics are thus of crucial importance either when racing in a time trial (long track skating) or racing in heats competing directly (head-to-head) against other competitors. In this presentation, I will overview some of the ways we have explored and analysed pacing and tactics in different sport situations. I will also discuss potential applications in Summer Olympic Sports such as athletics/running, swimming, rowing and cycling.'
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
