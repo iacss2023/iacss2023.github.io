@@ -58,20 +58,22 @@ export default {
           img: require('../../../assets/keynote/martin_lames.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Martin Lames',
-          introduction: 'Martin Lames is currently the Professor and Chairholder of Performance Analysis and Sports Informatics at Technical University of Munich.',
+          introduction: 'A Professor and Chairholder of Performance Analysis and Sports Informatics at Technical University of Munich.',
           detail: [
             'He received his doctoral degree (doctor of sports science) from Johannes Gutenberg University, Mainz. His habilitation in sports science is from Christian-Albrechts University, Kiel. Before his current position, he was a professor at the universities of Rostock and Augsburg.',
-            'His main research areas are game sports and talent development. His research activities in game sports focus on concepts and methods for practical support, e.g., for German national teams in handball, beach volleyball, para table tennis, and wheelchair rugby. Mathematical modelling of game sports using state-transition models, recurrence analysis or social network analysis plays a role as well. A recent field of interest is to find ways of dealing with the widely acknowledged nature of game sports as dynamic interaction processes with emergent behavior. Here, dynamical systems theory with synergetics and chaos comes into play, as well as empirical proof of chance effects and their impact on match and season results.',
-            'In addition to these practical and theoretical activities, there is a methodological interest in promoting methods in performance analysis. In earlier times, the design and validation of observational systems was dominant, but in the last two decades, methods of position detection came into reach. Actual topics here are the design of validation studies for the different technologies of position detection in sports and special problems such as comparability and gold standard development.',
-            'During the decades of his scientific activities, informatics became an increasingly valuable tool for supporting practical and theoretical performance analysis. This has led to the foundation of the scientific discipline of sports informatics. Martin Lames was involved in the foundation of IACSS, a scientific umbrella organization for interdisciplinary groups applying informatics in sports. He was member of the founding board, general secretary, from 2013 to 2022 president and is now one of the honorary presidents of IACSS.',
-            'He recently published a textbook “Performance Analysis in Game Sports – Concepts and Methods”. One of its main messages is that we mustn’t forget that the properties of game sports that cause troubles for scientists, e.g., emergence and unpredictability, are the reason why they are so attractive for spectators and media, i.e., why they exist.'
+            "Dr. Martin Lames's main research areas are game sports and talent development. His research activities in game sports focus on concepts and methods for practical support, e.g., for German national teams in handball, beach volleyball, para table tennis, and wheelchair rugby. Mathematical modelling of game sports using state-transition models, recurrence analysis or social network analysis plays a role as well. A recent field of interest is to find ways of dealing with the widely acknowledged nature of game sports as dynamic interaction processes with emergent behavior. Here, dynamical systems theory with synergetics and chaos comes into play, as well as empirical proof of chance effects and their impact on match and season results."
+          ],
+          abstractTitle: 'Research strategies for Practical Performance Analysis (PPA)',
+          abstract: [
+            'There are many good reasons to distinguish two sub-disciplines in performance analysis, theoretical and practical performance analysis (TPA and PPA). The differences concern for example research strategies (basic research vs evaluation), basic approaches (quantitative vs qualitative), research aims (general laws vs support for practice) and methodological issues (representative samples vs single case studies).',
+            'As the overwhelming majority of published studies is from TPA, it is rewarding to identify possible research strategies, topics and suited methods for investigations in PPA. First approaches in the literature deal with the social role of analysts, their working conditions and requirements for their job. There is only scarce information what actually happens in the “magical analysis box” found in many PPA workflows. The talk aims at collecting information about this with input from the participants and at identifying future research directions.'
           ]
         },
         {
           img: require('../../../assets/keynote/hui zhang.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Hui Zhang',
-          introduction: 'Dr. Hui Zhang is a Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
+          introduction: 'A Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
           detail: [
             "Dr. Hui Zhang's research interests revolve around sports performance analysis, encompassing modeling, data mining, simulation, and prediction. Particularly, he specializes in both theoretical and applied dimensions of table tennis tactical analysis. Dr. Hui Zhang holds a longstanding position as the principal expert in match analysis for the Chinese table tennis team and has contributed as a technical analyst during their campaigns in the Beijing, London, and Tokyo Olympics."
           ],
@@ -83,7 +85,7 @@ export default {
         {
           img: require('../../../assets/keynote/Passfoto_witte.jpg'),
           name: 'Prof. Dr. Kerstin Witte',
-          introduction: 'Dr. Kerstin Witte is a Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
+          introduction: 'A Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
           detail: [
             "Dr. Kerstin Witte's research interests include human movement sciences, sports equipment technology/sports technology, biomechanical modeling, performance diagnostics, and application for the following sports (running, karate, horse riding, swimming, rowing)."],
           abstractTitle: 'Sensor-based technique diagnostics in Olympic Hammer Throw and Shot Put for Athletes and Para-Athletes',
@@ -98,7 +100,7 @@ export default {
         {
           img: require('../../../assets/keynote/dietmar saupe.jpg'),
           name: 'Prof. Dr. Dietmar Saupe',
-          introduction: 'Dr. Dietmar Saupe is a Professor of Department of Computer and Information Science, University of Konstanz, Konstanz, Germany.',
+          introduction: 'A Professor of Department of Computer and Information Science, University of Konstanz, Konstanz, Germany.',
           detail: [
             "Dr. Dietmar Saupe's research interests include Multimedia Signal Processing, Computer Graphics, Scientific Visualization, Image Processing, and Sport Informatics. Specific recent research projects (Image and Video quality assessment and Sport informatics - Analysis and modeling of parameters in endurance sports)"],
           abstractTitle: 'Estimation of Heart Rate Response and Recovery from Field Rides',
@@ -110,7 +112,7 @@ export default {
         {
           img: require('../../../assets/keynote/yaping_zhong.jpg'),
           name: 'Prof. Dr. Yaping Zhong',
-          introduction: 'Dr. Yaping Zhong is a Professor in Sports Big-data Research Center at Wuhan Sports University, Wuhan, China.',
+          introduction: 'A Professor in Sports Big-data Research Center at Wuhan Sports University, Wuhan, China.',
           detail: [
             "Dr. Yaping Zhong's research interests include Intelligent Sports and data mining."],
           abstractTitle: 'Frontier Progress in Promoting Health through Exercise Supported by AI'
@@ -118,7 +120,7 @@ export default {
         {
           img: require('../../../assets/keynote/tianbiao liu.jpg'),
           name: 'A.P. Dr. Tianbiao Liu',
-          introduction: 'Dr. Tianbiao Liu is an Associate Professor at the College of Physical Education and Sports, Beijing Normal University in Beijing, China.',
+          introduction: 'An Associate Professor at the College of Physical Education and Sports, Beijing Normal University in Beijing, China.',
           detail: [
             "Dr. Tianbiao Liu's research interests primarily focus on sports performance analysis, particularly the application of data mining and complex network analysis in team sports tactics and techniques."],
           abstractTitle: 'The Evolution of Football Tactics from the 2010 to 2022 World Cups: A Social Network Analysis Perspective'
@@ -126,14 +128,14 @@ export default {
         {
           img: require('../../../assets/keynote/yingcai wu.jpg'),
           name: 'Prof. Dr. Yingcai Wu',
-          introduction: 'Dr. Yingcai Wu is a Professor at the State Key Lab of CAD & CG, Zhejiang University, Hangzhou, China.',
+          introduction: 'A Professor at the State Key Lab of CAD & CG, Zhejiang University, Hangzhou, China.',
           detail: [
             "Dr. Yingcai Wu's research interests lie in the fields of visual analytics, information visualization, and human-computer interaction, with a particular focus on sport computing, big data analysis, text visualization, and behavior analysis."]
         },
         {
           img: require('../../../assets/keynote/John_Komar.png'),
           name: 'Asst. Prof. Dr. John Komar',
-          introduction: 'Dr. John Komar is an Assistant Professor at the National Institute of Education, Physical Education and Sport Science, Nanyang Technological University, Singapore.',
+          introduction: 'An Assistant Professor at the National Institute of Education, Physical Education and Sport Science, Nanyang Technological University, Singapore.',
           detail: [
             "Dr. John Komar's research interests include the functional role of movement variability in investigating motor expertise and motor learning, performance analysis in sport, as well as the application of a constraints-led approach in pedagogy. He also conducts research and professional education on the use of data analytics and technology in Education and Sport."],
           abstractTitle: '"Even if we end up bottom of the table, we must always play our style of football" (M. Sarri): On the importance of flexibility and adaptability of playing styles for performing in football',
@@ -144,7 +146,7 @@ export default {
         {
           img: require('../../../assets/keynote/karcher-claude.png'),
           name: 'Dr. Claude Karcher',
-          introduction: 'Dr. Claude Karcher is a High performance optimization advisor at CREPS de Strasbourg, France. He is also an EHF expert and works for the French handball federation research team.',
+          introduction: 'A High performance optimization advisor at CREPS de Strasbourg, France. He is also an EHF expert and works for the French handball federation research team.',
           detail: [
             "Dr. Claude Karcher's research interests include optimising performance and medical monitoring. He has professional skills in handball training and scientific surveillance."],
           abstractTitle: 'Enhancing Handball Performance: The Impact and Evolution of Tracking Technologies',
@@ -160,7 +162,7 @@ export default {
         {
           img: require('../../../assets/keynote/daniel_link.jpg'),
           name: 'Prof. Dr. Daniel Link',
-          introduction: 'Dr. Daniel Link is a professor for Performance Analysis and Sports Analytics at Technical University Munich, Germany.',
+          introduction: 'A professor for Performance Analysis and Sports Analytics at Technical University Munich, Germany.',
           detail: [
             "Dr. Daniel Link's research deals with the systematics of training and competition as well as the digitalization of sports. This includes technological aspects of data acquisition, mathematical model-ing of performance phenomena, and visualization and analysis of data in sports. One focus of his work lies on using spatio-temporal data in team sports, e.g., by applying approaches from artificial intelligence and the development of physical and technical-tactical performance metrics. Daniel Link supports federations and top-level teams in implementing game analysis. He is a reviewer for scientific journals, member of various international scientific organizations and acts as a reviewer for the main German founding agency for sport science."],
           abstractTitle: 'On the road to Paris 2024 - Anticipation Training in Beach Volleyball Using VR goggles',
@@ -170,7 +172,7 @@ export default {
         {
           img: require('../../../assets/keynote/brice_guignard.jpg'),
           name: 'Asst. Prof. Dr. Brice Guignard',
-          introduction: 'Dr. Brice Guignard is an assistant professor at Inter-university Laboratory of Human Movement Sciences at Universite Claude Bernard Lyon 1, France.',
+          introduction: 'An assistant professor at Inter-university Laboratory of Human Movement Sciences at Universite Claude Bernard Lyon 1, France.',
           detail: [
             "Dr. Brice Guignard's research interests include motor control analyses and biomechanics measurements applied to swimming or to the prediction of behaviors in professional handball from local positioning system (LPS) data acquisition."],
           abstractTitle: 'Scoring in Handball: What additional insights can ball tracking provide alongside player tracking data?',
