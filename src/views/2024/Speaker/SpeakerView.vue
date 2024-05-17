@@ -55,7 +55,7 @@ export default {
       chosenSpeaker: {},
       speakers: [
         {
-          img: require('../../../assets/keynote/martin_lames.jpg'),
+          img: require('../../../assets/speakers/martin_lames.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Martin Lames',
           introduction: 'A Professor and Chairholder of Performance Analysis and Sports Informatics at Technical University of Munich.',
@@ -70,7 +70,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/hui zhang.jpg'),
+          img: require('../../../assets/speakers/hui zhang.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Hui Zhang',
           introduction: 'A Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
@@ -83,7 +83,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/Passfoto_witte.jpg'),
+          img: require('../../../assets/speakers/Passfoto_witte.jpg'),
           name: 'Prof. Dr. Kerstin Witte',
           introduction: 'A Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
           detail: [
@@ -98,7 +98,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/dietmar saupe.jpg'),
+          img: require('../../../assets/speakers/dietmar saupe.jpg'),
           name: 'Prof. Dr. Dietmar Saupe',
           introduction: 'A Professor of Department of Computer and Information Science, University of Konstanz, Konstanz, Germany.',
           detail: [
@@ -110,7 +110,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/yaping_zhong.jpg'),
+          img: require('../../../assets/speakers/yaping_zhong.jpg'),
           name: 'Prof. Dr. Yaping Zhong',
           introduction: 'A Professor in Sports Big-data Research Center at Wuhan Sports University, Wuhan, China.',
           detail: [
@@ -118,7 +118,7 @@ export default {
           abstractTitle: 'Frontier Progress in Promoting Health through Exercise Supported by AI'
         },
         {
-          img: require('../../../assets/keynote/tianbiao liu.jpg'),
+          img: require('../../../assets/speakers/tianbiao liu.jpg'),
           name: 'A.P. Dr. Tianbiao Liu',
           introduction: 'An Associate Professor at the College of Physical Education and Sports, Beijing Normal University in Beijing, China.',
           detail: [
@@ -126,14 +126,14 @@ export default {
           abstractTitle: 'The Evolution of Football Tactics from the 2010 to 2022 World Cups: A Social Network Analysis Perspective'
         },
         {
-          img: require('../../../assets/keynote/yingcai wu.jpg'),
+          img: require('../../../assets/speakers/yingcai wu.jpg'),
           name: 'Prof. Dr. Yingcai Wu',
           introduction: 'A Professor at the State Key Lab of CAD & CG, Zhejiang University, Hangzhou, China.',
           detail: [
             "Dr. Yingcai Wu's research interests lie in the fields of visual analytics, information visualization, and human-computer interaction, with a particular focus on sport computing, big data analysis, text visualization, and behavior analysis."]
         },
         {
-          img: require('../../../assets/keynote/John_Komar.png'),
+          img: require('../../../assets/speakers/John_Komar.png'),
           name: 'Asst. Prof. Dr. John Komar',
           introduction: 'An Assistant Professor at the National Institute of Education, Physical Education and Sport Science, Nanyang Technological University, Singapore.',
           detail: [
@@ -144,7 +144,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/karcher-claude.png'),
+          img: require('../../../assets/speakers/karcher-claude.png'),
           name: 'Dr. Claude Karcher',
           introduction: 'A High performance optimization advisor at CREPS de Strasbourg, France. He is also an EHF expert and works for the French handball federation research team.',
           detail: [
@@ -160,7 +160,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/daniel_link.jpg'),
+          img: require('../../../assets/speakers/daniel_link.jpg'),
           name: 'Prof. Dr. Daniel Link',
           introduction: 'A professor for Performance Analysis and Sports Analytics at Technical University Munich, Germany.',
           detail: [
@@ -170,7 +170,7 @@ export default {
             'Performance data has played a decisive role in game sports for decades. This applies both to opponent analysis for match preparation and to self-analysis for training control. In beach volleyball in particular, in addition to an effective serve, anticipation of the opponent\'s attack is crucial for a successful block/defense performance. This talk will present a joined project of Technical University Munich and the German Volleyball federation aiming to improve the anticipation of German national players in preparation of 2024 Olympics. The key idea of the project is to use video recordings of opponents and fade out the video short before the opponent player attacks the ball on the third contact. Players had to find visual cues which allow them to estimate the attacking technique (spike vs shot) and the direction (line vs. cross). In order to gain a deeper understanding of eye movements during anticipation per-formance in a defensive situation, an additional study of eye movements was carried out on national team players using eye tracking. Initial results show that national players clearly stand out from amateur players in terms of the prediction quality of defense-relevant ques-tions about the type and direction of an attacking shot. Furthermore, it was shown that the eye movements of top players and amateur players also differ, which may be a reason for their better anticipation skills.']
         },
         {
-          img: require('../../../assets/keynote/brice_guignard.jpg'),
+          img: require('../../../assets/speakers/brice_guignard.jpg'),
           name: 'Asst. Prof. Dr. Brice Guignard',
           introduction: 'An assistant professor at Inter-university Laboratory of Human Movement Sciences at Universite Claude Bernard Lyon 1, France.',
           detail: [
@@ -184,7 +184,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/keynote/florentina_hettinga.jpg'),
+          img: require('../../../assets/speakers/florentina_hettinga.jpg'),
           name: 'Prof. Dr. Florentina Hettinga',
           introduction: 'A professor at the Department of Sport, Exercise and Rehabilitation at Northumbria University.',
           detail: [
@@ -192,6 +192,17 @@ export default {
           abstractTitle: 'Sport Informatics in Speed Skating',
           abstract: [
             'Competition between athletes is central to sport. Athletes need to determine how and when to invest their limited energy resources to optimise and self-regulate their pace. In this process, they are incorporating their physiological and biomechanical capacity as well as environmental factors, such as the presence and behaviour of another athlete. In the Winter Olympic sport of speed skating, pacing and tactics are thus of crucial importance either when racing in a time trial (long track skating) or racing in heats competing directly (head-to-head) against other competitors. In this presentation, I will overview some of the ways we have explored and analysed pacing and tactics in different sport situations. I will also discuss potential applications in Summer Olympic Sports such as athletics/running, swimming, rowing and cycling.'
+          ]
+        },
+        {
+          img: require('../../../assets/speakers/Fabian_Hammes.jpg'),
+          name: 'Fabian Hammes',
+          introduction: 'A PhD candidate at the Chair of Performance Analysis and Sports Informatics at the Technical University of Munich, Germany.',
+          detail: [
+            'Fabian Hammes has a background in Information Systems, having obtained a master’s degree from Saarland University in 2015. His current focus lies in the realm of “Data Analytics in Badminton Match Analysis” for his PhD. This multifaceted research delves into both the technical aspects of data collection and the intricate tactical structures within a match. Driven by a profound passion for badminton, stemming from his time as a member of the German national team until 2012, he sought to amalgamate his academic expertise in data processing with his profound understanding of sports. Alongside his academic pursuits, he is also actively engaged as a data scientist at a prominent B2B provider in Germany, specializing in content, software, and training for corporate services.'],
+          abstractTitle: 'End-to-End-Workflow of Match Analysis in the German Badminton National Team',
+          abstract: [
+            'Data-driven match analysis is essential in preparing the German national badminton team for competitions. In diverse projects funded by the Federal Institute for Sports Sciences (BISp), we developed a standardized workflow for tactical match analysis in the singles disciplines. This workflow contains automatic‒supported by Computer Vision technology‒and manually executed tasks. With this procedure, we help the national coaches efficiently identify their players\' and opponents\' tactical preferences and weaknesses.'
           ]
         }
         // {
