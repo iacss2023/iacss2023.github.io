@@ -5,6 +5,10 @@
       <div class="view-main">
         <div class="view-text">
           <p>Here you can find some options for accommodation in Strasbourg. Please note that these are suggestions of a third party vendor`s service. Any activity, including purchase made, on the third party service shall be governed by such third party vendor`s terms and conditions.</p>
+          <p>We recommend the Best Western Plus Hôtel Monopole Métropole. If you need to make a reservation, please contact claude.karcher@creps-strasbourg.sports.gouv.fr via email. The introduction of the hotel is as follows.</p>
+          <iframe id="myframe"
+                  src="/hotel.pdf"
+                  width="800" height="500" frameborder="0"></iframe>
         </div>
         <hr class="hr-block-wrapper">
         <div v-for="hotel in hotels" class="view-section" :key="hotel">
