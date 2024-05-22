@@ -204,6 +204,17 @@ export default {
           abstract: [
             'Data-driven match analysis is essential in preparing the German national badminton team for competitions. In diverse projects funded by the Federal Institute for Sports Sciences (BISp), we developed a standardized workflow for tactical match analysis in the singles disciplines. This workflow contains automatic‒supported by Computer Vision technology‒and manually executed tasks. With this procedure, we help the national coaches efficiently identify their players\' and opponents\' tactical preferences and weaknesses.'
           ]
+        },
+        {
+          img: require('../../../assets/speakers/Florian Leimeister.jpg'),
+          name: 'Florian Leimeister',
+          introduction: 'A PhD candidate at the Department Health and Sports Science at the Technical University of Munich, Germany.',
+          detail: [
+            'Florian Leimeister\'s research interest revolves Talent Development with a focus on Bio-Banding in Youth Soccer.He has gained substantial experience as a Fitness Coach and Sports Scientist, particularly at SpVgg Greuther Fürth\'s First Team and Youth Academy, where he has served in various leadership roles, including as the Head of Medicine & Sports Science and Head of Physical Performance. His expertise lies in talent development, performance analysis, strength and conditioning coaching, and rehabilitation coaching.'],
+          abstractTitle: 'Impact of Maturation on Talent Development in Olympic Team Sports',
+          abstract: [
+            'Biological maturity significantly impacts talent development in Olympic team sports, often giving early-maturing athletes an edge. To address this, Bio-Banding categorizes teams by maturity levels, promoting equitable competition and talent identification. The concept\'s potential and the challenges of assessing maturity are discussed, along with its effectiveness in youth soccer compared to chronological age-based systems.'
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
