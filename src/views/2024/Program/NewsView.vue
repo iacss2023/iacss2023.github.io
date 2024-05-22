@@ -3,16 +3,18 @@
     <div class="view-container">
       <div class="view-title">Workshop News</div>
       <div class="view-main">
+        <div class="view-section">
+          <div class="view-section-title small">IACSS Workshop Notification</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>After discussions among the organizing committee, here are the details regarding applications, conference fees, and hotel reservations for the IACSS Workshop 2024:</p>
+          <p>(1) Application Deadline: The deadline for applying to participate in the IACSS Workshop 2024 is <strong>June 30th</strong>.</p>
+          <p>(2) Conference Fee: The participation fee is 150 euros. Please wait for further instructions regarding the payment process.</p>
+          <p>(3) Hotel Recommendation: We recommend the Best Western Plus Hôtel Monopole Métropole. If you need to make a reservation, please contact claude.karcher@creps-strasbourg.sports.gouv.fr via email.</p>
+          <p>We look forward to seeing you in Strasbourg in July!</p>
+          <p>The Organizing Committee</p>
+          <p>May 22, 2024</p>
+        </div>
       </div>
-        <div class="view-section-title">TBD</div>
-<!--        <div class="view-section">-->
-<!--&lt;!&ndash;          <p>It is with great pleasure that we can announce that from the 27-30th of September 2023 the 14th International Symposium on Computer Science in Sport will be held at the Zhejiang University, Hangzhou.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;          <p>The program will include presentations from renowned keynote speakers and leading experts, as well as oral and poster presentations from world-class researchers touching on cutting edge subjects and newest technologies from the field of Computer Science in Sport.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;          <p>The keynote sessions will be critical reviews of the most recent and key issues in Computer Science in Sport, with recommendations for future research and avenues for real world application delivered by the most renowned academics and practitioners in the field.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;          <p>The oral sessions will be themed to reflect the desires of the Congress participants to ensure that sessions maximise the opportunity to share, engage with and reflect upon cutting edge questions in particular interest areas.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;          <p>The poster sessions will be organised to permit delivery of key messages by authors, whilst permitting time for all delegates to mix, interact and develop academic friendships through research and endeavour in computer science in sport.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;        </div>&ndash;&gt;-->
-<!--      </div>-->
     </div>
   </div>
 </template>

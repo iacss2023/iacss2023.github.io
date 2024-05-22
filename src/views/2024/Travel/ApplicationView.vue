@@ -15,7 +15,7 @@
         </div>
         <div class="view-section">
           <div class="view-section-title">Participation fee</div>
-          <p>All participants will have a standardized participation fee of €100, please watch for the response email to the application for details on how to pay the fee.</p>
+          <p>All participants will have a standardized participation fee of <del>€100</del> €150, please watch for the response email to the application for details on how to pay the fee.</p>
         </div>
       </div>
     </div>

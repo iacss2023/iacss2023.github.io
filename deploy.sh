@@ -15,6 +15,7 @@ git add -A
 git commit -m 'deploy'
 
 # 提交到 https://github.com:projectname 项目的 gh-pages 分支
+# git checkout -b master，如果本地初次建立git是变到main分支的话
 git push -f git@github.com:iacss2023/iacss2023.github.io.git master:gh-pages
 
 cd -
