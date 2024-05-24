@@ -215,6 +215,17 @@ export default {
           abstract: [
             'Biological maturity significantly impacts talent development in Olympic team sports, often giving early-maturing athletes an edge. To address this, Bio-Banding categorizes teams by maturity levels, promoting equitable competition and talent identification. The concept\'s potential and the challenges of assessing maturity are discussed, along with its effectiveness in youth soccer compared to chronological age-based systems.'
           ]
+        },
+        {
+          img: require('../../../assets/speakers/Ruizhi Liu.jpg'),
+          name: 'Ruizhi Liu',
+          introduction: 'A PhD candidate at the Chair of Performance Analysis and Sports Informatics at the Technical University of Munich, Germany.',
+          detail: [
+            'Ruizhi Liu\'s research interest mainly focus on the performance analysis of table tennis, particularly the theoretical modelling and practical analysis.'],
+          abstractTitle: 'Beyond the Scoreboard: Theoretical and Empirical Insights into Table Tennis Scores',
+          abstract: [
+            'Unlike tennis, table tennis scores are ever-changing and numerous, which has led to a lack of in-depth studies on their importance.  This study investigates the significance and point-winning probabilities of table tennis scores from both theoretical and practical perspectives.  Utilising a recursive method, the authors calculated the importance values for 121 distinct scores across different preset overall winning probabilities and validated these values with data from over one thousand matches.  Their findings show a positive correlation between the theoretical importance of a score and its practical point-winning probability.  This research offers a novel and comprehensive approach to understanding score dynamics in table tennis, combining mathematical modelling with practical analysis to provide valuable insights into the criticality of each score throughout a game.'
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
