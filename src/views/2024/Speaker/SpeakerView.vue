@@ -238,6 +238,18 @@ export default {
           abstract: [
             "There are three main parts of scientific research related to table tennis matches. The first part is data collection, which mainly use computer vision to identify the scoreboard, stroke scenes, ball, and human postures in the video, and develop a system for video intelligence and interactive collection to improve the collection efficiency. The second part is data processing and analysis. An intelligent analysis system is constructed to obtain the players' stroke information through coding indicators, and use algorithms and models such as data mining, decision trees, artificial neural networks, Markov chains, and competitive benefit values to quickly and accurately analyze and simulate the players' technical and tactical characteristics. The third part is the application of data results, such as the visualization of multi-dimensional technical and tactical data and multiple competition situations, scientific training and competition."
           ]
+        },
+        {
+          img: require('../../../assets/speakers/Frederic Rothe.jpg'),
+          name: 'Frederic Rothe',
+          introduction: 'A PhD candidate at the Chair of Performance Analysis and Sports Informatics at the Technical University of Munich, Germany.',
+          detail: [
+            'Frederic Rothe has a background in sports science and obtained his master’s degree in sport and exercise science from the Technical University of Munich in 2021. His research interest lies in the performance analysis of game sports with a particular interest in mathematical modelling and simulations.'
+          ],
+          abstractTitle: 'Estimating the Relevance of Table Tennis Tactical Behavior Using Simulations Based on a Finite Markov Chain Model',
+          abstract: [
+            'Determining the relevance of specific tactical behaviors is a key issue in understanding the game structure of net games like table tennis as well as game sports in general. Additionally, in a more practical context, it is crucial for coaches and players to identify key tactical behaviors contributing to match performance. This talk addresses these issues, presenting a method of employing simulations based on finite Markov chain modelling to estimate the relevance of table tennis tactical behavior. The transitions matrix, which serves as the basis for the finite Markov chain model, incorporates match data from the men’s and women’s single competition at the 2020 Tokyo Olympics. By inducing proportional changes in state transitions representing tactical behaviors, the impact of these changes on calculated point wining probability is used to assess their relevance for match performance. This may provide relevant insights regarding general game structure as well as when analyzing individual match performances of Olympic athletes.'
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
