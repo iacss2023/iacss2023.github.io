@@ -226,6 +226,18 @@ export default {
           abstract: [
             'Unlike tennis, table tennis scores are ever-changing and numerous, which has led to a lack of in-depth studies on their importance.  This study investigates the significance and point-winning probabilities of table tennis scores from both theoretical and practical perspectives.  Utilising a recursive method, the authors calculated the importance values for 121 distinct scores across different preset overall winning probabilities and validated these values with data from over one thousand matches.  Their findings show a positive correlation between the theoretical importance of a score and its practical point-winning probability.  This research offers a novel and comprehensive approach to understanding score dynamics in table tennis, combining mathematical modelling with practical analysis to provide valuable insights into the criticality of each score throughout a game.'
           ]
+        },
+        {
+          img: require('../../../assets/speakers/zheng zhou.png'),
+          name: 'Asst. Prof. Dr. Zheng Zhou',
+          introduction: 'An Assistant Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
+          detail: [
+            'Dr. Zheng Zhou is dedicated to research in the field of intelligent collection, analysis, and application of table tennis matches. He has developed the table tennis match intelligent collection and analysis system, China table tennis big data platform, etc., and collects video data of tens of thousands of table tennis matches from 2017-2024.\n' +
+            'Dr. Zheng Zhou constructed the technical and tactical benefit model, the competition situation model, and the mediation effect model based on the application effect of techniques and tactics in table tennis matches, the competitive performance of players in different stages of the game and different score situations, and the mutual influence relationship between the strokes of players, helping the Chinese table tennis team win more than 30 gold medals in major competitions such as the Olympics and the World Championships.\n'],
+          abstractTitle: 'Intelligent Analysis of Table Tennis Match Data',
+          abstract: [
+            "There are three main parts of scientific research related to table tennis matches. The first part is data collection, which mainly use computer vision to identify the scoreboard, stroke scenes, ball, and human postures in the video, and develop a system for video intelligence and interactive collection to improve the collection efficiency. The second part is data processing and analysis. An intelligent analysis system is constructed to obtain the players' stroke information through coding indicators, and use algorithms and models such as data mining, decision trees, artificial neural networks, Markov chains, and competitive benefit values to quickly and accurately analyze and simulate the players' technical and tactical characteristics. The third part is the application of data results, such as the visualization of multi-dimensional technical and tactical data and multiple competition situations, scientific training and competition."
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),
