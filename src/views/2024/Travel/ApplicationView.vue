@@ -15,7 +15,15 @@
         </div>
         <div class="view-section">
           <div class="view-section-title">Participation fee</div>
-          <p>All participants will have a standardized participation fee of <del>€100</del> €150, please watch for the response email to the application for details on how to pay the fee.</p>
+          <p>All participants will have a standardized participation fee of <del>€100</del> €150.</p>
+          <p>The payment information is as follows, please make the bank transfer in time. When we receive it, we will send you the confirmation information immediately.</p>
+          <ul>
+            <li>Account holder: Intern Association of Computer Science in Sport</li>
+            <li>BIC: TRWIBEB1XXX</li>
+            <li>IBAN: BE73 9673 6103 3760</li>
+            <li>Bank Address (Wise): Rue du Trône 100, 3rd floor Brussels 1050 Belgium</li>
+          </ul>
+          <p></p>
         </div>
       </div>
     </div>

@@ -4,6 +4,15 @@
       <div class="view-title">Workshop News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Application fee notification</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>The payment information for the conference application fee has been updated, please refer to the <span class="link_text" @click="$router.push('/2024/application')">application page</span>.</p>
+          <p>After receiving the application fee, we will send you the confirmation information immediately.</p>
+          <p>We look forward to seeing you in Strasbourg in July!</p>
+          <p>The Organizing Committee</p>
+          <p>July 9, 2024</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">IACSS Workshop Notification</div>
           <p>Dear Colleagues and Friends,</p>
           <p>After discussions among the organizing committee, here are the details regarding applications, conference fees, and hotel reservations for the IACSS Workshop 2024:</p>
