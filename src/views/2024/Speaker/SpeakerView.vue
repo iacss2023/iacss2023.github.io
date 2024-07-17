@@ -250,6 +250,18 @@ export default {
           abstract: [
             'Determining the relevance of specific tactical behaviors is a key issue in understanding the game structure of net games like table tennis as well as game sports in general. Additionally, in a more practical context, it is crucial for coaches and players to identify key tactical behaviors contributing to match performance. This talk addresses these issues, presenting a method of employing simulations based on finite Markov chain modelling to estimate the relevance of table tennis tactical behavior. The transitions matrix, which serves as the basis for the finite Markov chain model, incorporates match data from the men’s and women’s single competition at the 2020 Tokyo Olympics. By inducing proportional changes in state transitions representing tactical behaviors, the impact of these changes on calculated point wining probability is used to assess their relevance for match performance. This may provide relevant insights regarding general game structure as well as when analyzing individual match performances of Olympic athletes.'
           ]
+        },
+        {
+          img: require('../../../assets/speakers/wentzu_tang.jpg'),
+          name: 'Prof. Dr. Wen-Tzu Tang',
+          introduction: 'Dean of the College of Athletics and Professor at the Graduate Institute of Coaching Science at the National Taiwan Sport University (NTSU).',
+          detail: [
+            'Since 2002, Wen-Tzu Tang has been involved in sport science services for the Taiwan National Teams for the Olympic Games and the Asian Games. Tang is also a Board Director of the Taiwan Institute of Sports Science and has been an active member of various sport science organizations. She is currently the President of the Taiwan Society of Coaching Science and is dedicated to expanding coaching education. Additionally, she aims to enhance the market for students interested in sport biomechanics through collaborative efforts.'
+          ],
+          abstractTitle: 'Biomechanics in support of Olympic Athletes in Taiwan',
+          abstract: [
+            'The integration of sports biomechanics into Taiwan\'s sports science support for the 2020 Tokyo and 2024 Paris Olympics has been pivotal, particularly in the domains of shooting and archery. This talk provides a comprehensive overview of Taiwan\'s approach, highlighting its historical development, organizational structure, implementation strategies, collaborative efforts, and key focus areas. The presentation emphasizes the significant impact of this integrated biomechanics support on athletes\' success and its potential as a reference for other nations aiming to enhance their sports biomechanics support systems.'
+          ]
         }
         // {
         //   img: require('../../../assets/keynote/sam_robertson.jpg'),

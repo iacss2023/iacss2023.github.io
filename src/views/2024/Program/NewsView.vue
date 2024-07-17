@@ -4,6 +4,14 @@
       <div class="view-title">Workshop News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Program schedule update</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>The workshop schedule has been updated. For more details, please check the <span class="link_text" @click="$router.push('/2024/program')">program page</span>.</p>
+          <p>We look forward to seeing you in Strasbourg in July!</p>
+          <p>The Organizing Committee</p>
+          <p>July 17, 2024</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Application fee notification</div>
           <p>Dear Colleagues and Friends,</p>
           <p>The payment information for the conference application fee has been updated, please refer to the <span class="link_text" @click="$router.push('/2024/application')">application page</span>.</p>

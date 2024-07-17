@@ -3,11 +3,11 @@
     <div class="view-container">
       <div class="view-title">Program</div>
       <div class="view-main with-setting">
-<!--        <iframe id="myframe"-->
-<!--                src="/Conference Schedule (9-20).pdf"-->
-<!--                width="800" height="800" frameborder="0"></iframe>-->
-<!--        <br>-->
-<!--        <el-button round type="info"><a class="download_text" href="/Conference Schedule (9-20).pdf" download="Conference Schedule (9-20).pdf">Download</a></el-button>-->
+        <iframe id="myframe"
+                src="/Schedule%20for%20IACSS%20Workshop%202024.pdf"
+                width="800" height="800" frameborder="0"></iframe>
+        <br>
+        <el-button round type="info"><a class="download_text" href="/Schedule%20for%20IACSS%20Workshop%202024.pdf" download="Schedule for IACSS Workshop 2024.pdf">Download</a></el-button>
         <el-table :data="programSchedule" stripe>
           <el-table-column align="center">
             <template v-slot="scope">
