@@ -127,7 +127,7 @@ export default defineComponent({
   background-color: #ff9f3d!important;
 }
 #congress-info{
-  background-image: url("@/assets/zju/zju_7.jpg");
+  background-image: url("@/assets/2023/zju/zju_7.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;

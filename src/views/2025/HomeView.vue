@@ -7,15 +7,15 @@
           <div class="post-center">
             <div class="post-content">
               <div id="congress-name">
-                <h2 class="congress-title text-white">
-                  IACSS at Paris 2024 Olympic Games
+                <h2 class="congress-title text-white">15th International Symposium on Computer Science in Sport
                   <br>
-                  Sport Informatics in support of Olympic and Paralympic Sports
+                  IACSS 2025
                 </h2>
-                <h5 class="congress-time text-white">July 28-30, 2024</h5>
-                <h3 class="congress-location text-white">Strasbourg, France</h3>
+                <h5 class="congress-time text-white">September 12-16</h5>
+                <h3 class="congress-location text-white">Tokyo, Japan</h3>
                 <div class="event-button-group">
-                  <el-button size="large" color="#d6c278" @click="$router.push('/2024/news')">News & Update</el-button>
+                  <el-button size="large" color="#ffaaab" @click="$router.push('/2025/conferencenews')">News & Update</el-button>
+                  <el-button size="large" color="#ffeadc" @click="$router.push('/2025/datedeadline')">Dates & Deadlines</el-button>
                 </div>
               </div>
             </div>
@@ -33,12 +33,12 @@
         <div style="position:relative;">
           <div class="affairs-group">
             <el-row class="clearfix" :gutter="30">
-              <el-col :span="12">
+              <el-col :span="8">
                 <div class="affair-item">
                   <div class="affair-header">
-                    <div class="affair-icon" style="background-color: #d6c278;border-color: #d6c278">
+                    <div class="affair-icon" style="background-color: #f5dae3;border-color: #f5dae3">
                       <a>
-                        <el-icon color="white" class="icon-center" @click="$router.push('/2024/contact')">
+                        <el-icon color="white" class="icon-center" @click="$router.push('/2025/contact')">
                           <Message />
                         </el-icon>
                       </a>
@@ -53,22 +53,42 @@
                   </div>
                 </div>
               </el-col>
-              <el-col :span="12">
+              <el-col :span="8">
                 <div class="affair-item">
                   <div class="affair-header">
-                    <div class="affair-icon" style="background-color: #723000;border-color: #723000">
+                    <div class="affair-icon" style="background-color: #b5c9d9;border-color: #b5c9d9">
                       <a>
-                        <el-icon color="white" class="icon-center" @click="$router.push('/2024/application')">
+                        <el-icon color="white" class="icon-center" @click="$router.push('/2025/submission')">
+                          <Download />
+                        </el-icon>
+                      </a>
+                    </div>
+                    <div class="affair-title">Abstract Submission</div>
+                  </div>
+                  <div class="affair-detail">
+                    <p class="detail-text">
+                      All information regarding the abstract submission can be found here.
+                    </p>
+                  </div>
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="affair-item">
+                  <div class="affair-header">
+                    <div class="affair-icon" style="background-color: #c8839c;border-color: #c8839c">
+                      <a>
+                        <el-icon color="white" class="icon-center" @click="$router.push('/2025/registration')">
                           <Edit />
                         </el-icon>
                       </a>
                     </div>
-                    <div class="affair-title">Application</div>
+                    <div class="affair-title">Registration</div>
                   </div>
                   <div class="affair-detail">
                     <p class="detail-text">
-                      To apply for the workshop please visit out Application page.
-                      All information regarding the application solution, application deadline, and application fee is readily available.
+                      To register for the Conference please visit out Registration page.
+                      All information regarding the registration fees,
+                      our cancellation policy and the link to the registration-mask is readily available.
                     </p>
                   </div>
                 </div>
@@ -99,8 +119,16 @@ export default defineComponent({
 .text-white{
   color: white;
 }
+//修改默认样式
+.el-tabs__item.is-active, .el-tabs__item:hover{
+  color: #f5dae3!important;
+}
+.el-tabs__active-bar{
+  background-color: #f5dae3!important;
+}
+
 #congress-info{
-  background-image: url("@/assets/2024/strasburg/strasbourg_1.jpg");
+  background-image: url("@/assets/2025/gakugei/campus_2.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;

@@ -4,7 +4,7 @@
       <div class="view-title">DARTFISH-IACSS Young Scientist Awards</div>
       <div class="view-main">
         <div>
-          <img id="award_sponsor" src="../../../assets/sponsors/dartfish.png">
+          <img id="award_sponsor" src="../../../assets/2023/sponsors/dartfish.png">
         </div>
         <div class="view-text award">
           <p>

@@ -218,10 +218,10 @@ export default defineComponent({
         { name: 'Digital Sport and Health Laboratory, Zhejiang University' }
       ],
       sponsors: [
-        { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
-        { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' },
-        { name: 'dongsport', url: require('@/assets/sponsors/dongsport.png'), hrefUrl: 'http://www.dongsport.com/' },
-        { name: 'info', url: require('@/assets/sponsors/info.png'), hrefUrl: 'https://www.infoinstruments.cn/' }
+        { name: 'dartfish', url: require('@/assets/2023/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
+        { name: 'wishare', url: require('@/assets/2023/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' },
+        { name: 'dongsport', url: require('@/assets/2023/sponsors/dongsport.png'), hrefUrl: 'http://www.dongsport.com/' },
+        { name: 'info', url: require('@/assets/2023/sponsors/info.png'), hrefUrl: 'https://www.infoinstruments.cn/' }
       ]
     }
   },
@@ -420,7 +420,7 @@ export default defineComponent({
 }
 .entry-header{
   height: 450px;
-  background-image: url("@/assets/zju/zju_bacground.jpg");
+  background-image: url("@/assets/2023/zju/zju_bacground.jpg");
   background-size: cover;
   background-position: center center;
 }

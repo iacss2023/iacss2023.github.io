@@ -56,7 +56,8 @@ export default {
         { year: 2021, location: 'Vienna', country: 'Austria', symposiumOrder: '', conferenceOrder: 5 },
         { year: 2022, location: 'Vienna', country: 'Austria', symposiumOrder: 13, conferenceOrder: '' },
         { year: 2023, location: 'Hangzhou', country: 'China', symposiumOrder: 14, conferenceOrder: '', url: '/#/2023' },
-        { year: 2024, location: 'Strasbourg', country: 'France', symposiumOrder: '', conferenceOrder: '6' }
+        { year: 2024, location: 'Strasbourg', country: 'France', symposiumOrder: '', conferenceOrder: '6' },
+        { year: 2025, location: 'Tokyo', country: 'Japan', symposiumOrder: 15, conferenceOrder: '', url: '/#/2025' }
       ]
     }
   }

@@ -64,11 +64,11 @@ export default {
         {
           name: 'Hôtel Restaurant Athena Spa',
           imgs: [
-            require('../../../assets/accommodation/athenaspa_1.jpg'),
-            require('../../../assets/accommodation/athenaspa_2.jpg'),
-            require('../../../assets/accommodation/athenaspa_3.jpg'),
-            require('../../../assets/accommodation/athenaspa_4.jpg'),
-            require('../../../assets/accommodation/athenaspa_5.jpg')
+            require('../../../assets/2023/accommodation/athenaspa_1.jpg'),
+            require('../../../assets/2023/accommodation/athenaspa_2.jpg'),
+            require('../../../assets/2023/accommodation/athenaspa_3.jpg'),
+            require('../../../assets/2023/accommodation/athenaspa_4.jpg'),
+            require('../../../assets/2023/accommodation/athenaspa_5.jpg')
           ],
           address: '1 Rue Armande Béjart, 67200 Strasbourg, France',
           price: [{ type: 'Class Double Room', price: '$243' }, { type: 'Double Room', price: '$243' }, { type: 'Classic Twin Room', price: '$243' }],
@@ -80,11 +80,11 @@ export default {
         {
           name: 'Hotel des Vosges BW Premier Collection',
           imgs: [
-            require('../../../assets/accommodation/vosgesbw_1.jpg'),
-            require('../../../assets/accommodation/vosgesbw_2.jpg'),
-            require('../../../assets/accommodation/vosgesbw_3.jpg'),
-            require('../../../assets/accommodation/vosgesbw_4.jpg'),
-            require('../../../assets/accommodation/vosgesbw_5.jpg')],
+            require('../../../assets/2023/accommodation/vosgesbw_1.jpg'),
+            require('../../../assets/2023/accommodation/vosgesbw_2.jpg'),
+            require('../../../assets/2023/accommodation/vosgesbw_3.jpg'),
+            require('../../../assets/2023/accommodation/vosgesbw_4.jpg'),
+            require('../../../assets/2023/accommodation/vosgesbw_5.jpg')],
           address: '3 Place De La Gare , 67000 Strasbourg, France',
           price: [{ type: 'Comfort Queen Room', price: '$243' }, { type: 'Comfort Twin Room', price: '$243' }, { type: 'Executive King Room', price: '$292' }, { type: 'Superior Twin Room with City View', price: '$292' }],
           introduction: [

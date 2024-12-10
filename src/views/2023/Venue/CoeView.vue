@@ -26,13 +26,13 @@ export default {
   data () {
     return {
       jyxy: [
-        { img: require('@/assets/jyxy/jyxy_2.jpg') },
-        { img: require('@/assets/jyxy/jyxy_5.png') },
-        { img: require('@/assets/jyxy/jyxy_8.jpg') },
-        { img: require('@/assets/jyxy/jyxy_9.jpg') },
-        { img: require('@/assets/jyxy/jyxy_10.jpg') },
-        { img: require('@/assets/jyxy/jyxy_11.jpg') },
-        { img: require('@/assets/jyxy/jyxy_12.jpg') }
+        { img: require('../../../assets/2023/jyxy/jyxy_2.jpg') },
+        { img: require('../../../assets/2023/jyxy/jyxy_5.png') },
+        { img: require('../../../assets/2023/jyxy/jyxy_8.jpg') },
+        { img: require('../../../assets/2023/jyxy/jyxy_9.jpg') },
+        { img: require('../../../assets/2023/jyxy/jyxy_10.jpg') },
+        { img: require('../../../assets/2023/jyxy/jyxy_11.jpg') },
+        { img: require('../../../assets/2023/jyxy/jyxy_12.jpg') }
       ]
     }
   }

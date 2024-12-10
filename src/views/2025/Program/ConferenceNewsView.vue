@@ -1,0 +1,80 @@
+<template>
+  <div>
+    <div class="view-container">
+      <div class="view-title">Conference News</div>
+      <div class="view-main">
+        <div class="view-section">
+          <div class="view-section-title small">First Call for Papers</div>
+          <p>Dear Colleagues and Friends,</p>
+          <p>It is with great pleasure that we can announce that <strong>the 15th International Symposium on Computer Science in Sport (IACSS 2025)</strong> will be held at the Tokyo Gakugei University, Japan, from the 12-16th of September 2025 .</p>
+          <p>The program will feature presentations from distinguished keynote speakers and leading experts, along with oral and poster presentations from top researchers addressing cutting-edge topics and the latest technologies in the field of Computer Science in Sport.</p>
+          <p>We invite interested scientists, experts, students and professionals in this field to submit contributions on current advancements in various areas of computer science related to sport.</p>
+          <p>Further details will be available on the <a href="https://iacssconference.org/">conference website</a>.</p>
+          <div class="news-subsection">
+            <div class="view-section-title small">Conference themes</div>
+            <p><i>Computer Science in Sport</i>: Modeling and Simulation, Data Analysis, Image Processing, Multimedia, Virtual Reality, Visualization and Visual Analysis, Human Computer Interaction, Computer Vision, Big Bata, Internet of Things, Robotics, Information Systems, Machine Learning and Data Mining.</p>
+            <p><i>Examples for Special Applications</i>: Feedback Systems, Predictive Modeling, Decision Support, Digital Games, Network Analysis, Complex Systems Analysis, Sequence Analysis, Sensor Fusion.</p>
+            <p><i>Other related topics</i>: sports education, athletic training, sports biomechanics, exercise physiology, sports medicine, sports psychology, and sports engineering.</p>
+          </div>
+          <div class="news-subsection">
+            <div class="view-section-title small">Date and deadlines</div>
+            <ul class="withicon">
+              <li>Abstract submission opens: 30.11.2024</li>
+              <li>Second call for papers: 05.01.2025</li>
+              <li>Third call for papers: 15.03.2025</li>
+              <li>Abstract submission deadline: 15.04.2025 at 23:59 AoE (UTC - 12)</li>
+              <li>Author notification (abstract): 15.05.2025</li>
+            </ul>
+          </div>
+          <div class="news-subsection">
+            <div class="view-section-title small">Publications:</div>
+            <p>Authors whose papers meet the publication requirements of the association’s journal, <i>International Journal of Computer Science in Sport</i> (IJCSS), will be invited to submit a full paper. The submission will undergo the regular submission process, peer review, and open-access publication by IJCSS.
+              For details, please visit: <a href="https://sciendo.com/journal/IJCSS" target="_blank">https://sciendo.com/journal/IJCSS</a> (For Authors - Article Publishing Charges).
+            </p>
+            <p>Authors of other papers may also be invited to submit full papers (8-15 pages), which will be published by <strong>Springer</strong> as part of the conference proceedings series <i>Lecture Notes on Data Engineering and Communications Technologies</i>.</p>
+          </div>
+          <div class="news-subsection">
+            <div class="view-section-title small">Contact us:</div>
+            <p>Naoki Suzuki, Ph.D.</p>
+            <p>Associate Professor, Tokyo Gakugei University</p>
+            <p>Email: iacss.2025.tgu@gmail.com</p>
+          </div>
+          <p>Please click <span class="link_text" @click="$router.push('/2025/submission')">here</span> to find the abstract template for IACSS 2025.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ConferenceNewsView'
+}
+</script>
+
+<style scoped>
+ul{
+  list-style-type: none;
+}
+ul li{
+  margin: 4px 0;
+}
+.withicon{
+  list-style: disc;
+}
+.link_text{
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.news-subsection{
+  margin-bottom: 10px;
+  .view-section-title{
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  p{
+    margin: 2px;
+  }
+}
+</style>

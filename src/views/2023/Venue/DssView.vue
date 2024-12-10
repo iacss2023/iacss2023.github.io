@@ -61,22 +61,22 @@ export default {
   data () {
     return {
       dss: [
-        { img: require('@/assets/dss/sipah_1.png'), copyright: '', legend: 'Achievements of the Research Center of Sports Industry and Physical Activity & Health' },
-        { img: require('@/assets/dss/sipah_2.png'), copyright: '', legend: 'Achievements of the Research Center of Sports Industry and Physical Activity & Health' },
-        { img: require('@/assets/dss/isda_1.png'), copyright: '', legend: 'Achievements of the Institute of Sports Data Analytics' },
-        { img: require('@/assets/dss/isda_2.png'), copyright: '', legend: 'Achievements of the Institute of Sports Data Analytics' },
-        { img: require('@/assets/dss/isda_3.png'), copyright: '', legend: 'Achievements of the Institute of Sports Data Analytics' },
-        { img: require('@/assets/dss/isst_1.png'), copyright: '', legend: 'Achievements of the Institute of Sports Science and Technology' },
-        { img: require('@/assets/dss/isst_2.png'), copyright: '', legend: 'Achievements of the Institute of Sports Science and Technology' },
-        { img: require('@/assets/dss/isst_3.png'), copyright: '', legend: 'Achievements of the Institute of Sports Science and Technology' }
+        { img: require('../../../assets/2023/dss/sipah_1.png'), copyright: '', legend: 'Achievements of the Research Center of Sports Industry and Physical Activity & Health' },
+        { img: require('../../../assets/2023/dss/sipah_2.png'), copyright: '', legend: 'Achievements of the Research Center of Sports Industry and Physical Activity & Health' },
+        { img: require('../../../assets/2023/dss/isda_1.png'), copyright: '', legend: 'Achievements of the Institute of Sports Data Analytics' },
+        { img: require('../../../assets/2023/dss/isda_2.png'), copyright: '', legend: 'Achievements of the Institute of Sports Data Analytics' },
+        { img: require('../../../assets/2023/dss/isda_3.png'), copyright: '', legend: 'Achievements of the Institute of Sports Data Analytics' },
+        { img: require('../../../assets/2023/dss/isst_1.png'), copyright: '', legend: 'Achievements of the Institute of Sports Science and Technology' },
+        { img: require('../../../assets/2023/dss/isst_2.png'), copyright: '', legend: 'Achievements of the Institute of Sports Science and Technology' },
+        { img: require('../../../assets/2023/dss/isst_3.png'), copyright: '', legend: 'Achievements of the Institute of Sports Science and Technology' }
       ],
       player: [
-        { img: require('@/assets/dss/xzy.jpg'), copyright: '', legend: 'XIE Zhenye' },
-        { img: require('@/assets/dss/gcc.jpeg'), legend: 'GUAN Chenchen' },
-        { img: require('@/assets/dss/jyy.jpg'), legend: 'Jiang Yuyuan' },
-        { img: require('@/assets/dss/wqf.jpg'), legend: 'WU Qingfeng' },
-        { img: require('@/assets/dss/myq.jpg'), legend: 'Mao Yaqi' },
-        { img: require('@/assets/dss/wd.jpg'), legend: 'WANG Di' }
+        { img: require('../../../assets/2023/dss/xzy.jpg'), copyright: '', legend: 'XIE Zhenye' },
+        { img: require('../../../assets/2023/dss/gcc.jpeg'), legend: 'GUAN Chenchen' },
+        { img: require('../../../assets/2023/dss/jyy.jpg'), legend: 'Jiang Yuyuan' },
+        { img: require('../../../assets/2023/dss/wqf.jpg'), legend: 'WU Qingfeng' },
+        { img: require('../../../assets/2023/dss/myq.jpg'), legend: 'Mao Yaqi' },
+        { img: require('../../../assets/2023/dss/wd.jpg'), legend: 'WANG Di' }
       ]
     }
   }

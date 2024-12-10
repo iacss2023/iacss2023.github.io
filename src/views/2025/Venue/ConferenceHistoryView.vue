@@ -9,7 +9,7 @@
         <div id="history-table">
           <el-row>
             <el-col :span="6">
-              <div><img class="congress-logo" :src="require('@/assets/iacss2023.png')"> </div>
+              <div><img class="congress-logo" :src="require('@/assets/iacss2025.png')"> </div>
             </el-col>
             <el-col :span="18">
               <el-table :data="history" style="width: 100%;">
@@ -55,9 +55,9 @@ export default {
         { year: 2019, location: 'Moscow', country: 'Russia', symposiumOrder: 12, conferenceOrder: '' },
         { year: 2021, location: 'Vienna', country: 'Austria', symposiumOrder: '', conferenceOrder: 5 },
         { year: 2022, location: 'Vienna', country: 'Austria', symposiumOrder: 13, conferenceOrder: '' },
-        { year: 2023, location: 'Hangzhou', country: 'China', symposiumOrder: 14, conferenceOrder: '' },
+        { year: 2023, location: 'Hangzhou', country: 'China', symposiumOrder: 14, conferenceOrder: '', url: '/#/2023' },
         { year: 2024, location: 'Strasbourg', country: 'France', symposiumOrder: '', conferenceOrder: '6', url: '/#/2024' },
-        { year: 2025, location: 'Tokyo', country: 'Japan', symposiumOrder: 15, conferenceOrder: '', url: '/#/' }
+        { year: 2025, location: 'Tokyo', country: 'Japan', symposiumOrder: 15, conferenceOrder: '' }
       ]
     }
   }

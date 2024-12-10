@@ -55,7 +55,7 @@ export default {
       chosenSpeaker: {},
       speakers: [
         {
-          img: require('../../../assets/speakers/martin_lames.jpg'),
+          img: require('../../../assets/2024/speakers/martin_lames.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Martin Lames',
           introduction: 'A Professor and Chairholder of Performance Analysis and Sports Informatics at Technical University of Munich.',
@@ -70,7 +70,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/hui zhang.jpg'),
+          img: require('../../../assets/2024/speakers/hui zhang.jpg'),
           // img: require('src/assets/keynote/martin_lames.jpg'),
           name: 'Prof. Dr. Hui Zhang',
           introduction: 'A Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
@@ -83,7 +83,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/Passfoto_witte.jpg'),
+          img: require('../../../assets/2024/speakers/Passfoto_witte.jpg'),
           name: 'Prof. Dr. Kerstin Witte',
           introduction: 'A Professor of Department of Sports Science at the Faculty of Human Sciences, Otto-von-Guericke-Universität Magdeburg.',
           detail: [
@@ -98,7 +98,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/dietmar saupe.jpg'),
+          img: require('../../../assets/2024/speakers/dietmar saupe.jpg'),
           name: 'Prof. Dr. Dietmar Saupe',
           introduction: 'A Professor of Department of Computer and Information Science, University of Konstanz, Konstanz, Germany.',
           detail: [
@@ -110,7 +110,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/yaping_zhong.jpg'),
+          img: require('../../../assets/2024/speakers/yaping_zhong.jpg'),
           name: 'Prof. Dr. Yaping Zhong',
           introduction: 'A Professor in Sports Big-data Research Center at Wuhan Sports University, Wuhan, China.',
           detail: [
@@ -118,7 +118,7 @@ export default {
           abstractTitle: 'Frontier Progress in Promoting Health through Exercise Supported by AI'
         },
         {
-          img: require('../../../assets/speakers/tianbiao liu.jpg'),
+          img: require('../../../assets/2024/speakers/tianbiao liu.jpg'),
           name: 'A.P. Dr. Tianbiao Liu',
           introduction: 'An Associate Professor at the College of Physical Education and Sports, Beijing Normal University in Beijing, China.',
           detail: [
@@ -126,14 +126,14 @@ export default {
           abstractTitle: 'The Evolution of Football Tactics from the 2010 to 2022 World Cups: A Social Network Analysis Perspective'
         },
         {
-          img: require('../../../assets/speakers/yingcai wu.jpg'),
+          img: require('../../../assets/2024/speakers/yingcai wu.jpg'),
           name: 'Prof. Dr. Yingcai Wu',
           introduction: 'A Professor at the State Key Lab of CAD & CG, Zhejiang University, Hangzhou, China.',
           detail: [
             "Dr. Yingcai Wu's research interests lie in the fields of visual analytics, information visualization, and human-computer interaction, with a particular focus on sport computing, big data analysis, text visualization, and behavior analysis."]
         },
         {
-          img: require('../../../assets/speakers/John_Komar.png'),
+          img: require('../../../assets/2024/speakers/John_Komar.png'),
           name: 'Asst. Prof. Dr. John Komar',
           introduction: 'An Assistant Professor at the National Institute of Education, Physical Education and Sport Science, Nanyang Technological University, Singapore.',
           detail: [
@@ -144,7 +144,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/karcher-claude.png'),
+          img: require('../../../assets/2024/speakers/karcher-claude.png'),
           name: 'Dr. Claude Karcher',
           introduction: 'A High performance optimization advisor at CREPS de Strasbourg, France. He is also an EHF expert and works for the French handball federation research team.',
           detail: [
@@ -160,7 +160,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/daniel_link.jpg'),
+          img: require('../../../assets/2024/speakers/daniel_link.jpg'),
           name: 'Prof. Dr. Daniel Link',
           introduction: 'A professor for Performance Analysis and Sports Analytics at Technical University Munich, Germany.',
           detail: [
@@ -170,7 +170,7 @@ export default {
             'Performance data has played a decisive role in game sports for decades. This applies both to opponent analysis for match preparation and to self-analysis for training control. In beach volleyball in particular, in addition to an effective serve, anticipation of the opponent\'s attack is crucial for a successful block/defense performance. This talk will present a joined project of Technical University Munich and the German Volleyball federation aiming to improve the anticipation of German national players in preparation of 2024 Olympics. The key idea of the project is to use video recordings of opponents and fade out the video short before the opponent player attacks the ball on the third contact. Players had to find visual cues which allow them to estimate the attacking technique (spike vs shot) and the direction (line vs. cross). In order to gain a deeper understanding of eye movements during anticipation per-formance in a defensive situation, an additional study of eye movements was carried out on national team players using eye tracking. Initial results show that national players clearly stand out from amateur players in terms of the prediction quality of defense-relevant ques-tions about the type and direction of an attacking shot. Furthermore, it was shown that the eye movements of top players and amateur players also differ, which may be a reason for their better anticipation skills.']
         },
         {
-          img: require('../../../assets/speakers/brice_guignard.jpg'),
+          img: require('../../../assets/2024/speakers/brice_guignard.jpg'),
           name: 'Asst. Prof. Dr. Brice Guignard',
           introduction: 'An assistant professor at Inter-university Laboratory of Human Movement Sciences at Universite Claude Bernard Lyon 1, France.',
           detail: [
@@ -184,7 +184,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/florentina_hettinga.jpg'),
+          img: require('../../../assets/2024/speakers/florentina_hettinga.jpg'),
           name: 'Prof. Dr. Florentina Hettinga',
           introduction: 'A professor at the Department of Sport, Exercise and Rehabilitation at Northumbria University.',
           detail: [
@@ -195,7 +195,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/Fabian_Hammes.jpg'),
+          img: require('../../../assets/2024/speakers/Fabian_Hammes.jpg'),
           name: 'Fabian Hammes',
           introduction: 'A PhD candidate at the Chair of Performance Analysis and Sports Informatics at the Technical University of Munich, Germany.',
           detail: [
@@ -206,7 +206,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/Florian Leimeister.jpg'),
+          img: require('../../../assets/2024/speakers/Florian Leimeister.jpg'),
           name: 'Florian Leimeister',
           introduction: 'A PhD candidate at the Department Health and Sports Science at the Technical University of Munich, Germany.',
           detail: [
@@ -217,7 +217,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/Ruizhi Liu.jpg'),
+          img: require('../../../assets/2024/speakers/Ruizhi Liu.jpg'),
           name: 'Ruizhi Liu',
           introduction: 'A PhD candidate at the Chair of Performance Analysis and Sports Informatics at the Technical University of Munich, Germany.',
           detail: [
@@ -228,7 +228,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/zheng zhou.png'),
+          img: require('../../../assets/2024/speakers/zheng zhou.png'),
           name: 'Asst. Prof. Dr. Zheng Zhou',
           introduction: 'An Assistant Professor of Department of Sports Science at Zhejiang University, Hangzhou, China.',
           detail: [
@@ -240,7 +240,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/Frederic Rothe.jpg'),
+          img: require('../../../assets/2024/speakers/Frederic Rothe.jpg'),
           name: 'Frederic Rothe',
           introduction: 'A PhD candidate at the Chair of Performance Analysis and Sports Informatics at the Technical University of Munich, Germany.',
           detail: [
@@ -252,7 +252,7 @@ export default {
           ]
         },
         {
-          img: require('../../../assets/speakers/wentzu_tang.jpg'),
+          img: require('../../../assets/2024/speakers/wentzu_tang.jpg'),
           name: 'Prof. Dr. Wen-Tzu Tang',
           introduction: 'Dean of the College of Athletics and Professor at the Graduate Institute of Coaching Science at the National Taiwan Sport University (NTSU).',
           detail: [

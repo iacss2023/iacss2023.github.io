@@ -37,10 +37,10 @@ export default {
   data () {
     return {
       bdit: [
-        { img: require('@/assets/tydsjcxtd/bdit_1.png'), copyright: '', legend: 'Team International Exchange and Cooperation' },
-        { img: require('@/assets/tydsjcxtd/bdit_2.jpg'), copyright: '', legend: 'Team International Exchange and Cooperation' },
-        { img: require('@/assets/tydsjcxtd/bdit_3.jpg'), copyright: '', legend: 'Team International Exchange and Cooperation' },
-        { img: require('@/assets/tydsjcxtd/bdit_4.png'), copyright: '', legend: 'Team International Exchange and Cooperation' }
+        { img: require('@/assets/2023/tydsjcxtd/bdit_1.png'), copyright: '', legend: 'Team International Exchange and Cooperation' },
+        { img: require('@/assets/2023/tydsjcxtd/bdit_2.jpg'), copyright: '', legend: 'Team International Exchange and Cooperation' },
+        { img: require('@/assets/2023/tydsjcxtd/bdit_3.jpg'), copyright: '', legend: 'Team International Exchange and Cooperation' },
+        { img: require('@/assets/2023/tydsjcxtd/bdit_4.png'), copyright: '', legend: 'Team International Exchange and Cooperation' }
       ]
     }
   }

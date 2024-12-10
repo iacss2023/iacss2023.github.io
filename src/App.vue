@@ -158,7 +158,7 @@ export default defineComponent({
 }
 .entry-header{
   height: 450px;
-  background-image: url("@/assets/zju/zju_bacground.jpg");
+  background-image: url("@/assets/2023/zju/zju_bacground.jpg");
   background-size: cover;
   background-position: center center;
 }

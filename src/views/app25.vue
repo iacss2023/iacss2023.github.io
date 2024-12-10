@@ -1,6 +1,6 @@
 <template>
   <div id="page-header">
-    <div class="head_bg">
+    <div class="entry-header-25">
     </div>
     <div id="navBar">
       <div id="nav" class="clearfix" :style="language==='en'?'max-width:1200px':'max-width: 900px'">
@@ -9,7 +9,7 @@
                  class="el-menu-demo"
                  mode="horizontal"
                  @select="navHandleSelect"
-                 active-text-color="#d6c278"
+                 active-text-color="#ffaaab"
                  text-color="black"
                  background-color="#fff"
         >
@@ -46,32 +46,56 @@
           </template>
         </el-menu>
       </div>
+      <!--      <el-button v-if="language==='en'" style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toCn">CN</el-button>-->
+      <!--      <el-button v-else style="float: right; margin-top: -58px; line-height: 58px;margin-right: 100px; font-family: 'Open Sans'" link @click="toEn">EN</el-button>-->
     </div>
   </div>
   <div id="page-content" style="padding: 40px">
     <div id="main" class="clearfix" style="position:relative;">
       <div class="sidebar-left-wrap" style="position:static; width: 192px;height: 436px;
       display: block;vertical-align: baseline;float:left;">
+        <div class="sidebar-left is_stuck" style="position: sticky; top: 0; width: 192px; padding-right: 32px">
+          <h4 class="widget_title">supported by</h4>
+          <template v-for="supporter in supporterImgs" :key="supporter.name">
+            <div v-if="supporter.url" class="bard-widget widget_media_image">
+              <a :href="supporter.hrefUrl">
+                <img :src="supporter.url" style="max-width: 100%; height: auto" alt
+                     loading="lazy" sizes="(max-width:300px) 100vw, 300px">
+              </a>
+            </div>
+            <div v-else class="bard-widget sponsor-text page-container .tip">
+              <span>{{supporter.name}}</span>
+            </div>
+          </template>
+        </div>
       </div>
       <div class="main-container">
         <router-view />
       </div>
+      <div class="sidebar-right-wrap" >
+        <div class="sidebar-right is_stuck" style="position: static; width: 192px; padding-left: 32px">
+          <h4 class="widget_title">sponsored by</h4>
+          <template v-for="sponsor in sponsors" :key="sponsor.name">
+            <div class="bard-widget widget_media_image" v-if="sponsor.url">
+              <a :href="sponsor.hrefUrl" target="_blank">
+                <img :src="sponsor.url" style="max-width: 100%;height: auto" alt
+                     loading="lazy" sizes="(max-width:300px) 100vw, 300px">
+              </a>
+            </div>
+            <div v-else class="bard-widget sponsor-text">
+              <span>{{sponsor.name}}</span>
+            </div>
+          </template>
+        </div>
+      </div>
     </div>
   </div>
-  <div id="page-footer">©️ IACSS 2024</div>
+  <div id="page-footer">©️ IACSS 2025</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// import { useRouter } from 'vue-router'
-// // import * as process from 'process'
-//
-// const { currentRoute } = useRouter()
-// const route = currentRoute.value
-// onMounted(() => {
-//   const code = route.query.code
-//   console.log('code', code)
-// })
+// import * as process from 'process'
 
 export default defineComponent({
   name: 'App',
@@ -81,78 +105,104 @@ export default defineComponent({
       activeIndex: '',
       navs: [
         {
-          parentNav: { index: '/2024', name: 'Home' }
+          parentNav: { index: '/2025', name: 'Home' }
         },
         {
-          parentNav: { index: 'Related Information', name: 'Related Information' },
+          parentNav: { index: 'venueNav', name: 'Venue' },
           children: [
             // { navName: "index", url: "/" },
-            { index: '/2024/venue', name: 'Venue' },
+            { index: '/2025/venue', name: 'Venue' },
+            { index: '/2025/tgu', name: 'Tokyo Gakugei University' },
+            { index: '/2025/coe', name: 'College' },
             {
-              index: '/2024/creps',
-              name: 'CREPS'
-            },
-            { index: '/2024/strasbourg', name: 'The city of Strasbourg' },
-            {
-              index: '/2024/conferencehistory',
-              name: 'Conference History'
+              index: '/2025/conferencehistory',
+              name: 'History'
             }
           ]
         },
         {
-          parentNav: { index: 'travelRegistration', name: 'Travel and Application' },
+          parentNav: { index: '/2025/travelNav', name: 'Travel' },
           children: [
             {
-              index: '/2024/travelstrasbourg',
-              name: 'Getting Strasbourg'
+              index: '/2025/traveltokyo',
+              name: 'Getting Tokyo'
             },
             {
-              index: '/2024/hotel',
-              name: 'Hotel'
-            },
-            // {
-            //   index: '/2024/registration',
-            //   name: 'Registration'
-            // },
-            {
-              index: '/2024/application',
-              name: 'Application'
+              index: '/2025/accommodation',
+              name: 'Accommodation'
             }
           ]
         },
         {
           parentNav: {
-            index: '/2024/speaker',
-            name: 'Speaker'
+            index: '/2025/submissionNav',
+            name: 'Submission and Registration'
+          },
+          children: [
+            {
+              index: '/2025/datedeadline',
+              name: 'Dates and Deadlines'
+            },
+            {
+              index: '/2025/submission',
+              name: 'Abstract Submission'
+            },
+            {
+              index: '/2025/registration',
+              name: 'Registration Information'
+            },
+            {
+              index: '/2025/presentation',
+              name: 'Presentation Information'
+            },
+            {
+              index: '/2025/award',
+              name: 'Award'
+            }
+          ]
+        },
+        {
+          parentNav: {
+            index: '/2025/programNav',
+            name: 'Program'
+          },
+          children: [
+            {
+              index: '/2025/program',
+              name: 'Program'
+            },
+            {
+              index: '/2025/conferencenews',
+              name: 'Conference News'
+            },
+            {
+              index: '/2025/conferencethemes',
+              name: 'Conference Themes'
+            },
+            {
+              index: '/2025/committees',
+              name: 'Committees'
+            },
+            {
+              index: '/2025/keynote',
+              name: 'Keynote Speaker'
+            }
+          ]
+        },
+        {
+          parentNav: {
+            index: '/2025/sponsoring',
+            name: 'Sponsoring'
           }
         },
         {
           parentNav: {
-            index: '/2024/programNav',
-            name: 'News and Program'
-          },
-          children: [
-            {
-              index: '/2024/news',
-              name: 'Workshop News'
-            },
-            {
-              index: '/2024/program',
-              name: 'Program'
-            },
-            {
-              index: '/2024/committees',
-              name: 'Committees'
-            }
-          ]
-        },
-        {
-          parentNav: {
-            index: '/2024/contact',
+            index: '/2025/contact',
             name: 'Contact Us'
           }
         }
       ],
+      publicPath: process.env.BASE_URL,
       supporterImgs: [
         // { name: 'conference', url: require('@/assets/iacss_logo_klein.gif'), hrefUrl: 'https://iacss.org/' },
         // { name: 'zju', url: require('@/assets/logo_zju.png'), hrefUrl: 'https://www.zju.edu.cn/english/' },
@@ -188,7 +238,6 @@ export default defineComponent({
       this.$router.push('/')
     },
     updateNav (path:string) {
-      console.log(path)
       // 判断是是英文还是中文网站
       const pathArray = path.split('/')
       // 中文
@@ -200,7 +249,8 @@ export default defineComponent({
       // 英文
       else {
         this.language = 'en'
-        if (pathArray[1] === '') { this.activeIndex = '2024' } else { this.activeIndex = path }
+        this.activeIndex = path
+        // if (pathArray[1] === '') { this.activeIndex = '' } else { this.activeIndex = pathArray[1] }
       }
     }
   }
@@ -257,10 +307,10 @@ export default defineComponent({
 
 //修改默认样式
 .el-tabs__item.is-active, .el-tabs__item:hover{
-  color: #d6c278!important;
+  color: #ffaaab!important;
 }
 .el-tabs__active-bar{
-  background-color: #d6c278!important;
+  background-color: #ffaaab!important;
 }
 
 .el-carousel__container{
@@ -353,8 +403,6 @@ export default defineComponent({
     background-color: #fffaf3 !important;
   }
   .view-main{
-    width: 960px;
-    margin: 0 auto;
     p{
       text-align: left;
     }
@@ -363,9 +411,9 @@ export default defineComponent({
     }
   }
 }
-.head_bg{
+.entry-header-25{
   height: 450px;
-  background-image: url("@/assets/2024/strasburg/strasbourg_10.jpg");
+  background-image: url("@/assets/2025/gakugei/campus_1.jpg");
   background-size: cover;
   background-position: center center;
 }

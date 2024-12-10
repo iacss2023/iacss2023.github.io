@@ -58,9 +58,9 @@ export default {
         {
           name: 'Ou Ya Mei International Hotel',
           imgs: [
-            require('../../../assets/accommodation/ouyamei_1.jpg'),
-            require('../../../assets/accommodation/ouyamei_2.jpg'),
-            require('../../../assets/accommodation/ouyamei_3.jpg')],
+            require('../../../assets/2023/accommodation/ouyamei_1.jpg'),
+            require('../../../assets/2023/accommodation/ouyamei_2.jpg'),
+            require('../../../assets/2023/accommodation/ouyamei_3.jpg')],
           address: 'No. 859 Shixiang West Road, Xihu District, Hangzhou, Zhejiang, China',
           transport: [
             {
@@ -81,9 +81,9 @@ export default {
         {
           name: 'Zijingang International Hotel',
           imgs: [
-            require('../../../assets/accommodation/zijingang_1.jpg'),
-            require('../../../assets/accommodation/zijingang_2.jpg'),
-            require('../../../assets/accommodation/zijingang_3.jpg')],
+            require('../../../assets/2023/accommodation/zijingang_1.jpg'),
+            require('../../../assets/2023/accommodation/zijingang_2.jpg'),
+            require('../../../assets/2023/accommodation/zijingang_3.jpg')],
           address: 'No.796 Shenhua Road, Xihu District, Hangzhou, Zhejiang, China',
           transport: [
             {
@@ -104,9 +104,9 @@ export default {
         {
           name: 'Zheda Yuanzheng Forest Hotel',
           imgs: [
-            require('../../../assets/accommodation/zhedayuanzheng_1.jpg'),
-            require('../../../assets/accommodation/zhedayuanzheng_2.jpg'),
-            require('../../../assets/accommodation/zhedayuanzheng_3.jpg')],
+            require('../../../assets/2023/accommodation/zhedayuanzheng_1.jpg'),
+            require('../../../assets/2023/accommodation/zhedayuanzheng_2.jpg'),
+            require('../../../assets/2023/accommodation/zhedayuanzheng_3.jpg')],
           address: 'Building D1, No.1 Xiyuanba Road, Xihu District, Hangzhou, Zhejiang, China',
           transport: [
             {
