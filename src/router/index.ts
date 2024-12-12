@@ -6,7 +6,7 @@ import Home25 from '@/views/app25.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/2024'
+    redirect: '/2025'
   },
   {
     path: '/2025',

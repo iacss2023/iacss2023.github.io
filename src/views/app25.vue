@@ -113,7 +113,6 @@ export default defineComponent({
             // { navName: "index", url: "/" },
             { index: '/2025/venue', name: 'Venue' },
             { index: '/2025/tgu', name: 'Tokyo Gakugei University' },
-            { index: '/2025/coe', name: 'College' },
             {
               index: '/2025/conferencehistory',
               name: 'History'
@@ -154,10 +153,6 @@ export default defineComponent({
             {
               index: '/2025/presentation',
               name: 'Presentation Information'
-            },
-            {
-              index: '/2025/award',
-              name: 'Award'
             }
           ]
         },

@@ -1,7 +1,10 @@
 <template>
   <div>
     <div class="view-container">
-      <div class="view-title">TBD</div>
+      <div class="view-title">Program</div>
+      <div class="view-main">
+        Will coming soon.
+      </div>
     </div>
   </div>
 </template>

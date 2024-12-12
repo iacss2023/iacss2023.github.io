@@ -7,7 +7,7 @@
           We’d love to hear your feedback or answer any questions you may have regarding Sponsorship, Abstracts, Accommodation, Registration or Keynote Speakers.
         </div>
         <div class="view-section-title small">
-          Feel free to contact us by sending an email to the two committee members below.
+          Feel free to contact us by sending an email to the committee member below.
         </div>
         <ul>
           <li><p><strong>Assoc. Prof. Naoki Suzuki</strong>, Email: iacss.2025.tgu@gmail.com</p></li>

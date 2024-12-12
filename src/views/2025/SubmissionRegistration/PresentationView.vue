@@ -31,8 +31,7 @@
         </div>
         <div class="view-section">
           <div class="view-section-title">Oral Presentation Upload:</div>
-          <p>Slides for oral presentations can now be send to the email at <a href="">TBD</a> .</p>
-          <p>Please send your presentation <a href="">here</a> and be sure about the following:</p>
+          <p>Please make sure your presentation follows the format below:</p>
           <ul>
             <li><p>Name the file with the day, the starting time of the presentation (according to the program) followed by speakers last name, like “Saturday_1630_lastname.pptx”</p></li>
             <li><p>Use “.ppt”, “.pptx” or “.pdf” format</p></li>

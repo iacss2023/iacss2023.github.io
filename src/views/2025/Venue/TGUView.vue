@@ -5,10 +5,10 @@
       <div class="view-main">
         <iframe width="960" height="480" src="https://www.youtube.com/embed/juiup6jpA0k?si=Oi6LFJmHUWCcbOUg" title="An Overview of Tokyo Gakugei University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="view-text">
-          <p>Tokyo Gakugei University (TGU) is a prestigious national university in Japan, specializing in teacher education and educational research.</p>
-          <p>Located in Koganei City, Tokyo, it was formally chartered as a university in 1949 when four teacher training institutions in Tokyo. It has a rich history of preparing highly skilled educators and advancing pedagogical studies.</p>
-          <p>The university offers a wide range of undergraduate and graduate programs, with a strong emphasis on interdisciplinary learning, fostering innovation in education, and contributing to global academic communities.</p>
-          <p>Its commitment to nurturing creative and capable educators makes it a cornerstone of educational excellence in Japan.</p>
+          <p>Tokyo Gakugei University (TGU) is Japan’s largest and most prestigious university dedicated to teacher education. Established in 1949, TGU has played a vital role in developing the nation’s education system and is widely recognized as a flagship institution in teacher training.</p>
+          <p>TGU offers a full spectrum of academic programs, including undergraduate, master’s, and doctoral degrees, ensuring comprehensive training for educators and researchers.</p>
+          <p>A distinctive feature of TGU is its network of <strong>12 affiliated schools</strong> located across five campuses in Tokyo. These schools play a significant role in integrating theory with practice, serving as venues for research, teacher training, and innovative educational development.</p>
+          <p>The main campus in Koganei City is well-equipped with modern facilities, providing an ideal environment for research, collaboration, and academic excellence.</p>
         </div>
       </div>
     </div>
