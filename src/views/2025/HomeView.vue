@@ -10,8 +10,7 @@
                 <h2 class="congress-title text-white">15th International Symposium on Computer Science in Sport
                   <br>
                   IACSS 2025
-                </h2>
-                <h5 class="congress-time text-white">September 12-16</h5>
+                </h2><h5 class="congress-time text-white">September 13-15</h5>
                 <h3 class="congress-location text-white">Tokyo, Japan</h3>
                 <div class="event-button-group">
                   <el-button size="large" color="#ffaaab" @click="$router.push('/2025/conferencenews')">News & Update</el-button>

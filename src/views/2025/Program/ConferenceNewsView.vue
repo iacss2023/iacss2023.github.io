@@ -6,7 +6,7 @@
         <div class="view-section">
           <div class="view-section-title small">First Call for Papers</div>
           <p>Dear Colleagues and Friends,</p>
-          <p>It is with great pleasure that we can announce that <strong>the 15th International Symposium on Computer Science in Sport (IACSS 2025)</strong> will be held at the Tokyo Gakugei University, Japan, from the 12-16th of September 2025 .</p>
+          <p>It is with great pleasure that we can announce that <strong>the 15th International Symposium on Computer Science in Sport (IACSS 2025)</strong> will be held at the Tokyo Gakugei University, Japan, from the 13-15th of September 2025 .</p>
           <p>The program will feature presentations from distinguished keynote speakers and leading experts, along with oral and poster presentations from top researchers addressing cutting-edge topics and the latest technologies in the field of Computer Science in Sport.</p>
           <p>We invite interested scientists, experts, students and professionals in this field to submit contributions on current advancements in various areas of computer science related to sport.</p>
           <p>Further details will be available on the <a href="https://iacssconference.org/">conference website</a>.</p>
