@@ -10,7 +10,7 @@
           <div class="view-section-title small">Step 1</div>
           <ul>
             <li><p>Enter/create your EasyChair account</p></li>
-            <li><p>Once you have the account, please use this <a href="https://easychair.org/my/conference?conf=iacss2025" target="_blank">link</a> to get access to the conference.</p></li>
+            <li><p>Once you have the account, please use this <a href="https://easychair.org/my/conference?conf=iacss2025" target="_blank"><strong>link</strong></a> to get access to the conference.</p></li>
             <li><p>Click “make a new submission”</p></li>
             <li><p>Fill out the abstract form and press the ‘Submit’ button below.</p></li>
             <li><p>The deadline for submission of abstractions is April 15, 2025 at 23:59 AoE (UTC-12).</p></li>

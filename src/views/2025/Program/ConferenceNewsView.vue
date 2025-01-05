@@ -4,6 +4,17 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Submission Update</div>
+          <p>Dear colleagues and friends,</p>
+          <p>Happy New Year!</p>
+          <p>The 15th International Symposium on Computer Science in Sport (IACSS 2025) will take place from September 12 to 15, 2025, at Tokyo Gakugei University, Japan. We warmly invite all colleagues, experts, researchers, students, and anyone interested in related fields to submit papers and join our symposium.</p>
+          <p>We are pleased to inform you that the submission system for the conference is now open. Submissions can be made via the following link: <a href="https://iacssconference.org/#/2025/submission" target="_blank"><strong>https://iacssconference.org/#/2025/submission</strong></a>. If you encounter any issues during the submission process, please feel free to contact us at: <a href="mailto:zhang_hui@zju.edu.cn">zhang_hui@zju.edu.cn</a>.</p>
+          <p>We look forward to your contributions and participation!</p>
+          <p>Sincerely,</p>
+          <p>Organizing Committee</p>
+          <p>January 5, 2025</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">First Call for Papers</div>
           <p>Dear Colleagues and Friends,</p>
           <p>It is with great pleasure that we can announce that <strong>the 15th International Symposium on Computer Science in Sport (IACSS 2025)</strong> will be held at the Tokyo Gakugei University, Japan, from the 13-15th of September 2025 .</p>
