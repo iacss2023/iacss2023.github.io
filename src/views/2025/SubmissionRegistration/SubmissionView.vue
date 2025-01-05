@@ -5,12 +5,12 @@
       <div class="view-main">
         <div class="view-section-title">Abstract Submission Guidelines</div>
         <p>Abstract submission is through EasyChair platform, exclusively. Authors must use an existing EasyChair account or create a new one. Information on how to create an EasyChair account can be found <a href="https://easychair.org/help/account_creation?a=" target="_blank">here</a>.</p>
-        <p><strong>In case you cannot successfully submit on EasyChair platform, please mail: <a href="">TBD</a> .</strong></p>
+        <p><strong>In case you cannot successfully submit on EasyChair platform, please mail: <a href="mailto:zhang_hui@zju.edu.cn">zhang_hui@zju.edu.cn</a> or <a href="mailto:iacss.2025.tgu@gmail.com">iacss.2025.tgu@gmail.com</a> .</strong></p>
         <div class="view-section">
           <div class="view-section-title small">Step 1</div>
           <ul>
             <li><p>Enter/create your EasyChair account</p></li>
-            <li><p>Once you have the account, please use this <a href="" target="_blank">link</a> to get access to the conference.</p></li>
+            <li><p>Once you have the account, please use this <a href="https://easychair.org/my/conference?conf=iacss2025" target="_blank">link</a> to get access to the conference.</p></li>
             <li><p>Click “make a new submission”</p></li>
             <li><p>Fill out the abstract form and press the ‘Submit’ button below.</p></li>
             <li><p>The deadline for submission of abstractions is April 15, 2025 at 23:59 AoE (UTC-12).</p></li>
