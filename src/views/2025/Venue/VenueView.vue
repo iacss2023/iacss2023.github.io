@@ -15,7 +15,7 @@
             <p>Entrance by automobile is restricted. Please use public transport.</p>
           </div>
           <div class="view-supplemental map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2290.893554814409!2d139.49118625497178!3d35.706225616359745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e5cba1968733%3A0x390bb29c845b6775!2z5Lic5Lqs5a2m6Im65aSn5a2m!5e0!3m2!1szh-CN!2sus!4v1733795225895!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.9553150400219!2d139.49242436368874!3d35.706015854163745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e5cba1968733%3A0x390bb29c845b6775!2sTokyo%20Gakugei%20University!5e0!3m2!1sen!2sus!4v1736621183543!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="view-text">
             <img class="travel-map" src="../../../assets/2025/gakugei/map.gif">
