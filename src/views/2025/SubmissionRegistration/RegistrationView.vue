@@ -5,6 +5,15 @@
       <div class="view-main with-setting">
 <!--        Will come soon.-->
         <div class="view-section">
+          <div class="view-section-title">Registration Instructions</div>
+          <ul>
+            <li><p>Participants please download the <b><a href="./IACSS 2025_registration_form.docx" download="IACSS_2025_registration_form.docx">registration form</a></b> and send your completed registration form to <b><a href="mailto:iacss.2025.tgu@gmail.com">iacss.2025.tgu@gmail.com</a></b></p></li>
+            <li><p>At least one author will register for each accepted paper and present the paper at the conference; otherwise, the paper will not be included in the conference proceedings</p></li>
+            <li><p>The registration will be confirmed after registration fee being received in full and registration form being submitted to the official email address</p></li>
+            <li><p>For invoicing, please send the following information to the official email when submitting the registration form or later: participant's name, organization, email used to receive the invoice, invoice title, and tax ID.</p></li>
+          </ul>
+        </div>
+        <div class="view-section">
           <div class="view-section-title">Registration Fee</div>
           <el-table :data="feeInfo" stripe>
             <el-table-column label="">
