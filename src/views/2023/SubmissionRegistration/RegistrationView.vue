@@ -56,7 +56,7 @@
         <div class="view-section">
           <div class="view-section-title">Cancellation Policy</div>
           <ul>
-            <li><p>The payment of the conference fee will be refunded upon requests until 17th of Sept. of 2023. All refunds will be issued after the conference. After this data, no refunds will be possible.</p></li>
+            <li><p>The payment of the conference fee will be refunded upon requests until 17th of Sept. of 2023. All refunds will be issued after the conference. After this date, no refunds will be possible.</p></li>
             <li><p>Bank account: tax 8%, refund does not incur tax and handling fee.</p></li>
             <li><p>Alipay account: tax 8% + handling fee 0.06%, refunds do not incur taxes and fees, but the organizer still needs to bear the handling fee 0.06% that occurs after the payment arrives.</p></li>
             <li><p>Foreign currency account: the difference of exchange rate will be generated for both crediting and refunding, no tax and handling fee will be generated.</p></li>

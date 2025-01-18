@@ -30,34 +30,39 @@
           <p class="note title" style="margin-top: 10px">*EARLY-BIRD REGISTRATION ENDS 30.06.2025</p>
           <p class="note">Ad Exhibitors: Only allowed to the stand staff of an exhibiting company. As the booth rental automatically includes one full registration per booth, exhibitors will be allowed to register one additional person per single booth, provided the person is working on the booth.</p>
         </div>
-<!--        <div class="view-section">-->
-<!--          <div class="view-section-title">Payment</div>-->
-<!--          <ul>-->
-<!--            <li><p>You can click the button or scan the QR code below to transfer registration fee.</p></li>-->
-<!--            <li><p>When transferring fees, please choose the right corresponding item and note participant information, e.g., your name and your email</p></li>-->
-<!--          </ul>-->
-<!--          <div ref="paypalContainer" id="paypal-container-SL5CUNQDWMKFQ"></div>-->
-<!--          <div style="flex-direction: column; justify-content: center; align-items: center;">-->
-<!--            <form-->
-<!--              action="https://www.paypal.com/ncp/payment/SL5CUNQDWMKFQ"-->
-<!--              method="post"-->
-<!--              target="_blank"-->
-<!--              style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;"-->
-<!--            >-->
-<!--              <input class="pp-SL5CUNQDWMKFQ" type="submit" value="Online Payment" />-->
-<!--              <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />-->
-<!--              <section>-->
-<!--                Powered by-->
-<!--                <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg"-->
-<!--                     alt="paypal"-->
-<!--                     style="height:0.875rem;vertical-align:middle;"/>-->
-<!--              </section>-->
-<!--            </form>-->
-<!--          </div>-->
-<!--          <img :src="paymentAddress" style="width: 200px;"/>-->
-<!--&lt;!&ndash;          <p>Registration confirmation via e-mail as soon as the payment is received.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;          <p>The detailed payment information can be found in the registration form.</p>&ndash;&gt;-->
-<!--        </div>-->
+        <div class="view-section">
+          <div class="view-section-title">What is included in the registration fee?</div>
+          <ul>
+            <li><p>Access to all scientific sessions</p></li>
+            <li><p>Access to commercial exhibition</p></li>
+            <li><p>Access to poster exhibition</p></li>
+            <li><p>Welcome reception</p></li>
+            <li><p>Conference dinner</p></li>
+            <li><p>Coffee breaks</p></li>
+            <li><p>Full conference material</p></li>
+          </ul>
+        </div>
+        <div class="view-section">
+          <div class="view-section-title">Payment</div>
+          <ul>
+            <li><p>After submitting the registration form, a payment link will appear where you can redirect and complete your payment.</p></li>
+            <li><p>In case you miss the link, you can click on this <a href="https://www.paypal.com/ncp/payment/SL5CUNQDWMKFQ" target="_blank"><strong>link</strong></a> to pay the fee using PayPal.</p></li>
+            <li><p>Registration confirmation via e-mail as soon as the payment is received.</p></li>
+            <li><p>The detailed payment information can be found in the registration form.</p></li>
+          </ul>
+        </div>
+        <div class="view-section">
+          <div class="view-section-title">Cancellation Policy</div>
+          <ul>
+            <li><p>Refunds will be provided for cancellations made on or before 15th of Aug. of 2025, excluding PayPal transaction fees.</p></li>
+            <li><p>All refunds will be issued after the conference.</p></li>
+            <li><p>Cancellations made after this date will not be refunded.</p></li>
+            <li>
+              <p>All refund requests need to be submitted to the organizer first, and the organizer will notify the event management team for processing.</p>
+              <p>Email: <a href="mailto:iacss.2025.tgu@gmail.com">iacss.2025.tgu@gmail.com</a></p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
