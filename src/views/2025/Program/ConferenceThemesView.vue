@@ -40,7 +40,7 @@ export default {
       themes: {
         iscss: [
           'Modeling and Simulation', 'Data Analysis', 'Image Processing', 'Multimedia', 'Virtual Reality',
-          'Visualization and Visual Analytics', 'Human Computer Interaction', 'Computer Vision', 'Big Bata',
+          'Visualization and Visual Analytics', 'Human Computer Interaction', 'Computer Vision', 'Big Data',
           'Internet of Things', 'Robotics', 'Information Systems', 'Machine Learning and Data Mining'
         ],
         iscssApplications: [
