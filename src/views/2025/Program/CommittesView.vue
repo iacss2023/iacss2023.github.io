@@ -19,7 +19,7 @@
             <el-tab-pane label="Organizing Committee" name="organizing">
 <!--              <div class="view-section-title">Organizing Committee</div>-->
               <div v-for="people in committee.organizing" :key="people.people" class="view-section" style="border-bottom: none">
-                <div class="view-section-title small">{{people.position}}: {{people.people}}</div>
+                <div class="view-section-title small">{{people.position}} {{people.people}}</div>
                 <p>{{people.institution}}</p>
               </div>
               <div class="view-section" style="padding: 0"></div>
@@ -48,12 +48,13 @@ export default {
       activeTab: 'scientific',
       committee: {
         organizing: [
-          { position: 'Chair', people: 'Dr. Naoki Suzuki', institution: 'Associate Professor, Tokyo Gakugei University' },
-          { position: 'Vice Chair', people: 'Dr. Hui Zhang', institution: 'Professor, Zhejiang University, China' },
-          { position: 'Vice Chair', people: 'Dr. Walter Ho', institution: 'Visiting Scholar, Tokyo Gakugei University' },
-          { position: 'Secretariat General', people: 'Mr. Takashi Fukushima', institution: 'Special-appointed Assistant Professor, Tokyo Gakugei University' },
-          { position: 'Secretariat Vice General', people: 'Dr. Seiji Hirosawa', institution: 'Specially-appointed Lecturer, Toin Yokohama University' },
-          { position: 'Secretariat Vice General', people: 'Mr. Koji Ishii', institution: 'Assistant Professor, Utsunomiya University' }
+          { position: 'Chair: ', people: 'Dr. Naoki Suzuki', institution: 'Associate Professor, Tokyo Gakugei University' },
+          { position: 'Vice Chair: ', people: 'Dr. Hui Zhang', institution: 'Professor, Zhejiang University, China' },
+          { position: 'Vice Chair: ', people: 'Dr. Walter Ho', institution: 'Visiting Scholar, Tokyo Gakugei University' },
+          { position: 'Secretariat General: ', people: 'Mr. Takashi Fukushima', institution: 'Special-appointed Assistant Professor, Tokyo Gakugei University' },
+          { position: 'Secretariat Vice General: ', people: 'Dr. Seiji Hirosawa', institution: 'Specially-appointed Lecturer, Toin Yokohama University' },
+          { position: 'Secretariat Vice General: ', people: 'Mr. Koji Ishii', institution: 'Assistant Professor, Utsunomiya University' },
+          { position: '', people: 'Dr. Hiroaki Shinkai', institution: 'Associate Professor, Tokyo Gakugei University' }
         ],
         others: [
           { work: 'Treasures: Registration, Membership and Website', people: 'Mr. Takashi Fukushima', institution: 'Special-appointed Assistant Professor, Tokyo Gakugei University' },
