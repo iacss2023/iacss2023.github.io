@@ -54,7 +54,7 @@ export default {
           { position: 'Secretariat General: ', people: 'Mr. Takashi Fukushima', institution: 'Special-appointed Assistant Professor, Tokyo Gakugei University' },
           { position: 'Secretariat Vice General: ', people: 'Dr. Seiji Hirosawa', institution: 'Specially-appointed Lecturer, Toin Yokohama University' },
           { position: 'Secretariat Vice General: ', people: 'Mr. Koji Ishii', institution: 'Assistant Professor, Utsunomiya University' },
-          { position: '', people: 'Dr. Hiroaki Shinkai', institution: 'Associate Professor, Tokyo Gakugei University' }
+          { position: '', people: 'Dr. Hironari Shinkai', institution: 'Associate Professor, Tokyo Gakugei University' }
         ],
         others: [
           { work: 'Treasures: Registration, Membership and Website', people: 'Mr. Takashi Fukushima', institution: 'Special-appointed Assistant Professor, Tokyo Gakugei University' },
