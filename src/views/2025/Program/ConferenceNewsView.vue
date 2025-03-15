@@ -28,7 +28,7 @@
             <p>Authors whose papers meet the publication requirements of the association’s journal, <i>International Journal of Computer Science in Sport</i> (IJCSS), will be invited to submit a full paper. The submission will undergo the regular submission process, peer review, and open-access publication by IJCSS.
               For details, please visit: <a href="https://sciendo.com/journal/IJCSS" target="_blank">https://sciendo.com/journal/IJCSS</a> (For Authors - Article Publishing Charges).
             </p>
-            <p>Authors of other papers may also be invited to submit full papers (8-15 pages), which will be published by <strong>Springer</strong> as part of the conference proceedings series <i>Lecture Notes on Data Engineering and Communications Technologies</i>.</p>
+            <p>Authors of other papers may also be invited to submit full papers (8-15 pages), which will be published by <strong>Springer</strong> as part of the conference proceedings series <i>Lecture Notes on Data Engineering and Communications Technologies</i> (EI).</p>
           </div>
           <div class="news-subsection">
             <div class="view-section-title small">Contact us:</div>
