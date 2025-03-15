@@ -4,6 +4,42 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Third Call for Papers</div>
+          <p>Dear colleagues and friends,</p>
+          <p><strong>The 15th International Symposium on Computer Science in Sport (IACSS 2025)</strong> will be held at Tokyo Gakugei University, Japan, from September 12 to 16, 2025. The program will feature presentations from distinguished keynote speakers and leading experts, along with oral and poster presentations from top researchers addressing cutting-edge topics and the latest technologies in the field of Computer Science in Sport.
+            We invite interested scientists, experts, students and professionals in this field to submit contributions on current advancements in various areas of computer science related to sport. Please refer to the official conference website for detailed information: <a href="https://iacssconference.org/#/2025" target="_blank">https://iacssconference.org/#/2025</a> .</p>
+          <div class="news-subsection">
+            <div class="view-section-title small">Conference themes</div>
+            <p><i>Computer Science in Sport</i>: Modeling and Simulation, Data Analysis, Image Processing, Multimedia, Virtual Reality, Visualization and Visual Analysis, Human Computer Interaction, Computer Vision, Big Bata, Internet of Things, Robotics, Information Systems, Machine Learning and Data Mining.</p>
+            <p><i>Examples for Special Applications</i>: Feedback Systems, Predictive Modeling, Decision Support, Digital Games, Network Analysis, Complex Systems Analysis, Sequence Analysis, Sensor Fusion.</p>
+            <p><i>Other related topics</i>: sports education, athletic training, sports biomechanics, exercise physiology, sports medicine, sports psychology, and sports engineering.</p>
+          </div>
+          <div class="news-subsection">
+            <div class="view-section-title small">Date and deadlines</div>
+            <ul class="withicon">
+              <li>Third call for papers: 15.03.2025</li>
+              <li><strong>Abstract submission deadline: 15.04.2025</strong> at 23:59 AoE (UTC - 12)</li>
+              <li>Author notification (abstract): 15.05.2025</li>
+            </ul>
+          </div>
+          <p>The abstract is limited to 500 words (excluding the title, author names, affiliations, and references), in Times New Roman font, size 12, single-spaced. The abstract template can be downloaded from the abstract submission section of the conference website: <a href="https://iacssconference.org/#/2025/submission" target="_blank">https://iacssconference.org/#/2025/submission</a> .</p>
+          <div class="news-subsection">
+            <div class="view-section-title small">Publications:</div>
+            <p>Authors whose papers meet the publication requirements of the association’s journal, <i>International Journal of Computer Science in Sport</i> (IJCSS), will be invited to submit a full paper. The submission will undergo the regular submission process, peer review, and open-access publication by IJCSS.
+              For details, please visit: <a href="https://sciendo.com/journal/IJCSS" target="_blank">https://sciendo.com/journal/IJCSS</a> (For Authors - Article Publishing Charges).
+            </p>
+            <p>Authors of other papers may also be invited to submit full papers (8-15 pages), which will be published by <strong>Springer</strong> as part of the conference proceedings series <i>Lecture Notes on Data Engineering and Communications Technologies</i>.</p>
+          </div>
+          <div class="news-subsection">
+            <div class="view-section-title small">Contact us:</div>
+            <p>Naoki Suzuki, Ph.D.</p>
+            <p>Chair of 15th International Symposium on Computer Science in Sport</p>
+            <p>Associate Professor, Tokyo Gakugei University</p>
+            <p>Email: iacss.2025.tgu@gmail.com</p>
+          </div>
+          <p>March 15, 2025</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Submission Update</div>
           <p>Dear colleagues and friends,</p>
           <p>Happy New Year!</p>
