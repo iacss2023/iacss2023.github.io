@@ -124,7 +124,7 @@ export default defineComponent({
           children: [
             {
               index: '/2025/traveltokyo',
-              name: 'Getting Tokyo'
+              name: 'Getting to Tokyo'
             },
             {
               index: '/2025/accommodation',

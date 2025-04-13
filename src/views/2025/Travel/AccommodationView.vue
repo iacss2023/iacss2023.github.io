@@ -4,7 +4,7 @@
       <div class="view-title">Accommodation</div>
       <div class="view-main">
         <div class="view-text">
-          <p>Here you can find some options for accommodation in Hangzhou. Please note that these are suggestions of a third party vendor`s service. Any activity, including purchase made, on the third party service shall be governed by such third party vendor`s terms and conditions.</p>
+          <p>Here you can find some options for accommodation near the venue. Please note that these are suggestions of a third party vendor`s service. Any activity, including purchase made, on the third party service shall be governed by such third party vendor`s terms and conditions.</p>
         </div>
         <hr class="hr-block-wrapper">
         <div v-for="hotel in hotels" class="view-section" :key="hotel">
@@ -13,7 +13,7 @@
             <p class="address view-section-title small">Area: {{hotel.area}}</p>
             <p class="view-section-title small transport">Access: {{hotel.access}}</p>
             <p class="view-section-title small">Booking: <span class="hotel-text"><a :href="link" target="_blank">{{link}}</a></span></p>
-            <p class="view-section-title small">TEL: <span class="hotel-text">{{hotel.tel}}</span></p>
+<!--            <p class="view-section-title small">TEL: <span class="hotel-text">{{hotel.tel}}</span></p>-->
           </div>
         </div>
       </div>
