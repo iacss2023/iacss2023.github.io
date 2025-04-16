@@ -4,6 +4,15 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Delay in the Abstract Submission Deadline</div>
+          <p>Dear colleagues and friends,</p>
+          <p>We received some feedback about the urgency of the abstract submission deadline, and after discussion with the committee, we have decided to delay the <strong>abstract deadline </strong>until <strong>April 30th</strong> to ensure that all participants can submit their work in time.</p>
+          <p>We look forward to your contributions and participation!</p>
+          <p>Sincerely,</p>
+          <p>Organizing Committee</p>
+          <p>April 16, 2025</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Third Call for Papers</div>
           <p>Dear colleagues and friends,</p>
           <p><strong>The 15th International Symposium on Computer Science in Sport (IACSS 2025)</strong> will be held at Tokyo Gakugei University, Japan, from September 12 to 16, 2025. The program will feature presentations from distinguished keynote speakers and leading experts, along with oral and poster presentations from top researchers addressing cutting-edge topics and the latest technologies in the field of Computer Science in Sport.
