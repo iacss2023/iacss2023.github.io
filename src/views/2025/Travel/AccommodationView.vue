@@ -12,8 +12,9 @@
             <p class="name view-section-title">{{hotel.name?hotel.name:''}}</p>
             <p class="address view-section-title small">Area: {{hotel.area}}</p>
             <p class="view-section-title small transport">Access: {{hotel.access}}</p>
-            <p class="view-section-title small">Booking: <span class="hotel-text"><a :href="link" target="_blank">{{link}}</a></span></p>
-<!--            <p class="view-section-title small">TEL: <span class="hotel-text">{{hotel.tel}}</span></p>-->
+            <p class="view-section-title small" v-if="hotel.link">Booking: <span class="hotel-text"><a :href="hotel.link" target="_blank">{{hotel.link}}</a></span></p>
+            <p class="view-section-title small" v-else>Booking: <span class="hotel-text"><a :href="link" target="_blank">{{link}}</a></span></p>
+            <p class="view-section-title small" v-if="hotel.tel">TEL: <span class="hotel-text">{{hotel.tel}}</span></p>
           </div>
         </div>
       </div>
@@ -32,33 +33,30 @@ export default {
           name: 'Hotel Mets Kokubunji',
           area: 'Kokubunji (Closest Area)',
           access: 'Located at Kokubunji Station (Chuo Line), about 10 minutes by bus or taxi to TGU',
-          tel: 'xxx'
+          tel: '81-42-328-6111',
+          link: 'https://www.hotelmets.jp/en/kokubunji/'
         },
         {
           area: 'Tachikawa',
-          access: '15 minutes by train (Chuo Line) and bus from Tachikawa Station to TGU',
-          tel: 'xxx'
+          access: '15 minutes by train (Chuo Line) and bus from Tachikawa Station to TGU'
         },
         {
           area: 'Kichijoji',
-          access: '20 minutes by train (Chuo Line) and bus from Kichijoji Station to TGU',
-          tel: 'xxx'
+          access: '20 minutes by train (Chuo Line) and bus from Kichijoji Station to TGU'
         },
         {
           area: 'Shinjuku',
-          access: '30 minutes by train (Chuo Line) to Musashi-Koganei Station, followed by a short bus or taxi ride to TGU',
-          tel: 'xxx'
+          access: '30 minutes by train (Chuo Line) to Musashi-Koganei Station, followed by a short bus or taxi ride to TGU'
         },
         {
           area: 'Fuchu',
-          access: '15 minutes by train and bus to TGU',
-          tel: 'xxx'
+          access: '15 minutes by train and bus to TGU'
         },
         {
           name: 'Cherry Blossom Hostel (Musashi-Koganei)',
           area: 'Affordable Student Accommodation',
           access: '10 minutes by bus or taxi to TGU',
-          tel: 'xxx'
+          tel: '81-42-401-1221'
         }
       ]
     }

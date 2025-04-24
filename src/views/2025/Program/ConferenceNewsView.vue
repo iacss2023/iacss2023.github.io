@@ -4,6 +4,18 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Reminders for Accommodation Reservations</div>
+          <p>Dear colleagues and friends,</p>
+          <p>We are pleased to inform you that a limited number of rooms have been reserved at <strong>Hotel Mets Kokubunji</strong> exclusively for conference attendees.
+          Booking will be on a <strong>first-come, first-served basis</strong>, so we encourage you to secure your accommodation as soon as possible to avoid disappointment.</p>
+          <p>For official booking details and the reservation link, please visit the <span class="link_text" @click="$router.push('/2025/accommodation')">accommodation page</span>. If you have any questions or need assistance, feel free to reach out to us.</p>
+          <p>Don’t miss out—book early to ensure a smooth and comfortable stay during the conference!</p>
+          <p>We look forward to your participation!</p>
+          <p>Sincerely,</p>
+          <p>Organizing Committee</p>
+          <p>April 24, 2025</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Delay in the Abstract Submission Deadline</div>
           <p>Dear colleagues and friends,</p>
           <p>We received some feedback about the urgency of the abstract submission deadline, and after discussion with the committee, we have decided to delay the <strong>abstract deadline </strong>until <strong>April 30th</strong> to ensure that all participants can submit their work in time.</p>
