@@ -4,6 +4,26 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Reminders for Mt. Fuji Excursion Enrollment</div>
+          <p>Dear colleagues and friends,</p>
+          <p>We are pleased to invite IACSS 2025 participants to join a special one-day excursion to the Mt. Fuji area. This optional event includes scenic views from the Mt. Fuji Panoramic Ropeway, a relaxing boat ride on Lake Kawaguchiko, a traditional lunch featuring Hōtō noodles, and a visit to the Mars Yamanashi Winery (Hombo Shuzo).</p>
+          <p>Excursion Details:</p>
+          <ul class="withicon">
+            <li><strong>Date:</strong>September 16, 2025 (Tuesday)</li>
+            <li><strong>Destination:</strong>Mt. Fuji Area</li>
+            <li><strong>Participation Fee:</strong>15,000 JPY</li>
+            <li><strong>Capacity:</strong>Limited to 40 participants</li>
+            <li><strong>Registration & Payment Link:</strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfDzvUt_YlNfwiIx6BwBIS70wA2cJe8_TqHYEeMtm68sxk1FA/viewform?usp=header" target="_blank">link</a></li>
+            <li><strong>Note:</strong>Registration will close once capacity is reached.</li>
+          </ul>
+          <p>This excursion offers a unique opportunity to explore Japan’s natural beauty and cultural heritage while networking with fellow researchers. Early registration is highly recommended.</p>
+          <p>Please complete the registration form if you want to participate in this special excursion. After submission, you will receive the payment link to complete your registration.</p>
+          <p>If you want to update your lunch choice, please resubmit the form without payment (<strong>before Sept. 2, 2025</strong>).</p>
+          <p>Sincerely,</p>
+          <p>Organizing Committee</p>
+          <p>June 1, 2025</p>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Reminders for Accommodation Reservations</div>
           <p>Dear colleagues and friends,</p>
           <p>We are pleased to inform you that a limited number of rooms have been reserved at <strong>Hotel Mets Kokubunji</strong> exclusively for conference attendees.
