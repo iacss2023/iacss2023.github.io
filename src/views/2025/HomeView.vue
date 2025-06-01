@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="post-container">
-      <div class="post-main" style="margin-bottom: 100px">
+      <div class="post-main" style="margin-bottom: 20px">
         <div id="congress-info" class="kt-row-layout-inner kt-row-has-bg">
           <div class="post-row-layout-overlay"></div>
           <div class="post-center">
@@ -25,6 +25,20 @@
               <path d="M1000,20l-500,78l-500,-78l0,80l1000,0l0,-80Z"></path>
             </svg>
           </div>
+        </div>
+      </div>
+      <div class="post-news" style="cursor:pointer;">
+        <span style="cursor: pointer;font-weight: bold;text-decoration: underline;"
+              @click="$router.push('/2025/conferencenews')">Latest News</span>
+      </div>
+      <div class="news-container">
+        <div class="news-list">
+          <div class="news-item">[2025-06-01] 🗻 Reminders for Mt. Fuji Excursion Enrollment</div>
+          <div class="news-item">[2025-04-24] 🏨 Reminders for Accommodation Reservations</div>
+          <div class="news-item">[2025-04-16] 📝 Delay in the Abstract Submission Deadline</div>
+          <div class="news-item">[2025-03-15] 📣 Third Call for Papers</div>
+          <div class="news-item">[2025-01-05] 📬 Submission Update</div>
+          <div class="news-item">[First Call] 📢 First Call for Papers</div>
         </div>
       </div>
       <hr class="hr-block-wrapper">
@@ -126,13 +140,14 @@ export default defineComponent({
   background-color: #f5dae3!important;
 }
 
-#congress-info{
+#congress-info {
   background-image: url("@/assets/2025/gakugei/campus_2.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  .post-row-layout-overlay{
+
+  .post-row-layout-overlay {
     opacity: 0.46;
     background-color: #2c3e50;
     mix-blend-mode: lighten;
@@ -144,58 +159,103 @@ export default defineComponent({
     z-index: 0;
     filter: opacity(100%);
   }
-  &.kt-row-layout-inner{
+
+  &.kt-row-layout-inner {
     position: relative;
     border: 0 solid transparent;
   }
-  .post-center{
+
+  .post-center {
     max-width: 960px;
     padding-top: 80px;
     padding-bottom: 100px;
     margin: 0 auto;
-    .post-content{
+
+    .post-content {
       margin-right: 0;
       position: relative;
       flex: 1;
-      #congress-name{
+
+      #congress-name {
         height: 100%;
         transition: all 0.3s ease;
-        .congress-title{
+
+        .congress-title {
           margin-bottom: 12px;
           text-align: center;
           font-size: 42px;
           font-weight: 600;
         }
-        .congress-time{
+
+        .congress-time {
           font-size: 2em;
           font-weight: 300;
           font-family: Montserrat;
           margin-top: 120px;
           margin-bottom: 12px;
         }
-        .congress-location{
+
+        .congress-location {
           font-size: 2.3em;
           line-height: 1.3em;
           font-weight: 600;
           font-family: Montserrat;
           margin: 12px 0;
         }
-        .event-button-group{
+
+        .event-button-group {
           width: 100%;
           text-align: center;
         }
       }
     }
   }
-  .post-bottom-decoration{
-    position: absolute;
-    height: 100px;
-    bottom: -1px;
-    left: 0;
-    overflow: hidden;
-    right: 0;
-    z-index: 1;
-  }
+}
+
+.news-container {
+  text-align: left;
+  width: 500px;
+  height: 90px; /* display area for 3 news items */
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  position: relative;
+  margin: 0 auto;
+}
+
+.news-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: scrollNews 12s linear infinite;
+}
+
+.news-item {
+  height: 30px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+/* Keyframes for smooth continuous scrolling without blank */
+@keyframes scrollNews {
+  0% { transform: translateY(0); }
+  50% {transform: translateY(0); }
+  100% { transform: translateY(-90px); } /* total height of original list */
+}
+
+.post-news {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-bottom-decoration{
+  position: absolute;
+  height: 100px;
+  bottom: -1px;
+  left: 0;
+  overflow: hidden;
+  right: 0;
+  z-index: 1;
 }
 
 #page-affairs{
