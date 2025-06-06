@@ -1,9 +1,29 @@
 <template>
   <div>
     <div class="view-container">
-      <div class="view-title">Keynote</div>
+      <div class="view-title">Keynote Speakers</div>
       <div class="view-main">
-        Will coming soon.
+        <hr class="hr-block-wrapper">
+        <div v-for="speaker in speakers" class="view-section" :key="speaker">
+          <el-row :gutter="10">
+            <el-col :span="10">
+              <div class="speaker-photo">
+                <img :src="speaker.img" class="photo">
+              </div>
+            </el-col>
+            <el-col :span="14">
+              <div class="speaker-info">
+                <p class="name view-section-title">{{speaker.name}}</p>
+                <p class="intro view-section-title small">{{speaker.introduction}}</p>
+                <div class="detail">
+                  <div v-for="item in speaker.detail" :key="item">
+                    <p>{{item}}</p>
+                  </div>
+                </div>
+              </div>
+            </el-col>
+          </el-row>
+        </div>
       </div>
     </div>
   </div>
@@ -14,6 +34,15 @@ export default {
   name: 'KeynoteView',
   data () {
     return {
+      speakers: [
+        {
+          img: require('../../../assets/2025/keynote/Shariman.png'),
+          name: 'Dr. Shariman Ismadi bin Ismail',
+          introduction: 'Shariman Ismadi bin Ismail is a Senior Lecturer in Sports Biomechanics at the Faculty of Sports Science and Recreation, Universiti Teknologi MARA, Malaysia.',
+          detail: [
+          ]
+        }
+      ]
     }
   }
 }
