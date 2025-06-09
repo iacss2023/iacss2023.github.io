@@ -36,9 +36,16 @@ export default {
     return {
       speakers: [
         {
-          img: require('../../../assets/2025/keynote/Shariman.png'),
+          img: require('../../../assets/2025/keynote/Shariman_short.png'),
           name: 'Dr. Shariman Ismadi bin Ismail',
           introduction: 'Shariman Ismadi bin Ismail is a Senior Lecturer in Sports Biomechanics at the Faculty of Sports Science and Recreation, Universiti Teknologi MARA, Malaysia.',
+          detail: [
+          ]
+        },
+        {
+          img: require('../../../assets/2025/keynote/hiroki.jpg'),
+          name: 'Dr. Hiroki Ozaki',
+          introduction: 'Hiroki Ozaki is a researcher in Sports Biomechanics at the Japan Institute of Sports Sciences (JISS) in Tokyo.',
           detail: [
           ]
         }
