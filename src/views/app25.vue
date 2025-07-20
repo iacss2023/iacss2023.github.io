@@ -207,10 +207,12 @@ export default defineComponent({
         // { name: 'Digital Sport and Health Laboratory, Zhejiang University' }
       ],
       sponsors: [
-        // { name: 'dartfish', url: require('@/assets/sponsors/dartfish.png'), hrefUrl: 'https://www.dartfish.com/' },
-        // { name: 'wishare', url: require('@/assets/sponsors/wishare.png'), hrefUrl: 'http://www.xports.cn/' },
-        // { name: 'dongsport', url: require('@/assets/sponsors/dongsport.png'), hrefUrl: 'http://www.dongsport.com/' },
-        // { name: 'info', url: require('@/assets/sponsors/info.png'), hrefUrl: 'https://www.infoinstruments.cn/' }
+        { name: 'chingmu', url: require('@/assets/2025/sponsors/CHINGMU-LOGO.png'), hrefUrl: '' },
+        { name: 'meleap', url: require('@/assets/2025/sponsors/meleap_logo-horizontal_CMYK.jpg'), hrefUrl: 'https://meleap.com/en' },
+        { name: 'Pestalozzi Technology', url: require('@/assets/2025/sponsors/PestalozziTechnology.jpg'), hrefUrl: 'https://pestalozzi-tech.com/' },
+        { name: 'qlik', url: require('@/assets/2025/sponsors/logo-qlik_d49uek.svg'), hrefUrl: 'https://www.qlik.com/us' },
+        { name: 'splyza', url: require('@/assets/2025/sponsors/SPLYZA.png'), hrefUrl: 'https://www.splyza.com/' },
+        { name: 'info', url: require('@/assets/2025/sponsors/みんがく横.jpg'), hrefUrl: '' }
       ]
     }
   },
