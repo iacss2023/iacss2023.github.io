@@ -77,6 +77,19 @@ export default {
             'This keynote explores the integration of ICT and EdTech in physical education to enhance learning quality, support STEAM and social-emotional learning, and promote data-driven instruction. While such technologies offer new opportunities, they also present challenges such as overdependence, reduced physical activity, and implementation costs.',
             'The presentation features a practical case study using sports analytics in teaching, emphasizing the value of treating digital tools as educational materials and the key role of data and computer science in advancing physical education.'
           ]
+        },
+        {
+          img: require('../../../assets/2025/keynote/koh koon teck.png'),
+          name: 'Assoc. Prof. Dr. Koh Koon Teck',
+          detail: [
+            'Koon Teck is an Associate Professor at the Physical Education and Sports Science (PESS) Academic Group, National Institute of Education (NIE), Nanyang Technological University (NTU), Singapore.',
+            'His research interests focus on sports coaching and pedagogy. He has published over 100 works and delivered more than 30 keynote talks worldwide. He has held major leadership roles in international basketball and physical education bodies and is currently a Distinguished Professor at South China Normal University, Secretary General of the Southeast Asian Basketball Association, and a certified FIBA coach developer.'
+          ],
+          keynote: 'Technology Meets Pedagogy: Advancing Effective Teaching and Learning in 21st-Century Physical Education and Sport',
+          keynote_detail: [
+            'The integration of technology with pedagogy is reshaping teaching and learning in physical education and sport (PES) in the 21st century. Tools such as video analysis, wearable trackers, observation instruments, and digital platforms, when effectively embedded in instructional frameworks, can enhance student engagement, support data-informed decision-making, and foster personalized, student-centered learning experiences. This synergy not only benefits learners but also improves the effectiveness of educators and coaches, enabling more active and reflective teaching practices.',
+            'This keynote draws on insights from several completed projects to illustrate practical strategies for combining technology and pedagogy in PES. It highlights approaches that support real-time feedback, evidence-based reflection, and improved planning and evaluation. The presentation also explores implications for teacher and coach professional development, adult learning, and policy, emphasizing how technology can create more inclusive and impactful learning environments.'
+          ]
         }
       ]
     }
