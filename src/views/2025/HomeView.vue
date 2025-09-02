@@ -33,6 +33,7 @@
       </div>
       <div class="news-container">
         <div class="news-list">
+          <div class="news-item">[2025-09-02] 📢 Conference Information Update</div>
           <div class="news-item">[2025-06-01] 🗻 Reminders for Mt. Fuji Excursion Enrollment</div>
           <div class="news-item">[2025-04-24] 🏨 Reminders for Accommodation Reservations</div>
           <div class="news-item">[2025-04-16] 📝 Delay in the Abstract Submission Deadline</div>
