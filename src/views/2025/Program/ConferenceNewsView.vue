@@ -4,6 +4,21 @@
       <div class="view-title">Conference News</div>
       <div class="view-main">
         <div class="view-section">
+          <div class="view-section-title small">Conference Information Update</div>
+          <p>Dear colleagues and friends,</p>
+          <p>We are excited to announce that IACSS 2025 is just around the corner!</p>
+          <p>For details regarding conference affairs, please refer to the documents below. The specific conference program can be found on the <span class="link_text" @click="$router.push('/2025/program')">program page</span>.</p>
+          <p>We look forward to meeting you at the foot of beautiful Mount Fuji.</p>
+          <p>Sincerely,</p>
+          <p>Organizing Committee</p>
+          <p>September 2, 2025</p>
+          <iframe id="myframe"
+                  src="/3rd%20IACSS%202025%20conference%20note%20(2%20September%202025).pdf"
+                  width="980" height="600" frameborder="0"></iframe>
+          <br>
+          <el-button round type="info"><a class="download_text" href="//3rd%20IACSS%202025%20conference%20note%20(2%20September%202025).pdf" download="Conference Affairs (IACSS 2025).pdf">Download</a></el-button>
+        </div>
+        <div class="view-section">
           <div class="view-section-title small">Reminders for Mt. Fuji Excursion Enrollment</div>
           <p>Dear colleagues and friends,</p>
           <p>We are pleased to invite IACSS 2025 participants to join a special one-day excursion to the Mt. Fuji area. This optional event includes scenic views from the Mt. Fuji Panoramic Ropeway, a relaxing boat ride on Lake Kawaguchiko, a traditional lunch featuring Hōtō noodles, and a visit to the Mars Yamanashi Winery (Hombo Shuzo).</p>
@@ -164,5 +179,12 @@ ul li{
   p{
     margin: 2px;
   }
+}
+.download_text{
+  text-underline: none;
+  color: white;
+  /*font-weight: bold;*/
+  /*font-size: 16px;*/
+  text-align: left;
 }
 </style>

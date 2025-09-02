@@ -15,6 +15,12 @@
               </template>
             </el-table-column>
           </el-table>
+
+          <iframe id="myframe"
+                  src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(1%20Sept%202025)%20x4.pdf"
+                  width="980" height="800" frameborder="0"></iframe>
+          <br>
+          <el-button round type="info"><a class="download_text" href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(1%20Sept%202025)%20x4.pdf" download="Conference Schedule (IACSS 2025).pdf">Download</a></el-button>
       </div>
     </div>
   </div>
