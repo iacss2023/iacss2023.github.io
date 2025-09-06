@@ -33,7 +33,11 @@ export default {
     return {
       programSchedule: [
         { program: 'Registration', time: 'Friday, 12.09.2025' },
-        { program: 'Visiting IJSS, Opening Ceremony, Commemorative Keynote Speech, and Welcome Reception', time: 'Saturday, 13.09.2025' },
+        {
+          program: 'Visiting National Training Center (NTC), Nippo Sport Science University, ' +
+            'Opening Ceremony, Commemorative Keynote Speech, and Welcome Reception',
+          time: 'Saturday, 13.09.2025'
+        },
         { program: 'Full-day Conference Sessions', time: 'Sunday, 14.09.2025' },
         { program: 'Full-day Conference Sessions and Closing Ceremony', time: 'Monday, 15.09.2025' },
         { program: 'Visits and Exchange Activities', time: 'Tuesday, 16.09.2025' }

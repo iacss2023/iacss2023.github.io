@@ -18,7 +18,7 @@
           <div class="view-section-title">Oral Presentations</div>
           <p>Please check the time and lecture room of your presentation in the daily programme, and check your emails, once there might have been some last-minute changes.</p>
           <p>All presentations must be prepared and delivered in English.</p>
-          <p>All presenters are asked to respect the duration of presentations as follows: <u>12 minutes</u> presentation and <u>3 min</u> for discussion.</p>
+          <p>All presenters are asked to respect the duration of presentations as follows: <u><s>12</s> 15 minutes</u> presentation and <u><s>3</s> 5 min</u> for discussion.</p>
         </div>
         <div class="view-section">
           <div class="view-section-title">Technical requirements:</div>
