@@ -13,10 +13,10 @@
           <p>Organizing Committee</p>
           <p>September 2, 2025</p>
           <iframe id="myframe"
-                  src="/3rd%20IACSS%202025%20conference%20note%20(2%20September%202025).pdf"
+                  src="/3rd%20IACSS%202025%20conference%20note%20(6%20September%202025).pdf"
                   width="980" height="600" frameborder="0"></iframe>
           <br>
-          <el-button round type="info"><a class="download_text" href="//3rd%20IACSS%202025%20conference%20note%20(2%20September%202025).pdf" download="Conference Affairs (IACSS 2025).pdf">Download</a></el-button>
+          <el-button round type="info"><a class="download_text" href="/3rd%20IACSS%202025%20conference%20note%20(6%20September%202025).pdf" download="Conference Affairs (IACSS 2025).pdf">Download</a></el-button>
         </div>
         <div class="view-section">
           <div class="view-section-title small">Reminders for Mt. Fuji Excursion Enrollment</div>
