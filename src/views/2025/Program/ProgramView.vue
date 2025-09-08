@@ -16,11 +16,44 @@
             </el-table-column>
           </el-table>
 
-          <iframe id="myframe"
-                  src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"
-                  width="980" height="800" frameborder="0"></iframe>
-          <br>
-          <el-button round type="info"><a class="download_text" href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf" download="Conference Schedule (IACSS 2025).pdf">Download</a></el-button>
+<!--          <iframe id="myframe"-->
+<!--                  src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"-->
+<!--                  width="980" height="800" frameborder="0"></iframe>-->
+<!--          <br>-->
+<!--          <el-button round type="info"><a class="download_text" href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf" download="Conference Schedule (IACSS 2025).pdf">Download</a></el-button>-->
+        <div style="display: flex; justify-content: center; gap: 20px;">
+
+          <!-- 第一个PDF -->
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <iframe
+              src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"
+              width="600" height="700" frameborder="0"></iframe>
+            <br>
+            <el-button round type="info">
+              <a class="download_text"
+                 href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"
+                 download="Conference Schedule (IACSS 2025).pdf">
+                Download Conference Schedule
+              </a>
+            </el-button>
+          </div>
+
+          <!-- 第二个PDF -->
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <iframe
+              src="/IACSS%202025-Abstract%20Book%20(Draft)%20(as%20at%206%20Sept%202025).pdf"
+              width="600" height="700" frameborder="0"></iframe>
+            <br>
+            <el-button round type="info">
+              <a class="download_text"
+                 href="/IACSS%202025-Abstract%20Book%20(Draft)%20(as%20at%206%20Sept%202025).pdf"
+                 download="Abstract Book.pdf">
+                Download Abstract Book
+              </a>
+            </el-button>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
