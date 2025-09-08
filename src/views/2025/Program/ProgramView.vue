@@ -17,10 +17,10 @@
           </el-table>
 
           <iframe id="myframe"
-                  src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(6%20Sept%202025)%20x5.pdf"
+                  src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"
                   width="980" height="800" frameborder="0"></iframe>
           <br>
-          <el-button round type="info"><a class="download_text" href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(6%20Sept%202025)%20x5.pdf" download="Conference Schedule (IACSS 2025).pdf">Download</a></el-button>
+          <el-button round type="info"><a class="download_text" href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf" download="Conference Schedule (IACSS 2025).pdf">Download</a></el-button>
       </div>
     </div>
   </div>
