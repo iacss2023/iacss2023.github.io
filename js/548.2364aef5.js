@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkiacss"]=self["webpackChunkiacss"]||[]).push([[548],{548:function(a,n,e){e.r(n),e.d(n,{default:function(){return l}});var s=e(3396);const i=a=>((0,s.dD)("data-v-15291a40"),a=a(),(0,s.Cn)(),a),t=i((()=>(0,s._)("div",{class:"view-container"},[(0,s._)("div",{class:"view-title"},"TBD Awards")],-1))),c=[t];function r(a,n,e,i,t,r){return(0,s.wg)(),(0,s.iD)("div",null,c)}var d={name:"AwardView"},u=e(89);const v=(0,u.Z)(d,[["render",r],["__scopeId","data-v-15291a40"]]);var l=v}}]);
+//# sourceMappingURL=548.2364aef5.js.map
