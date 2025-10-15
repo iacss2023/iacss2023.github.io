@@ -26,12 +26,12 @@
           <!-- 第一个PDF -->
           <div style="display: flex; flex-direction: column; align-items: center;">
             <iframe
-              src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"
+              src="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(10%20Sept%202025)%20x7.pdf"
               width="600" height="700" frameborder="0"></iframe>
             <br>
             <el-button round type="info">
               <a class="download_text"
-                 href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(8%20Sept%202025)%20x6.pdf"
+                 href="/15th%20IACSS%20International%20Symposium%20(Programme)%20(Final)%20(10%20Sept%202025)%20x7.pdf"
                  download="Conference Schedule (IACSS 2025).pdf">
                 Download Conference Schedule
               </a>
