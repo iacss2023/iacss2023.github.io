@@ -41,12 +41,12 @@
           <!-- 第二个PDF -->
           <div style="display: flex; flex-direction: column; align-items: center;">
             <iframe
-              src="/IACSS%202025-Abstract%20Book%20(Draft)%20(as%20at%206%20Sept%202025).pdf"
+              src="/IACSS%202025-Abstract%20Book%20(Final)%20(as%20at%2014%20Oct%202025).pdf"
               width="600" height="700" frameborder="0"></iframe>
             <br>
             <el-button round type="info">
               <a class="download_text"
-                 href="/IACSS%202025-Abstract%20Book%20(Draft)%20(as%20at%206%20Sept%202025).pdf"
+                 href="/IACSS%202025-Abstract%20Book%20(Final)%20(as%20at%2014%20Oct%202025).pdf"
                  download="Abstract Book.pdf">
                 Download Abstract Book
               </a>
